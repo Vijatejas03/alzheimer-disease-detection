@@ -1,0 +1,106 @@
+﻿# =============================================================================
+# .gitignore - Alzheimer Disease Detection Project
+# =============================================================================
+
+# ── Python cache & compiled files ────────────────────────────────────────────
+__pycache__/
+*.py[cod]
+*$py.class
+*.pyo
+.pytest_cache/
+*.egg-info/
+dist/
+build/
+.eggs/
+*.egg
+
+# ── Virtual environments ──────────────────────────────────────────────────────
+.venv/
+venv/
+env/
+ENV/
+.env
+
+# ── IDE & editor files ────────────────────────────────────────────────────────
+# Allow .vscode/extensions.json and launch.json but not personal settings
+.vscode/settings.json
+.vscode/launch.json
+.idea/
+*.swp
+*.swo
+*~
+
+# ── OS generated files ────────────────────────────────────────────────────────
+.DS_Store
+Thumbs.db
+desktop.ini
+ehthumbs.db
+
+# =============================================================================
+# DATASET (never commit raw image data)
+# =============================================================================
+# Exclude all image files inside any dataset subdirectory
+data/dataset/Non_Demented/
+data/dataset/Very_Mild_Demented/
+data/dataset/Mild_Demented/
+data/dataset/Moderate_Demented/
+data/raw/
+data/test_samples/
+
+# Always keep the placeholder .gitkeep files so directory structure is tracked
+!data/dataset/Non_Demented/.gitkeep
+!data/dataset/Very_Mild_Demented/.gitkeep
+!data/dataset/Mild_Demented/.gitkeep
+!data/dataset/Moderate_Demented/.gitkeep
+!data/raw/.gitkeep
+!data/test_samples/.gitkeep
+
+# =============================================================================
+# MODEL CHECKPOINTS (large binary files - manage separately via DVC or releases)
+# =============================================================================
+results/models/*.pt
+results/models/*.pth
+results/models/*.pkl
+results/models/*.bin
+results/models/*.onnx
+
+# Keep placeholder
+!results/models/.gitkeep
+
+# =============================================================================
+# GENERATED EXPERIMENT OUTPUTS
+# Confusion matrices, training curves, metric JSON logs are generated
+# artifacts. Do NOT commit them automatically - they belong to specific runs.
+# =============================================================================
+results/figures/*.png
+results/figures/*.jpg
+results/figures/*.pdf
+results/metrics/*.json
+
+# Keep placeholders
+!results/figures/.gitkeep
+!results/metrics/.gitkeep
+
+# =============================================================================
+# LOGS
+# =============================================================================
+*.log
+logs/
+
+# =============================================================================
+# STREAMLIT RUNTIME
+# =============================================================================
+.streamlit/
+
+# =============================================================================
+# JUPYTER
+# =============================================================================
+.ipynb_checkpoints/
+*.ipynb
+
+# =============================================================================
+# TEMPORARY / SCRATCH FILES
+# =============================================================================
+*.tmp
+*.temp
+scratch/

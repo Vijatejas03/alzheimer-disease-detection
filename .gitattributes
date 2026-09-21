@@ -1,0 +1,24 @@
+﻿# Normalize line endings for cross-platform compatibility
+# All text files: checkout as-is on Windows, store LF in repository
+* text=auto
+
+# Python source files - always LF in repo
+*.py    text eol=lf
+
+# Markdown and JSON - always LF in repo
+*.md    text eol=lf
+*.json  text eol=lf
+*.txt   text eol=lf
+*.bat   text eol=crlf
+
+# Binary files - never modify
+*.png   binary
+*.jpg   binary
+*.jpeg  binary
+*.bmp   binary
+*.tiff  binary
+*.pt    binary
+*.pth   binary
+*.pkl   binary
+*.exe   binary
+*.7z    binary

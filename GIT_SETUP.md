@@ -2,93 +2,113 @@
 
 ## Current Git Status
 
-Git is **not installed** on this machine.
+Portable Git 2.47.1 is installed at:
+  C:\Users\vijay\AppData\Local\PortableGit\cmd\git.exe
 
-## Step 1 — Install Git for Windows
-
-Download and install Git for Windows from the official source:
-
-> https://git-scm.com/download/win
-
-**Recommended installation options:**
-- Use Git from the Windows Command Prompt
-- Use the bundled OpenSSH
-- Default branch name: `main`
-
-After installation, restart your terminal or VS Code.
+The repository has been initialised and the first commit has been created.
 
 ---
 
-## Step 2 — Verify Installation
+## Using Git from the VS Code Terminal or PowerShell
 
-```bash
-git --version
-```
-Expected output: `git version 2.x.x.windows.x`
+Portable Git is NOT automatically on the system PATH.
+To use git commands, either:
 
----
-
-## Step 3 — Configure Git Identity
-
-```bash
-git config --global user.name "Your Name"
-git config --global user.email "your-email@example.com"
+### Option A — Add to your PowerShell session temporarily
+```powershell
+$env:PATH = "C:\Users\vijay\AppData\Local\PortableGit\cmd;" + $env:PATH
+git --version   # should now work
 ```
 
----
+### Option B — Add permanently to your user PATH (recommended)
+1. Open Start > search "Environment Variables"
+2. Click "Edit the system environment variables" > "Environment Variables"
+3. Under "User variables", select "Path" and click "Edit"
+4. Click "New" and add:
+   C:\Users\vijay\AppData\Local\PortableGit\cmd
+5. Click OK. Restart VS Code or PowerShell.
 
-## Step 4 — Initialise the Repository
-
-From inside the project directory:
-
-```bash
-cd C:\Users\vijay\.gemini\antigravity\scratch\Alzheimer_Disease_Detection
-git init
-git add .
-git commit -m "Initial commit: project structure, preprocessing, models, evaluation, inspection utility"
+### Option C — Use the full path in scripts
+```powershell
+$git = "C:\Users\vijay\AppData\Local\PortableGit\cmd\git.exe"
+& $git status
+& $git log --oneline
 ```
 
+### Option D — Install Git for Windows properly (requires administrator)
+Download from https://git-scm.com/download/win and run as Administrator.
+This adds git to the PATH globally, so it works everywhere without any extra steps.
+
 ---
 
-## Step 5 — Create GitHub Repository
+## Repository Status
+
+- Repository location : C:\Users\vijay\.gemini\antigravity\scratch\Alzheimer_Disease_Detection
+- Branch              : main
+- First commit        : 2b5e3fd  "Initial Alzheimer disease detection project setup"
+- Files committed     : 36
+
+---
+
+## GitHub — Next Steps
+
+No remote repository has been configured yet.
+
+### Step 1 — Create a GitHub Repository
 
 1. Go to https://github.com/new
-2. Create a **new empty repository** (do NOT initialise with README/gitignore — we already have these).
-3. Copy the repository HTTPS or SSH URL.
+2. Set repository name (e.g., `alzheimer-disease-detection`)
+3. Set to Public or Private (your choice)
+4. **Do NOT** tick "Add a README file", "Add .gitignore", or "Choose a license"
+   (we already have these — adding them on GitHub would cause a merge conflict)
+5. Click **"Create repository"**
+6. GitHub will show you a page with the remote URL. Copy it.
 
----
+### Step 2 — Add the Remote
 
-## Step 6 — Add Remote and Push
+In your project terminal (with git on PATH):
+```bash
+git remote add origin https://github.com/<your-username>/alzheimer-disease-detection.git
+```
+
+### Step 3 — Push
 
 ```bash
-git remote add origin https://github.com/<your-username>/<repo-name>.git
 git branch -M main
 git push -u origin main
 ```
 
-> **IMPORTANT:** Do NOT push yet if you have not authenticated with GitHub.
-> Set up a personal access token (PAT) or SSH key before pushing.
+Git will open a browser window for GitHub authentication (via Git Credential Manager).
+You do NOT need to paste a token or password manually.
 
 ---
 
-## What Will NOT Be Pushed (enforced by .gitignore)
+## What Is and Is NOT Committed
 
-- Dataset images (`data/dataset/**/*.jpg`, etc.)
-- Model checkpoints (`results/models/*.pt`)
-- Generated figures and metric JSONs
-- Virtual environment folders
-- Cache and log files
+### COMMITTED (source code only)
+- All Python source files in src/
+- inspect_dataset.py, experiment_config.json
+- README.md, METHODOLOGY.md, GIT_SETUP.md
+- requirements.txt, .gitignore, .gitattributes
+- Directory placeholder .gitkeep files
+
+### NOT COMMITTED (excluded by .gitignore)
+- data/dataset/ images
+- results/models/*.pt checkpoints
+- results/figures/*.png generated plots
+- results/metrics/*.json experiment outputs
+- __pycache__/ Python bytecode
+- Virtual environments (.venv/, venv/)
+- Logs (*.log)
 
 ---
 
-## Recommended Commit Structure
+## Recommended Future Commit Messages
 
-| Stage | Commit Message Example |
+| Stage | Commit Message |
 |:---|:---|
-| Foundation | `Initial commit: project structure, src modules, inspection utility` |
-| Dataset confirmed | `Confirm dataset structure: 4 classes, N images` |
-| Preprocessing | `Add/update MRI preprocessing and augmentation pipeline` |
-| Training complete | `Train MobileNetV2: epoch logs saved, checkpoint stored` |
-| Evaluation | `Evaluate all 3 models: metrics and confusion matrices saved` |
-| Web app | `Add Streamlit web application` |
-| Final | `Final project submission: all experiments complete` |
+| Dataset confirmed | `Confirm dataset: N images, 4 classes, inspection passed` |
+| Training complete | `Train MobileNetV2: best val acc saved to checkpoint` |
+| Evaluation | `Evaluate all 3 models: metrics and confusion matrices` |
+| Web app added | `Add Streamlit web application` |
+| Final submission | `Final submission: all experiments complete` |

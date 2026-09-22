@@ -32,7 +32,7 @@ st.set_page_config(
     page_title="Alzheimer's Disease Detection & Explainability System",
     page_icon="🧠",
     layout="wide",
-    initial_sidebar_state="expanded"
+    initial_sidebar_state="auto"
 )
 
 # Load and inject custom CSS theme

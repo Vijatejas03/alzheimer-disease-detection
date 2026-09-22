@@ -224,27 +224,27 @@ def validate_input_image(
             metrics=metrics
         )
 
-    # Extreme aspect ratio check (axial brain MRIs are near-square)
+    # Aspect ratio check (axial brain MRIs are near-square)
     aspect_check_passed = True
     aspect_status = ValidationStatus.PASS
     aspect_msg = f"Aspect ratio ({aspect_ratio:.2f}:1) is standard."
     
-    if aspect_ratio > 4.0 or aspect_ratio < 0.25:
+    if aspect_ratio > 1.8 or aspect_ratio < 0.55:
         aspect_check_passed = False
         aspect_status = ValidationStatus.REJECTED
-        aspect_msg = f"Extreme aspect ratio ({aspect_ratio:.2f}:1) is unsuitable for axial MRI analysis."
+        aspect_msg = f"Unsuitable aspect ratio ({aspect_ratio:.2f}:1). Axial brain MRI scans have near-square proportions."
         checks.append(ValidationCheck("Aspect Ratio", False, aspect_status, aspect_msg))
         return ValidationResult(
             status=ValidationStatus.REJECTED,
-            headline="Unusable Aspect Ratio",
-            message="The image is an extreme horizontal or vertical strip and cannot represent an axial brain MRI slice.",
+            headline="Input rejected",
+            message="This image does not appear to be a suitable brain MRI for this research model. Please upload a brain MRI image.",
             checks=checks,
             metrics=metrics
         )
-    elif aspect_ratio > 2.2 or aspect_ratio < 0.45:
+    elif aspect_ratio > 1.45 or aspect_ratio < 0.70:
         aspect_check_passed = False
         aspect_status = ValidationStatus.WARNING
-        aspect_msg = f"Unusual aspect ratio ({aspect_ratio:.2f}:1). Standard brain MRI scans have near-square proportions."
+        aspect_msg = f"Unusual aspect ratio ({aspect_ratio:.2f}:1). Standard brain MRI scans typically have near-square proportions."
         
     checks.append(ValidationCheck("Dimensions & Geometry", aspect_check_passed, aspect_status, aspect_msg))
 
@@ -309,8 +309,8 @@ def validate_input_image(
         ))
         return ValidationResult(
             status=ValidationStatus.REJECTED,
-            headline="Blank or Uniform Image",
-            message="The uploaded image appears to be completely blank or uniform, with no detectable anatomical signal.",
+            headline="Input rejected",
+            message="This image does not appear to be a suitable brain MRI for this research model. Please upload a brain MRI image.",
             checks=checks,
             metrics=metrics
         )
@@ -324,8 +324,8 @@ def validate_input_image(
         ))
         return ValidationResult(
             status=ValidationStatus.REJECTED,
-            headline="Extremely Uniform Image",
-            message="Over 98% of the image contains an identical flat color with negligible structural content.",
+            headline="Input rejected",
+            message="This image does not appear to be a suitable brain MRI for this research model. Please upload a brain MRI image.",
             checks=checks,
             metrics=metrics
         )
@@ -338,34 +338,241 @@ def validate_input_image(
     ))
 
     # -------------------------------------------------------------
-    # Stage 5: Conservative Brain / MRI Suitability Screening
+    # Stage 5: Strict Brain MRI Domain Verification (Multi-Feature Screener)
     # -------------------------------------------------------------
-    # Brain MRI scans are fundamentally grayscale structural sequences (monochromatic).
-    # Natural photos, web graphics, and colorful illustrations have high chromatic saturation.
+    # The research platform is trained exclusively on axial brain MRI scans (T1-weighted).
+    # Inputs outside this domain (natural photos, animals, human faces, digital art,
+    # screenshots, chest X-rays/CT, spine, abdomen, knee/shoulder scans) must be strictly REJECTED.
+    
+    # 1. Chromatic Saturation Check
+    # Brain MRI scans are strictly monochromatic grayscale.
     r, g, b = np_arr[:, :, 0], np_arr[:, :, 1], np_arr[:, :, 2]
     chroma_diff = np.abs(r - g) + np.abs(g - b) + np.abs(b - r)
     mean_chroma = float(np.mean(chroma_diff))
     metrics["chromatic_divergence"] = round(mean_chroma, 2)
     
-    suitability_passed = True
-    suitability_status = ValidationStatus.PASS
-    suitability_msg = "Image exhibits visual properties consistent with grayscale neuroimaging slices."
-    
-    # Check 1: High chromatic divergence (vibrant natural photo, cartoon, landscape)
-    if mean_chroma > 25.0:
-        suitability_passed = False
-        suitability_status = ValidationStatus.WARNING
-        suitability_msg = (
-            f"Prominent color saturation detected (chroma score: {mean_chroma:.1f}). "
-            "Standard brain MRI scans are monochromatic. Prediction reliability cannot be guaranteed."
+    if mean_chroma > 8.0:
+        checks.append(ValidationCheck(
+            "Domain Suitability (Color)",
+            False,
+            ValidationStatus.REJECTED,
+            f"Color saturation detected (chromatic divergence: {mean_chroma:.1f}). Brain MRI scans are monochromatic grayscale neuroimaging sequences."
+        ))
+        return ValidationResult(
+            status=ValidationStatus.REJECTED,
+            headline="Input rejected",
+            message="This image does not appear to be a suitable brain MRI for this research model. Please upload a brain MRI image.",
+            checks=checks,
+            metrics=metrics,
+            sanitized_image=sanitized_rgb
         )
-    # Check 2: Pure inverted document / white-background document screenshot
-    elif mean_intensity > 235.0 and std_intensity < 25.0:
-        suitability_passed = False
-        suitability_status = ValidationStatus.WARNING
-        suitability_msg = "High average brightness and low variance resemble a text document or document screenshot."
-        
-    checks.append(ValidationCheck("Suitability Screening", suitability_passed, suitability_status, suitability_msg))
+
+    # 2. Perimeter Background Darkness Check (Outer 5% Margin)
+    # In axial brain MRI, the head is centered and surrounded by dark scanner air background.
+    bw = max(2, int(width * 0.05))
+    bh = max(2, int(height * 0.05))
+    top = gray_arr[:bh, :]
+    bottom = gray_arr[-bh:, :]
+    left = gray_arr[:, :bw]
+    right = gray_arr[:, -bw:]
+    border_pixels = np.concatenate([top.flatten(), bottom.flatten(), left.flatten(), right.flatten()])
+    border_mean = float(np.mean(border_pixels))
+    metrics["border_mean_intensity"] = round(border_mean, 2)
+    
+    if border_mean > 30.0:
+        checks.append(ValidationCheck(
+            "Domain Suitability (Perimeter)",
+            False,
+            ValidationStatus.REJECTED,
+            f"Non-dark perimeter detected (border mean: {border_mean:.1f}). Axial brain MRI scans must feature a dark scanner background surrounding the cranium."
+        ))
+        return ValidationResult(
+            status=ValidationStatus.REJECTED,
+            headline="Input rejected",
+            message="This image does not appear to be a suitable brain MRI for this research model. Please upload a brain MRI image.",
+            checks=checks,
+            metrics=metrics,
+            sanitized_image=sanitized_rgb
+        )
+
+    # 3. Corner Background Darkness Check (Outer 8% Corners)
+    # In axial cranial imaging, all 4 corners lie outside the cranial oval in empty scanner space.
+    cw = max(2, int(width * 0.08))
+    ch = max(2, int(height * 0.08))
+    corners = np.concatenate([
+        gray_arr[:ch, :cw].flatten(),
+        gray_arr[:ch, -cw:].flatten(),
+        gray_arr[-ch:, :cw].flatten(),
+        gray_arr[-ch:, -cw:].flatten()
+    ])
+    corner_mean = float(np.mean(corners))
+    metrics["corner_mean_intensity"] = round(corner_mean, 2)
+    
+    if corner_mean > 30.0:
+        checks.append(ValidationCheck(
+            "Domain Suitability (Corners)",
+            False,
+            ValidationStatus.REJECTED,
+            f"Non-dark corners detected (corner mean: {corner_mean:.1f}). In axial brain MRI, frame corners are empty scanner background."
+        ))
+        return ValidationResult(
+            status=ValidationStatus.REJECTED,
+            headline="Input rejected",
+            message="This image does not appear to be a suitable brain MRI for this research model. Please upload a brain MRI image.",
+            checks=checks,
+            metrics=metrics,
+            sanitized_image=sanitized_rgb
+        )
+
+    # 4. Anatomical Tissue Coverage (Foreground Fraction of Pixels > 20)
+    # True axial brain slices cover 35%-60% of the field of view.
+    fg_fraction = float(np.mean(gray_arr > 20.0))
+    metrics["tissue_coverage_fraction"] = round(fg_fraction, 3)
+    
+    if fg_fraction < 0.28:
+        checks.append(ValidationCheck(
+            "Domain Suitability (Tissue Coverage)",
+            False,
+            ValidationStatus.REJECTED,
+            f"Insufficient anatomical tissue coverage ({fg_fraction*100:.1f}%). Axial brain slices typically cover 35%-60% of the field of view."
+        ))
+        return ValidationResult(
+            status=ValidationStatus.REJECTED,
+            headline="Input rejected",
+            message="This image does not appear to be a suitable brain MRI for this research model. Please upload a brain MRI image.",
+            checks=checks,
+            metrics=metrics,
+            sanitized_image=sanitized_rgb
+        )
+    if fg_fraction > 0.68:
+        checks.append(ValidationCheck(
+            "Domain Suitability (Tissue Coverage)",
+            False,
+            ValidationStatus.REJECTED,
+            f"Excessive tissue coverage ({fg_fraction*100:.1f}%). Subject fills entire frame without characteristic cranial air boundary."
+        ))
+        return ValidationResult(
+            status=ValidationStatus.REJECTED,
+            headline="Input rejected",
+            message="This image does not appear to be a suitable brain MRI for this research model. Please upload a brain MRI image.",
+            checks=checks,
+            metrics=metrics,
+            sanitized_image=sanitized_rgb
+        )
+
+    # 5. Central Brain Parenchyma Signal & Contrast
+    # Axial brain slices contain dense brain parenchyma in the central 50%.
+    center = gray_arr[int(height * 0.25):int(height * 0.75), int(width * 0.25):int(width * 0.75)]
+    center_mean = float(np.mean(center))
+    metrics["center_mean_intensity"] = round(center_mean, 2)
+    cranial_contrast = center_mean - border_mean
+    metrics["cranial_contrast"] = round(cranial_contrast, 2)
+    
+    if center_mean < 45.0:
+        checks.append(ValidationCheck(
+            "Domain Suitability (Parenchyma)",
+            False,
+            ValidationStatus.REJECTED,
+            f"Low central parenchyma signal ({center_mean:.1f}). Axial brain neuroimaging displays solid cerebral tissue in the center."
+        ))
+        return ValidationResult(
+            status=ValidationStatus.REJECTED,
+            headline="Input rejected",
+            message="This image does not appear to be a suitable brain MRI for this research model. Please upload a brain MRI image.",
+            checks=checks,
+            metrics=metrics,
+            sanitized_image=sanitized_rgb
+        )
+    if cranial_contrast < 25.0:
+        checks.append(ValidationCheck(
+            "Domain Suitability (Contrast)",
+            False,
+            ValidationStatus.REJECTED,
+            f"Insufficient cranial-to-background contrast ({cranial_contrast:.1f}). Expected distinct boundary between brain tissue and scanner background."
+        ))
+        return ValidationResult(
+            status=ValidationStatus.REJECTED,
+            headline="Input rejected",
+            message="This image does not appear to be a suitable brain MRI for this research model. Please upload a brain MRI image.",
+            checks=checks,
+            metrics=metrics,
+            sanitized_image=sanitized_rgb
+        )
+
+    # 6. Cranial Anatomical Geometry (Aspect Ratio of Central Tissue)
+    mid_row = gray_arr[height // 2, :]
+    mid_col = gray_arr[:, width // 2]
+    row_nz = np.where(mid_row > 20.0)[0]
+    col_nz = np.where(mid_col > 20.0)[0]
+    if len(row_nz) > 0 and len(col_nz) > 0:
+        skull_w = row_nz[-1] - row_nz[0]
+        skull_h = col_nz[-1] - col_nz[0]
+        skull_ratio = skull_w / max(skull_h, 1)
+        metrics["cranial_aspect_ratio"] = round(skull_ratio, 2)
+        if skull_ratio < 0.68 or skull_ratio > 1.42:
+            checks.append(ValidationCheck(
+                "Domain Suitability (Geometry)",
+                False,
+                ValidationStatus.REJECTED,
+                f"Abnormal anatomical geometry (cranial width/height ratio: {skull_ratio:.2f}). Axial brain cross-sections are approximately elliptical/round."
+            ))
+            return ValidationResult(
+                status=ValidationStatus.REJECTED,
+                headline="Input rejected",
+                message="This image does not appear to be a suitable brain MRI for this research model. Please upload a brain MRI image.",
+                checks=checks,
+                metrics=metrics,
+                sanitized_image=sanitized_rgb
+            )
+
+    # 7. Bilateral Hemispheric Symmetry Check
+    half_w = width // 2
+    left_side = gray_arr[:, :half_w]
+    right_side = np.fliplr(gray_arr[:, -half_w:])
+    asym = float(np.mean(np.abs(left_side - right_side)) / max(mean_intensity, 1.0))
+    metrics["hemispheric_asymmetry"] = round(asym, 3)
+    if asym > 0.65:
+        checks.append(ValidationCheck(
+            "Domain Suitability (Symmetry)",
+            False,
+            ValidationStatus.REJECTED,
+            f"High structural asymmetry ({asym:.2f}). Axial neuroimaging exhibits bilateral hemispheric symmetry across the sagittal midline."
+        ))
+        return ValidationResult(
+            status=ValidationStatus.REJECTED,
+            headline="Input rejected",
+            message="This image does not appear to be a suitable brain MRI for this research model. Please upload a brain MRI image.",
+            checks=checks,
+            metrics=metrics,
+            sanitized_image=sanitized_rgb
+        )
+
+    # 8. Vertical Perimeter Continuity (Spine Check)
+    # Sagittal spine scans have vertebral tissue continuous with top and bottom edges.
+    top_mid = float(np.mean(gray_arr[:bh, int(width * 0.35):int(width * 0.65)]))
+    bot_mid = float(np.mean(gray_arr[-bh:, int(width * 0.35):int(width * 0.65)]))
+    if top_mid > 30.0 and bot_mid > 30.0:
+        checks.append(ValidationCheck(
+            "Domain Suitability (Spine Exclusion)",
+            False,
+            ValidationStatus.REJECTED,
+            "Continuous vertical tissue intersecting top and bottom boundaries (characteristic of spine MRI, not axial brain MRI)."
+        ))
+        return ValidationResult(
+            status=ValidationStatus.REJECTED,
+            headline="Input rejected",
+            message="This image does not appear to be a suitable brain MRI for this research model. Please upload a brain MRI image.",
+            checks=checks,
+            metrics=metrics,
+            sanitized_image=sanitized_rgb
+        )
+
+    checks.append(ValidationCheck(
+        "Brain MRI Domain Verification",
+        True,
+        ValidationStatus.PASS,
+        "Image conforms to studied axial brain MRI domain characteristics (monochromatic, dark perimeter, centered cranial parenchyma)."
+    ))
 
     # -------------------------------------------------------------
     # Consolidated Status Assessment
@@ -378,12 +585,12 @@ def validate_input_image(
             warning_reasons.append(c.message)
             
     if overall_status == ValidationStatus.PASS:
-        headline = "Input Checks Passed"
-        message = "The image passed all basic input and quality checks and is suitable for analysis by the research model."
+        headline = "Brain MRI Input Verified"
+        message = "The image conforms to the studied axial brain MRI domain and passed all quality screening checks."
     else:
         headline = "Suitability Warning"
         details_txt = " ".join(warning_reasons)
-        message = f"The image can be processed, but suitability could not be confidently established: {details_txt}"
+        message = f"The image can be processed, but quality notes were flagged: {details_txt}"
         
     return ValidationResult(
         status=overall_status,

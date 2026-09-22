@@ -155,6 +155,50 @@ class TestStreamlitUIPages(unittest.TestCase):
             self.assertIn("not disease severity or confirmed brain pathology", all_md)
             self.assertIn("Grad-CAM is an explainability visualization.", all_md)
 
+    def test_out_of_domain_upload_intercepted_and_suppresses_inference(self):
+        """Verify that uploading an out-of-domain image displays Input rejected and halts inference completely."""
+        import io
+        from PIL import Image
+        from streamlit.testing.v1 import AppTest
+
+        # Create simulated non-brain photo bytes (e.g. dog/cat/human color photo)
+        ood_img = Image.new("RGB", (160, 160), (180, 120, 60))
+        bio = io.BytesIO()
+        ood_img.save(bio, format="PNG")
+        ood_bytes = bio.getvalue()
+
+        app_file = str(PROJECT_ROOT / "app" / "app.py")
+        at = AppTest.from_file(app_file, default_timeout=40)
+        at.run()
+
+        # Navigate to MRI Analysis
+        at.sidebar.radio[0].set_value("MRI Analysis").run()
+        self.assertEqual(len(at.exception), 0)
+
+        # Select 'Upload Brain MRI Scan'
+        at.radio[0].set_value("Upload Brain MRI Scan").run()
+        self.assertEqual(len(at.exception), 0)
+
+        # Upload non-brain out-of-domain file
+        at.file_uploader[0].upload("unrelated_photo.png", ood_bytes).run()
+
+        # Assert no unhandled exceptions
+        self.assertEqual(len(at.exception), 0)
+
+        # Assert warning alert displays exact required text
+        all_text = " ".join([m.value for m in at.markdown] + [w.value for w in at.warning])
+        self.assertIn("Input rejected", all_text)
+        self.assertIn("This image does not appear to be a suitable brain MRI for this research model. Please upload a brain MRI image.", all_text)
+        self.assertIn("exclusively on axial brain MRI scans", all_text)
+        self.assertIn("Input Domain Policy & Requirements", all_text)
+
+        # Assert inference was completely suppressed
+        self.assertNotIn("04 Deep Learning Inference", all_text)
+        self.assertNotIn("05 Multi-Class Probability Distribution", all_text)
+        self.assertNotIn("06 Mathematical Uncertainty Analysis", all_text)
+        self.assertNotIn("07 3-Model Consensus Agreement Engine", all_text)
+        self.assertNotIn("08 Grad-CAM Explainability", all_text)
+
 
 if __name__ == "__main__":
     unittest.main()

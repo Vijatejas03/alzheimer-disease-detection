@@ -142,14 +142,112 @@ def render_mri_analysis_page():
         )
         render_html(callout_html)
     else:  # REJECTED
+        # Prominent Input Rejected Warning Box
         callout_html = (
-            '<div style="background-color: #FEF2F2; border: 1px solid #FECACA; border-left: 4px solid #DC2626; border-radius: 8px; padding: 0.85rem 1.2rem; margin-bottom: 0.85rem;">'
-            '<div style="font-weight: 800; font-size: 0.86rem; color: #B91C1C; text-transform: uppercase; letter-spacing: 0.04em;">STATUS: INPUT REJECTED</div>'
-            f'<div style="font-size: 0.84rem; color: #B91C1C; margin-top: 0.15rem;">The input failed verification: <strong>{val_result.message}</strong></div>'
+            '<div style="background-color: #FEF2F2; border: 1.5px solid #F87171; border-left: 6px solid #DC2626; border-radius: 10px; padding: 1.1rem 1.4rem; margin-bottom: 1.2rem; box-shadow: 0 2px 8px rgba(220, 38, 38, 0.08);">'
+            '<div style="display: flex; align-items: center; gap: 0.6rem; margin-bottom: 0.4rem;">'
+            '<span style="font-size: 1.3rem;">⚠️</span>'
+            '<span style="font-weight: 800; font-size: 1.05rem; color: #991B1B; text-transform: uppercase; letter-spacing: 0.04em;">Input rejected</span>'
+            '</div>'
+            f'<div style="font-size: 0.96rem; font-weight: 700; color: #B91C1C; margin-bottom: 0.45rem;">{val_result.message}</div>'
+            '<div style="font-size: 0.85rem; color: #7F1D1D; line-height: 1.55;">'
+            'This research platform is trained <strong>exclusively on axial brain MRI scans</strong> (T1-weighted structural neuroimaging) '
+            'and cannot make valid predictions on out-of-domain images. To preserve scientific validity and prevent arbitrary predictions, '
+            'the inference pipeline and Grad-CAM generation have been completely halted.'
+            '</div>'
             '</div>'
         )
         render_html(callout_html)
+        st.warning("⚠️ **Input rejected:** This image does not appear to be a suitable brain MRI for this research model. Please upload a brain MRI image.")
+
+        # Breakdown of Failed Checks
+        failed_checks = [c for c in val_result.checks if not c.passed]
+        if failed_checks:
+            st.markdown("##### Verification Failure Details")
+            for fc in failed_checks:
+                st.markdown(
+                    f'<div style="background: #FFF5F5; border: 1px solid #FED7D7; border-radius: 6px; padding: 0.55rem 0.85rem; margin-bottom: 0.4rem; font-size: 0.83rem; color: #9B2C2C;">'
+                    f'<strong>✕ {fc.name}:</strong> {fc.message}'
+                    f'</div>',
+                    unsafe_allow_html=True
+                )
+
+        # Side-by-side: Ingested Image Preview + Input Domain Reference Guide
+        col_img, col_guide = st.columns([1, 1.3])
+        with col_img:
+            st.markdown(
+                '<div class="med-card" style="padding: 0.75rem; text-align: center; margin-bottom: 0.35rem; background: #FFFFFF;">'
+                '<div style="font-size: 0.76rem; font-weight: 800; color: #DC2626; text-transform: uppercase; letter-spacing: 0.05em;">'
+                'INGESTED IMAGE (INFERENCE BLOCKED)'
+                '</div>'
+                '</div>',
+                unsafe_allow_html=True
+            )
+            if source_pil_img:
+                st.image(source_pil_img, use_container_width=True, caption=f"Rejected Input: {input_source_name}")
+            elif val_result.sanitized_image:
+                st.image(val_result.sanitized_image, use_container_width=True, caption=f"Rejected Input: {input_source_name}")
+                
+        with col_guide:
+            guide_html = (
+                '<div class="med-card" style="padding: 1rem 1.1rem; background: #FFFFFF; border: 1px solid #E2E8F0;">'
+                '<div style="font-size: 0.88rem; font-weight: 800; color: #0F172A; margin-bottom: 0.65rem;">'
+                '📋 Input Domain Policy & Requirements'
+                '</div>'
+                '<div style="margin-bottom: 0.7rem;">'
+                '<div style="font-size: 0.78rem; font-weight: 750; color: #166534; text-transform: uppercase; margin-bottom: 0.25rem;">'
+                '✔ Supported Input Domain'
+                '</div>'
+                '<div style="font-size: 0.80rem; color: #334155; line-height: 1.45;">'
+                '• Axial brain MRI slices (T1-weighted structural scans)<br>'
+                '• Centered cranial cranium with dark background margins<br>'
+                '• Monochromatic grayscale format<br>'
+                '• Near-square proportions (~1:1 aspect ratio)'
+                '</div>'
+                '</div>'
+                '<div>'
+                '<div style="font-size: 0.78rem; font-weight: 750; color: #991B1B; text-transform: uppercase; margin-bottom: 0.25rem;">'
+                '✖ Unsupported / Out-of-Domain Inputs'
+                '</div>'
+                '<div style="font-size: 0.80rem; color: #334155; line-height: 1.45;">'
+                '• Dog, cat, or other animal photographs<br>'
+                '• Human photographs, portraits, or selfies<br>'
+                '• Digital artwork or AI-generated brain illustrations<br>'
+                '• Screenshots, documents, or UI graphics<br>'
+                '• Chest CT, Chest MRI, or lung scans<br>'
+                '• Spine, abdomen, or pelvis scans<br>'
+                '• Knee, shoulder, or extremity bone scans<br>'
+                '• X-rays or unrelated medical imaging'
+                '</div>'
+                '</div>'
+                '</div>'
+            )
+            render_html(guide_html)
+            
+        # Metadata Card
+        fmt = metrics.get("format", "Unknown")
+        res_str = f"{metrics.get('width', 0)} × {metrics.get('height', 0)} px"
+        ch_str = f"{metrics.get('channels', 1)} ({metrics.get('mode', 'L')})"
+        ar_val = metrics.get("aspect_ratio", 1.0)
+        chroma_val = metrics.get("chromatic_divergence", 0.0)
+        border_val = metrics.get("border_mean_intensity", 0.0)
         
+        st.markdown("<div style='height: 8px;'></div>", unsafe_allow_html=True)
+        q_c1, q_c2, q_c3, q_c4, q_c5 = st.columns(5)
+        with q_c1:
+            render_html(f'<div class="med-card" style="padding: 0.55rem; text-align: center;"><div style="font-size: 0.95rem; font-weight: 750;">{fmt}</div><div class="med-metric-lbl">Format</div></div>')
+        with q_c2:
+            render_html(f'<div class="med-card" style="padding: 0.55rem; text-align: center;"><div style="font-size: 0.95rem; font-weight: 750;">{res_str}</div><div class="med-metric-lbl">Resolution</div></div>')
+        with q_c3:
+            render_html(f'<div class="med-card" style="padding: 0.55rem; text-align: center;"><div style="font-size: 0.95rem; font-weight: 750;">{ar_val:.2f}:1</div><div class="med-metric-lbl">Aspect Ratio</div></div>')
+        with q_c4:
+            render_html(f'<div class="med-card" style="padding: 0.55rem; text-align: center;"><div style="font-size: 0.95rem; font-weight: 750; color: #DC2626 if {chroma_val} > 8 else #0F172A;">{chroma_val:.1f}</div><div class="med-metric-lbl">Chroma Score</div></div>')
+        with q_c5:
+            render_html(f'<div class="med-card" style="padding: 0.55rem; text-align: center;"><div style="font-size: 0.95rem; font-weight: 750; color: #DC2626 if {border_val} > 30 else #0F172A;">{border_val:.1f}</div><div class="med-metric-lbl">Border Mean</div></div>')
+            
+        st.info("💡 To analyze an MRI, please select one of the curated research samples above or upload an axial brain MRI scan.")
+        return
+
     # Real Metadata Grid (Format, Resolution, Channels, Aspect ratio, Dynamic Range)
     fmt = metrics.get("format", "Unknown")
     res_str = f"{metrics.get('width', 0)} × {metrics.get('height', 0)} px"

@@ -1,0 +1,12 @@
+{
+    "calibration_method": "Temperature Scaling (Guo et al., 2017)",
+    "num_bins": 15,
+    "binning_strategy": "equal_width",
+    "optimization_algorithm": "L-BFGS",
+    "optimization_loss": "CrossEntropyLoss (Negative Log-Likelihood)",
+    "validation_samples": 960,
+    "test_samples": 960,
+    "validation_split_path": "reports/splits/validation.csv",
+    "test_split_path": "reports/splits/test.csv",
+    "device": "cuda"
+}

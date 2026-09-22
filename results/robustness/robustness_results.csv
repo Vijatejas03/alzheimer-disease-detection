@@ -1,0 +1,31 @@
+model_name,architecture_slug,perturbation_key,category,label,description,baseline_accuracy,perturbed_accuracy,accuracy_change,relative_drop_pct,perturbed_macro_f1
+MobileNetV2,mobilenet_v2,brightness_minus_15,brightness,Brightness (-15%),Simulates subtle underexposure / RF receive gain attenuation,0.93125,0.9135416666666667,-0.017708333333333326,-1.9015659955257262,0.8973786458593693
+MobileNetV2,mobilenet_v2,brightness_plus_15,brightness,Brightness (+15%),Simulates subtle overexposure / RF gain increase,0.93125,0.9260416666666667,-0.00520833333333337,-0.5592841163311001,0.9446756110002692
+MobileNetV2,mobilenet_v2,contrast_minus_15,contrast,Contrast (-15%),Simulates lowered gray-matter / white-matter differentiation,0.93125,0.9239583333333333,-0.007291666666666696,-0.7829977628635378,0.9238517078335853
+MobileNetV2,mobilenet_v2,contrast_plus_15,contrast,Contrast (+15%),Simulates enhanced tissue contrast,0.93125,0.9270833333333334,-0.004166666666666652,-0.4474272930648754,0.9459808547338122
+MobileNetV2,mobilenet_v2,gaussian_noise_003,noise,Gaussian Noise (sigma=0.03),Simulates mild thermal / RF receiver coil noise,0.93125,0.17604166666666668,-0.7552083333333334,-81.09619686800895,0.10798804370232942
+MobileNetV2,mobilenet_v2,gaussian_blur_075,blur,Gaussian Blur (r=0.75),Simulates subtle scanner point-spread function broadening or micro-motion,0.93125,0.45208333333333334,-0.4791666666666667,-51.45413870246085,0.4028304208490532
+MobileNetV2,mobilenet_v2,rotation_minus_5,rotation,Rotation (-5 deg),Simulates minor head tilt to the right,0.93125,0.9135416666666667,-0.017708333333333326,-1.9015659955257262,0.9221870422185879
+MobileNetV2,mobilenet_v2,rotation_plus_5,rotation,Rotation (+5 deg),Simulates minor head tilt to the left,0.93125,0.9052083333333333,-0.02604166666666674,-2.796420581655489,0.9209876830358759
+MobileNetV2,mobilenet_v2,scale_down_92,scale,Scale (0.92x),Simulates mild zoom-out / FOV enlargement,0.93125,0.7916666666666666,-0.1395833333333334,-14.988814317673386,0.7963511930903235
+MobileNetV2,mobilenet_v2,scale_up_108,scale,Scale (1.08x),Simulates mild zoom-in / brain enlargement,0.93125,0.85625,-0.07500000000000007,-8.053691275167791,0.8429717901353752
+EfficientNet-B0,efficientnet_b0,brightness_minus_15,brightness,Brightness (-15%),Simulates subtle underexposure / RF receive gain attenuation,0.98229,0.9770833333333333,-0.005206666666666693,-0.5300539216185335,0.9834057266839173
+EfficientNet-B0,efficientnet_b0,brightness_plus_15,brightness,Brightness (+15%),Simulates subtle overexposure / RF gain increase,0.98229,0.9708333333333333,-0.01145666666666667,-1.166322233420545,0.9786537696438656
+EfficientNet-B0,efficientnet_b0,contrast_minus_15,contrast,Contrast (-15%),Simulates lowered gray-matter / white-matter differentiation,0.98229,0.9729166666666667,-0.009373333333333345,-0.9542327961532078,0.9813260223073981
+EfficientNet-B0,efficientnet_b0,contrast_plus_15,contrast,Contrast (+15%),Simulates enhanced tissue contrast,0.98229,0.975,-0.007290000000000019,-0.7421433588858707,0.9812554066583253
+EfficientNet-B0,efficientnet_b0,gaussian_noise_003,noise,Gaussian Noise (sigma=0.03),Simulates mild thermal / RF receiver coil noise,0.98229,0.20625,-0.7760400000000001,-79.00314571053354,0.13975206880181854
+EfficientNet-B0,efficientnet_b0,gaussian_blur_075,blur,Gaussian Blur (r=0.75),Simulates subtle scanner point-spread function broadening or micro-motion,0.98229,0.9458333333333333,-0.03645666666666669,-3.7113954806286023,0.900029674290614
+EfficientNet-B0,efficientnet_b0,rotation_minus_5,rotation,Rotation (-5 deg),Simulates minor head tilt to the right,0.98229,0.984375,0.0020850000000000035,0.21225910881715213,0.9836274234118234
+EfficientNet-B0,efficientnet_b0,rotation_plus_5,rotation,Rotation (+5 deg),Simulates minor head tilt to the left,0.98229,0.9822916666666667,1.6666666666775853e-06,0.00016967154981498185,0.9868412722855285
+EfficientNet-B0,efficientnet_b0,scale_down_92,scale,Scale (0.92x),Simulates mild zoom-out / FOV enlargement,0.98229,0.9770833333333333,-0.005206666666666693,-0.5300539216185335,0.9813019829112832
+EfficientNet-B0,efficientnet_b0,scale_up_108,scale,Scale (1.08x),Simulates mild zoom-in / brain enlargement,0.98229,0.975,-0.007290000000000019,-0.7421433588858707,0.9768448927026383
+ResNet18,resnet18,brightness_minus_15,brightness,Brightness (-15%),Simulates subtle underexposure / RF receive gain attenuation,0.98438,0.9864583333333333,0.002078333333333293,0.2111312027198128,0.9879309353822848
+ResNet18,resnet18,brightness_plus_15,brightness,Brightness (+15%),Simulates subtle overexposure / RF gain increase,0.98438,0.975,-0.009380000000000055,-0.952884048842932,0.9792235078827638
+ResNet18,resnet18,contrast_minus_15,contrast,Contrast (-15%),Simulates lowered gray-matter / white-matter differentiation,0.98438,0.9822916666666667,-0.0020883333333333587,-0.21214707057572876,0.9854043529865102
+ResNet18,resnet18,contrast_plus_15,contrast,Contrast (+15%),Simulates enhanced tissue contrast,0.98438,0.9760416666666667,-0.008338333333333336,-0.847064480519041,0.9804328435763231
+ResNet18,resnet18,gaussian_noise_003,noise,Gaussian Noise (sigma=0.03),Simulates mild thermal / RF receiver coil noise,0.98438,0.9583333333333334,-0.026046666666666662,-2.6459971420250983,0.9661233559915017
+ResNet18,resnet18,gaussian_blur_075,blur,Gaussian Blur (r=0.75),Simulates subtle scanner point-spread function broadening or micro-motion,0.98438,0.9510416666666667,-0.03333833333333336,-3.3867341202923016,0.8893522603993274
+ResNet18,resnet18,rotation_minus_5,rotation,Rotation (-5 deg),Simulates minor head tilt to the right,0.98438,0.9854166666666667,0.0010366666666666857,0.10531163439593304,0.9875945980423592
+ResNet18,resnet18,rotation_plus_5,rotation,Rotation (+5 deg),Simulates minor head tilt to the left,0.98438,0.9791666666666666,-0.005213333333333403,-0.5296057755473905,0.970332763988905
+ResNet18,resnet18,scale_down_92,scale,Scale (0.92x),Simulates mild zoom-out / FOV enlargement,0.98438,0.978125,-0.0062550000000000106,-0.6354253438712704,0.9571057621607814
+ResNet18,resnet18,scale_up_108,scale,Scale (1.08x),Simulates mild zoom-in / brain enlargement,0.98438,0.984375,-5.000000000032756e-06,-0.0005079339279579792,0.9879554673664225

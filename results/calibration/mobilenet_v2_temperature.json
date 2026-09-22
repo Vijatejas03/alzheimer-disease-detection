@@ -1,0 +1,10 @@
+{
+    "model_name": "MobileNetV2",
+    "architecture_slug": "mobilenet_v2",
+    "learned_temperature": 1.3892951011657715,
+    "optimization_objective": "Negative Log-Likelihood (CrossEntropyLoss)",
+    "optimization_algorithm": "L-BFGS",
+    "validation_split_samples": 960,
+    "fitted_on": "reports/splits/validation.csv",
+    "test_leakage": false
+}

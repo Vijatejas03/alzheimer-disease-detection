@@ -1,4 +1,4 @@
-﻿# Project Methodology & Baseline Documentation
+# Project Methodology & Baseline Documentation
 
 **Project:** Explainable Deep Learning-Based Multi-Stage Alzheimer's Disease Detection Using Brain MRI  
 **Type:** Final-Year Major Project (Academic / Research Prototype)
@@ -87,52 +87,64 @@ The dataset used in this project comes from the Kaggle **Alzheimer MRI Preproces
 ## 4. Pipeline Architecture
 
 ```
-Input MRI Image
-       │
-       ▼
-[ Input Validation ]
-  - Format check (.jpg / .jpeg / .png)
-  - Dimension range check
-  - Pixel variance check (detect blank images)
-       │
-       ▼
-[ Preprocessing ]
-  - Resize to 224 × 224 (standard CNN input)
-  - RGB conversion
-  - Optional contour crop (remove black margins)
-  - ImageNet mean/std normalization
-       │
-       ▼
-[ Data Augmentation — Training split only ]
-  - Random horizontal flip
-  - Random rotation (±10°)
-  - Random affine (slight translation & scale)
-  - ColorJitter (brightness, contrast)
-  ─ No augmentation on val/test ─
-       │
-       ▼
-[ Deep Learning Model ]
-  Candidate 1: MobileNetV2  (ImageNet pretrained → fine-tuned)
-  Candidate 2: EfficientNet-B0 (ImageNet pretrained → fine-tuned)
-  Candidate 3: ResNet-18    (ImageNet pretrained → fine-tuned)
-       │
-       ▼
-[ Prediction & Class Probabilities ]
-  - Softmax over 4 classes
-  - Confidence bar chart
-       │
-       ▼
-[ Grad-CAM Explainability ]
-  - Gradients of predicted class score w.r.t. final conv layer activations
-  - Heatmap overlaid on original scan
-  ⚠ Heatmap shows regions contributing to model prediction.
-  ⚠ NOT a validated clinical biomarker map.
-       │
-       ▼
-[ Evaluation — on held-out test set ]
-  - Accuracy, Precision, Recall, Specificity
-  - F1-Score, Balanced Accuracy, MCC
-  - Confusion Matrix (4×4)
+Raw Brain MRI Scans (128x128 Grayscale)
+                │
+                ▼
+[ Dataset Integrity Verification ]
+  - Dimension bounds, PIL verification, format checking
+                │
+                ▼
+[ Duplicate Removal & Quarantine ]
+  - Raw archive redundant duplicate test directory eliminated (100% duplicate rate)
+  - Canonical dataset constrained strictly to 6,400 authentic unique scans
+                │
+                ▼
+[ Deterministic Stratified Split (Seed 42) ]
+  - 70% Train (4,480 images)
+  - 15% Validation (960 images)
+  - 15% Held-out Test (960 images)
+  - Manifest-driven tracking (reports/splits/train.csv, validation.csv, test.csv)
+                │
+                ▼
+[ Training-Only Data Augmentation ]
+  - Subtle rotations (±10°), horizontal flips, affine translation/scale, jitter
+  - Applied dynamically during training exclusively to train split
+  - Strict isolation: Validation and test splits receive zero stochastic augmentation
+                │
+                ▼
+[ Image Preprocessing ]
+  - Grayscale to 3-channel RGB conversion
+  - Bilinear resize to 224 × 224
+  - Tensor conversion and ImageNet normalization (μ=[0.485, 0.456, 0.406], σ=[0.229, 0.224, 0.225])
+                │
+                ▼
+[ Class Imbalance Handling ]
+  - Inverse-frequency class weights computed from training split:
+    Non-Dem: 0.0717, Very Mild: 0.1024, Mild: 0.2562, Mod: 3.5696 (~50x penalty)
+  - Configured into Class-Weighted Cross-Entropy Loss (and optional Focal Loss)
+                │
+                ▼
+[ Deep Learning Candidate Models ]
+  - Candidate 1: MobileNetV2   (Inverted residuals, lightweight parameter footprint)
+  - Candidate 2: EfficientNet-B0 (Compound scaling, high parameter efficiency)
+  - Candidate 3: ResNet-18     (Residual skip connections, deep feature representation)
+                │
+                ▼
+[ Validation Loop & Model Checkpointing ]
+  - Evaluate on deterministic validation split after each epoch
+  - Early stopping (patience=7) and best-checkpoint saving to results/models/
+                │
+                ▼
+[ Independent Image-Level Test Evaluation ]
+  - Unbiased evaluation on strictly held-out test split (960 images, 0 leakage)
+  - Comprehensive metric computation: Accuracy, Balanced Accuracy, Macro/Weighted F1,
+    Sensitivity, Specificity, Matthews Correlation Coefficient (MCC), Confusion Matrix
+                │
+                ▼
+[ Grad-CAM Visual Explainability ]
+  - Gradient-weighted feature map attribution on final convolutional layer
+  - Heatmap overlaid on patient scan with adjustable opacity
+  ⚠ Visual explanation of model focus — NOT a validated clinical biomarker map
 ```
 
 ---

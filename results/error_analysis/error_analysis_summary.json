@@ -1,0 +1,504 @@
+{
+    "test_sample_count": 960,
+    "class_wise_metrics": {
+        "MobileNetV2": {
+            "class_metrics": {
+                "Non_Demented": {
+                    "class_idx": 0,
+                    "total_samples": 480,
+                    "correct_predictions": 453,
+                    "incorrect_predictions": 27,
+                    "accuracy": 0.94375,
+                    "precision": 0.9398340248962656,
+                    "recall": 0.94375,
+                    "specificity": 0.9395833333333333,
+                    "f1_score": 0.9417879417879419,
+                    "false_positives": 29,
+                    "false_negatives": 27,
+                    "true_negatives": 451
+                },
+                "Very_Mild_Demented": {
+                    "class_idx": 1,
+                    "total_samples": 336,
+                    "correct_predictions": 307,
+                    "incorrect_predictions": 29,
+                    "accuracy": 0.9136904761904762,
+                    "precision": 0.9219219219219219,
+                    "recall": 0.9136904761904762,
+                    "specificity": 0.9583333333333334,
+                    "f1_score": 0.9177877428998505,
+                    "false_positives": 26,
+                    "false_negatives": 29,
+                    "true_negatives": 598
+                },
+                "Mild_Demented": {
+                    "class_idx": 2,
+                    "total_samples": 135,
+                    "correct_predictions": 125,
+                    "incorrect_predictions": 10,
+                    "accuracy": 0.9259259259259259,
+                    "precision": 0.9191176470588235,
+                    "recall": 0.9259259259259259,
+                    "specificity": 0.9866666666666667,
+                    "f1_score": 0.922509225092251,
+                    "false_positives": 11,
+                    "false_negatives": 10,
+                    "true_negatives": 814
+                },
+                "Moderate_Demented": {
+                    "class_idx": 3,
+                    "total_samples": 9,
+                    "correct_predictions": 9,
+                    "incorrect_predictions": 0,
+                    "accuracy": 1.0,
+                    "precision": 1.0,
+                    "recall": 1.0,
+                    "specificity": 1.0,
+                    "f1_score": 1.0,
+                    "false_positives": 0,
+                    "false_negatives": 0,
+                    "true_negatives": 951
+                }
+            },
+            "confusion_matrix": [
+                [
+                    453,
+                    19,
+                    8,
+                    0
+                ],
+                [
+                    26,
+                    307,
+                    3,
+                    0
+                ],
+                [
+                    3,
+                    7,
+                    125,
+                    0
+                ],
+                [
+                    0,
+                    0,
+                    0,
+                    9
+                ]
+            ],
+            "confusion_pairs": [
+                {
+                    "true_class": "Very_Mild_Demented",
+                    "predicted_class": "Non_Demented",
+                    "count": 26,
+                    "true_class_support": 336,
+                    "percentage_of_true_class": 7.738095238095238
+                },
+                {
+                    "true_class": "Non_Demented",
+                    "predicted_class": "Very_Mild_Demented",
+                    "count": 19,
+                    "true_class_support": 480,
+                    "percentage_of_true_class": 3.958333333333333
+                },
+                {
+                    "true_class": "Non_Demented",
+                    "predicted_class": "Mild_Demented",
+                    "count": 8,
+                    "true_class_support": 480,
+                    "percentage_of_true_class": 1.6666666666666667
+                },
+                {
+                    "true_class": "Mild_Demented",
+                    "predicted_class": "Very_Mild_Demented",
+                    "count": 7,
+                    "true_class_support": 135,
+                    "percentage_of_true_class": 5.185185185185185
+                },
+                {
+                    "true_class": "Very_Mild_Demented",
+                    "predicted_class": "Mild_Demented",
+                    "count": 3,
+                    "true_class_support": 336,
+                    "percentage_of_true_class": 0.8928571428571428
+                },
+                {
+                    "true_class": "Mild_Demented",
+                    "predicted_class": "Non_Demented",
+                    "count": 3,
+                    "true_class_support": 135,
+                    "percentage_of_true_class": 2.2222222222222223
+                }
+            ]
+        },
+        "EfficientNet-B0": {
+            "class_metrics": {
+                "Non_Demented": {
+                    "class_idx": 0,
+                    "total_samples": 480,
+                    "correct_predictions": 467,
+                    "incorrect_predictions": 13,
+                    "accuracy": 0.9729166666666667,
+                    "precision": 0.9915074309978769,
+                    "recall": 0.9729166666666667,
+                    "specificity": 0.9916666666666667,
+                    "f1_score": 0.982124079915878,
+                    "false_positives": 4,
+                    "false_negatives": 13,
+                    "true_negatives": 476
+                },
+                "Very_Mild_Demented": {
+                    "class_idx": 1,
+                    "total_samples": 336,
+                    "correct_predictions": 332,
+                    "incorrect_predictions": 4,
+                    "accuracy": 0.9880952380952381,
+                    "precision": 0.9707602339181286,
+                    "recall": 0.9880952380952381,
+                    "specificity": 0.9839743589743589,
+                    "f1_score": 0.9793510324483775,
+                    "false_positives": 10,
+                    "false_negatives": 4,
+                    "true_negatives": 614
+                },
+                "Mild_Demented": {
+                    "class_idx": 2,
+                    "total_samples": 135,
+                    "correct_predictions": 135,
+                    "incorrect_predictions": 0,
+                    "accuracy": 1.0,
+                    "precision": 0.9782608695652174,
+                    "recall": 1.0,
+                    "specificity": 0.9963636363636363,
+                    "f1_score": 0.989010989010989,
+                    "false_positives": 3,
+                    "false_negatives": 0,
+                    "true_negatives": 822
+                },
+                "Moderate_Demented": {
+                    "class_idx": 3,
+                    "total_samples": 9,
+                    "correct_predictions": 9,
+                    "incorrect_predictions": 0,
+                    "accuracy": 1.0,
+                    "precision": 1.0,
+                    "recall": 1.0,
+                    "specificity": 1.0,
+                    "f1_score": 1.0,
+                    "false_positives": 0,
+                    "false_negatives": 0,
+                    "true_negatives": 951
+                }
+            },
+            "confusion_matrix": [
+                [
+                    467,
+                    10,
+                    3,
+                    0
+                ],
+                [
+                    4,
+                    332,
+                    0,
+                    0
+                ],
+                [
+                    0,
+                    0,
+                    135,
+                    0
+                ],
+                [
+                    0,
+                    0,
+                    0,
+                    9
+                ]
+            ],
+            "confusion_pairs": [
+                {
+                    "true_class": "Non_Demented",
+                    "predicted_class": "Very_Mild_Demented",
+                    "count": 10,
+                    "true_class_support": 480,
+                    "percentage_of_true_class": 2.083333333333333
+                },
+                {
+                    "true_class": "Very_Mild_Demented",
+                    "predicted_class": "Non_Demented",
+                    "count": 4,
+                    "true_class_support": 336,
+                    "percentage_of_true_class": 1.1904761904761905
+                },
+                {
+                    "true_class": "Non_Demented",
+                    "predicted_class": "Mild_Demented",
+                    "count": 3,
+                    "true_class_support": 480,
+                    "percentage_of_true_class": 0.625
+                }
+            ]
+        },
+        "ResNet18": {
+            "class_metrics": {
+                "Non_Demented": {
+                    "class_idx": 0,
+                    "total_samples": 480,
+                    "correct_predictions": 477,
+                    "incorrect_predictions": 3,
+                    "accuracy": 0.99375,
+                    "precision": 0.9855371900826446,
+                    "recall": 0.99375,
+                    "specificity": 0.9854166666666667,
+                    "f1_score": 0.9896265560165977,
+                    "false_positives": 7,
+                    "false_negatives": 3,
+                    "true_negatives": 473
+                },
+                "Very_Mild_Demented": {
+                    "class_idx": 1,
+                    "total_samples": 336,
+                    "correct_predictions": 330,
+                    "incorrect_predictions": 6,
+                    "accuracy": 0.9821428571428571,
+                    "precision": 0.9792284866468842,
+                    "recall": 0.9821428571428571,
+                    "specificity": 0.9887820512820513,
+                    "f1_score": 0.9806835066864784,
+                    "false_positives": 7,
+                    "false_negatives": 6,
+                    "true_negatives": 617
+                },
+                "Mild_Demented": {
+                    "class_idx": 2,
+                    "total_samples": 135,
+                    "correct_predictions": 129,
+                    "incorrect_predictions": 6,
+                    "accuracy": 0.9555555555555556,
+                    "precision": 0.9923076923076923,
+                    "recall": 0.9555555555555556,
+                    "specificity": 0.9987878787878788,
+                    "f1_score": 0.9735849056603774,
+                    "false_positives": 1,
+                    "false_negatives": 6,
+                    "true_negatives": 824
+                },
+                "Moderate_Demented": {
+                    "class_idx": 3,
+                    "total_samples": 9,
+                    "correct_predictions": 9,
+                    "incorrect_predictions": 0,
+                    "accuracy": 1.0,
+                    "precision": 1.0,
+                    "recall": 1.0,
+                    "specificity": 1.0,
+                    "f1_score": 1.0,
+                    "false_positives": 0,
+                    "false_negatives": 0,
+                    "true_negatives": 951
+                }
+            },
+            "confusion_matrix": [
+                [
+                    477,
+                    3,
+                    0,
+                    0
+                ],
+                [
+                    5,
+                    330,
+                    1,
+                    0
+                ],
+                [
+                    2,
+                    4,
+                    129,
+                    0
+                ],
+                [
+                    0,
+                    0,
+                    0,
+                    9
+                ]
+            ],
+            "confusion_pairs": [
+                {
+                    "true_class": "Very_Mild_Demented",
+                    "predicted_class": "Non_Demented",
+                    "count": 5,
+                    "true_class_support": 336,
+                    "percentage_of_true_class": 1.488095238095238
+                },
+                {
+                    "true_class": "Mild_Demented",
+                    "predicted_class": "Very_Mild_Demented",
+                    "count": 4,
+                    "true_class_support": 135,
+                    "percentage_of_true_class": 2.9629629629629632
+                },
+                {
+                    "true_class": "Non_Demented",
+                    "predicted_class": "Very_Mild_Demented",
+                    "count": 3,
+                    "true_class_support": 480,
+                    "percentage_of_true_class": 0.625
+                },
+                {
+                    "true_class": "Mild_Demented",
+                    "predicted_class": "Non_Demented",
+                    "count": 2,
+                    "true_class_support": 135,
+                    "percentage_of_true_class": 1.4814814814814816
+                },
+                {
+                    "true_class": "Very_Mild_Demented",
+                    "predicted_class": "Mild_Demented",
+                    "count": 1,
+                    "true_class_support": 336,
+                    "percentage_of_true_class": 0.2976190476190476
+                }
+            ]
+        }
+    },
+    "confidence_uncertainty_stats": {
+        "MobileNetV2": {
+            "correct_confidence": {
+                "count": 894,
+                "mean": 0.9629841487546362,
+                "median": 0.9974223077297211,
+                "min": 0.4216289818286896,
+                "max": 1.0,
+                "std": 0.08682452008192477
+            },
+            "incorrect_confidence": {
+                "count": 66,
+                "mean": 0.7304148895270897,
+                "median": 0.7027822136878967,
+                "min": 0.4516110420227051,
+                "max": 0.9976937174797058,
+                "std": 0.16202482432463655
+            },
+            "correct_uncertainty": {
+                "count": 894,
+                "mean": 0.07558789498205448,
+                "median": 0.01356795116174806,
+                "min": 1.058096059113359e-06,
+                "max": 0.7883454258798992,
+                "std": 0.13123491867623188
+            },
+            "incorrect_uncertainty": {
+                "count": 66,
+                "mean": 0.40743757448336354,
+                "median": 0.46133460383296476,
+                "min": 0.012845665008365289,
+                "max": 0.7619892566178246,
+                "std": 0.18302397855770478
+            }
+        },
+        "EfficientNet-B0": {
+            "correct_confidence": {
+                "count": 943,
+                "mean": 0.978621387342633,
+                "median": 0.9995779395103455,
+                "min": 0.5299671292304993,
+                "max": 1.0,
+                "std": 0.06376859858196185
+            },
+            "incorrect_confidence": {
+                "count": 17,
+                "mean": 0.8077441015664268,
+                "median": 0.8286449313163757,
+                "min": 0.4998619854450226,
+                "max": 0.997407853603363,
+                "std": 0.14212613194444512
+            },
+            "correct_uncertainty": {
+                "count": 943,
+                "mean": 0.045537211192250675,
+                "median": 0.0027844350591556735,
+                "min": 8.987557424801912e-11,
+                "max": 0.5661990044004147,
+                "std": 0.1033635159448515
+            },
+            "incorrect_uncertainty": {
+                "count": 17,
+                "mean": 0.33782832047102407,
+                "median": 0.34929328125368436,
+                "min": 0.013204224650353967,
+                "max": 0.6699038119444222,
+                "std": 0.1769050128094141
+            }
+        },
+        "ResNet18": {
+            "correct_confidence": {
+                "count": 945,
+                "mean": 0.9867157380416911,
+                "median": 0.9995843768119812,
+                "min": 0.40731340646743774,
+                "max": 1.0,
+                "std": 0.05259165738908134
+            },
+            "incorrect_confidence": {
+                "count": 15,
+                "mean": 0.6915083010991414,
+                "median": 0.7182297110557556,
+                "min": 0.36287301778793335,
+                "max": 0.9986078143119812,
+                "std": 0.1963113570303033
+            },
+            "correct_uncertainty": {
+                "count": 945,
+                "mean": 0.03023316536410905,
+                "median": 0.0027044295361429707,
+                "min": 8.036191584609713e-08,
+                "max": 0.7931945627123015,
+                "std": 0.08231860780222783
+            },
+            "incorrect_uncertainty": {
+                "count": 15,
+                "mean": 0.4406725086412626,
+                "median": 0.42961893922205246,
+                "min": 0.0077906515067355875,
+                "max": 0.7956398980335944,
+                "std": 0.23549684924056594
+            }
+        }
+    },
+    "high_confidence_error_counts": {
+        "total_ge_0_80": 40,
+        "total_ge_0_90": 23,
+        "total_ge_0_95": 12,
+        "by_model": {
+            "MobileNetV2": 24,
+            "EfficientNet-B0": 10,
+            "ResNet18": 6
+        }
+    },
+    "low_confidence_correct_counts": {
+        "total_lt_0_70": 54,
+        "by_model": {
+            "MobileNetV2": 28,
+            "EfficientNet-B0": 16,
+            "ResNet18": 10
+        }
+    },
+    "cross_model_overlap": {
+        "total_test_samples": 960,
+        "correct_all_three": 875,
+        "misclassified_all_three": 1,
+        "misclassified_exactly_two": 11,
+        "misclassified_exactly_one": 73,
+        "unique_errors": {
+            "MobileNetV2": 56,
+            "EfficientNet-B0": 10,
+            "ResNet18": 7
+        },
+        "all_three_error_paths": [
+            "data/dataset/Very_Mild_Demented/verymild_862.jpg"
+        ]
+    }
+}

@@ -1,0 +1,39 @@
+{
+    "training_completed_successfully": true,
+    "model_architecture": "MobileNetV2",
+    "epochs_completed": 25,
+    "best_epoch": 22,
+    "best_val_macro_f1": 0.9509,
+    "best_val_accuracy": 0.9354,
+    "training_duration_seconds": 1697.0,
+    "actual_batch_size": 16,
+    "gpu_name": "NVIDIA GeForce RTX 3050 Laptop GPU",
+    "total_vram_mb": 4095.5,
+    "peak_vram_mb": 663.01,
+    "amp_enabled": true,
+    "checkpoint_path": "C:\\Users\\vijay\\.gemini\\antigravity\\scratch\\Alzheimer_Disease_Detection\\results\\models\\mobilenet_v2_best.pt",
+    "history_path": "C:\\Users\\vijay\\.gemini\\antigravity\\scratch\\Alzheimer_Disease_Detection\\results\\metrics\\mobilenet_v2_history.json",
+    "training_curve_path": "C:\\Users\\vijay\\.gemini\\antigravity\\scratch\\Alzheimer_Disease_Detection\\results\\figures\\mobilenet_v2_training_curve.png",
+    "checkpoint_integrity_test": {
+        "status": "PASSED",
+        "checkpoint_exists": true,
+        "keys_verified": [
+            "epoch",
+            "model_name",
+            "model_state_dict",
+            "optimizer_state_dict",
+            "val_macro_f1",
+            "val_accuracy",
+            "class_weights"
+        ],
+        "saved_epoch": 22,
+        "saved_val_macro_f1": 0.9508956522391707,
+        "saved_val_accuracy": 0.9354166666666667,
+        "inference_smoke_test_shape": [
+            16,
+            4
+        ]
+    },
+    "warnings_or_errors": [],
+    "clinical_disclaimer": "This deep learning model is developed strictly for research and academic purposes. It is NOT clinically certified, medically validated, or intended for direct clinical diagnostic or therapeutic use."
+}

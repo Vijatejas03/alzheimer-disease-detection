@@ -1,0 +1,123 @@
+{
+    "dataset_dir": "C:\\Users\\vijay\\.gemini\\antigravity\\scratch\\Alzheimer_Disease_Detection\\data\\dataset",
+    "expected_classes": [
+        "Non_Demented",
+        "Very_Mild_Demented",
+        "Mild_Demented",
+        "Moderate_Demented"
+    ],
+    "classes_found": [
+        "Non_Demented",
+        "Very_Mild_Demented",
+        "Mild_Demented",
+        "Moderate_Demented"
+    ],
+    "classes_missing": [],
+    "per_class": {
+        "Non_Demented": {
+            "directory": "data\\dataset\\Non_Demented",
+            "exists": true,
+            "valid_images": 3200,
+            "corrupted_images": [],
+            "formats": {
+                "jpeg": 3200
+            },
+            "width_stats": {
+                "min": 128,
+                "max": 128,
+                "mean": 128.0
+            },
+            "height_stats": {
+                "min": 128,
+                "max": 128,
+                "mean": 128.0
+            }
+        },
+        "Very_Mild_Demented": {
+            "directory": "data\\dataset\\Very_Mild_Demented",
+            "exists": true,
+            "valid_images": 2240,
+            "corrupted_images": [],
+            "formats": {
+                "jpeg": 2240
+            },
+            "width_stats": {
+                "min": 128,
+                "max": 128,
+                "mean": 128.0
+            },
+            "height_stats": {
+                "min": 128,
+                "max": 128,
+                "mean": 128.0
+            }
+        },
+        "Mild_Demented": {
+            "directory": "data\\dataset\\Mild_Demented",
+            "exists": true,
+            "valid_images": 896,
+            "corrupted_images": [],
+            "formats": {
+                "jpeg": 896
+            },
+            "width_stats": {
+                "min": 128,
+                "max": 128,
+                "mean": 128.0
+            },
+            "height_stats": {
+                "min": 128,
+                "max": 128,
+                "mean": 128.0
+            }
+        },
+        "Moderate_Demented": {
+            "directory": "data\\dataset\\Moderate_Demented",
+            "exists": true,
+            "valid_images": 64,
+            "corrupted_images": [],
+            "formats": {
+                "jpeg": 64
+            },
+            "width_stats": {
+                "min": 128,
+                "max": 128,
+                "mean": 128.0
+            },
+            "height_stats": {
+                "min": 128,
+                "max": 128,
+                "mean": 128.0
+            }
+        }
+    },
+    "total_valid_images": 6400,
+    "total_corrupted": 0,
+    "format_distribution": {
+        "jpeg": 6400
+    },
+    "dimension_stats": {
+        "width": {
+            "min": 128,
+            "max": 128,
+            "mean": 128.0
+        },
+        "height": {
+            "min": 128,
+            "max": 128,
+            "mean": 128.0
+        }
+    },
+    "duplicate_filenames": [],
+    "exact_duplicate_files": [],
+    "perceptual_duplicate_pairs": [],
+    "imbalance_ratio": 50.0,
+    "recommended_split": {
+        "strategy": "Stratified (70% Train / 15% Val / 15% Test)",
+        "train": 4480,
+        "val": 960,
+        "test": 960
+    },
+    "warnings": [],
+    "errors": []
+}

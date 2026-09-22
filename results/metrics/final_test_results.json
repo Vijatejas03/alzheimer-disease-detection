@@ -1,0 +1,281 @@
+{
+    "evaluation_timestamp": "2026-09-22 02:02:18",
+    "hardware": {
+        "device": "cuda:0",
+        "gpu_name": "NVIDIA GeForce RTX 3050 Laptop GPU",
+        "total_vram_mb": 4095.5
+    },
+    "dataset_split_evaluated": {
+        "split_name": "test",
+        "total_samples": 960,
+        "manifest_file": "reports/splits/test.csv",
+        "zero_leakage_verified": true
+    },
+    "models_evaluated": {
+        "mobilenet_v2": {
+            "accuracy": 0.93125,
+            "balanced_accuracy": 0.9425181878306879,
+            "macro_precision": 0.9443669402226907,
+            "precision_weighted": 0.9312884832133635,
+            "macro_recall_sensitivity": 0.9425181878306879,
+            "recall_weighted": 0.93125,
+            "macro_specificity": 0.9715064102564103,
+            "macro_f1": 0.9434250944328295,
+            "f1_weighted": 0.9312552469087767,
+            "matthews_corrcoef": 0.8868157775772878,
+            "roc_auc": 0.9935804499079239,
+            "roc_auc_status": "Computed successfully",
+            "total_test_samples": 960,
+            "confusion_matrix": [
+                [
+                    453,
+                    19,
+                    8,
+                    0
+                ],
+                [
+                    23,
+                    310,
+                    3,
+                    0
+                ],
+                [
+                    3,
+                    10,
+                    122,
+                    0
+                ],
+                [
+                    0,
+                    0,
+                    0,
+                    9
+                ]
+            ],
+            "per_class_metrics": {
+                "Non_Demented": {
+                    "display_name": "Non-Demented (Control)",
+                    "precision": 0.9457202505219207,
+                    "recall_sensitivity": 0.94375,
+                    "specificity": 0.9458333333333333,
+                    "f1_score": 0.9447340980187695,
+                    "roc_auc": 0.9885894097222221,
+                    "support": 480
+                },
+                "Very_Mild_Demented": {
+                    "display_name": "Very Mild Demented (Early Stage)",
+                    "precision": 0.9144542772861357,
+                    "recall_sensitivity": 0.9226190476190477,
+                    "specificity": 0.9535256410256411,
+                    "f1_score": 0.9185185185185186,
+                    "roc_auc": 0.9887582036019537,
+                    "support": 336
+                },
+                "Mild_Demented": {
+                    "display_name": "Mild Demented (Intermediate Stage)",
+                    "precision": 0.9172932330827067,
+                    "recall_sensitivity": 0.9037037037037037,
+                    "specificity": 0.9866666666666667,
+                    "f1_score": 0.9104477611940299,
+                    "roc_auc": 0.9969741863075197,
+                    "support": 135
+                },
+                "Moderate_Demented": {
+                    "display_name": "Moderate Demented (Advanced Stage)",
+                    "precision": 1.0,
+                    "recall_sensitivity": 1.0,
+                    "specificity": 1.0,
+                    "f1_score": 1.0,
+                    "roc_auc": 1.0,
+                    "support": 9
+                }
+            },
+            "model_id": "mobilenet_v2",
+            "model_name": "MobileNetV2",
+            "checkpoint_path": "C:\\Users\\vijay\\.gemini\\antigravity\\scratch\\Alzheimer_Disease_Detection\\results\\models\\mobilenet_v2_best.pt",
+            "total_parameters": 2228996,
+            "trainable_parameters": 2228996,
+            "inference_duration_seconds": 2.816,
+            "average_latency_ms_per_image": 2.93,
+            "peak_inference_vram_mb": 105.73,
+            "total_test_samples_evaluated": 960
+        },
+        "efficientnet_b0": {
+            "accuracy": 0.9822916666666667,
+            "balanced_accuracy": 0.9902529761904761,
+            "macro_precision": 0.9851321336203057,
+            "precision_weighted": 0.9824627321528921,
+            "macro_recall_sensitivity": 0.9902529761904761,
+            "recall_weighted": 0.9822916666666667,
+            "macro_specificity": 0.9930011655011655,
+            "macro_f1": 0.9876215253438112,
+            "f1_weighted": 0.9822895716445416,
+            "matthews_corrcoef": 0.971069591949259,
+            "roc_auc": 0.9989319935224883,
+            "roc_auc_status": "Computed successfully",
+            "total_test_samples": 960,
+            "confusion_matrix": [
+                [
+                    467,
+                    10,
+                    3,
+                    0
+                ],
+                [
+                    4,
+                    332,
+                    0,
+                    0
+                ],
+                [
+                    0,
+                    0,
+                    135,
+                    0
+                ],
+                [
+                    0,
+                    0,
+                    0,
+                    9
+                ]
+            ],
+            "per_class_metrics": {
+                "Non_Demented": {
+                    "display_name": "Non-Demented (Control)",
+                    "precision": 0.9915074309978769,
+                    "recall_sensitivity": 0.9729166666666667,
+                    "specificity": 0.9916666666666667,
+                    "f1_score": 0.982124079915878,
+                    "roc_auc": 0.9978602430555554,
+                    "support": 480
+                },
+                "Very_Mild_Demented": {
+                    "display_name": "Very Mild Demented (Early Stage)",
+                    "precision": 0.9707602339181286,
+                    "recall_sensitivity": 0.9880952380952381,
+                    "specificity": 0.9839743589743589,
+                    "f1_score": 0.9793510324483775,
+                    "roc_auc": 0.9979395604395604,
+                    "support": 336
+                },
+                "Mild_Demented": {
+                    "display_name": "Mild Demented (Intermediate Stage)",
+                    "precision": 0.9782608695652174,
+                    "recall_sensitivity": 1.0,
+                    "specificity": 0.9963636363636363,
+                    "f1_score": 0.989010989010989,
+                    "roc_auc": 0.9999281705948372,
+                    "support": 135
+                },
+                "Moderate_Demented": {
+                    "display_name": "Moderate Demented (Advanced Stage)",
+                    "precision": 1.0,
+                    "recall_sensitivity": 1.0,
+                    "specificity": 1.0,
+                    "f1_score": 1.0,
+                    "roc_auc": 1.0,
+                    "support": 9
+                }
+            },
+            "model_id": "efficientnet_b0",
+            "model_name": "EfficientNet-B0",
+            "checkpoint_path": "C:\\Users\\vijay\\.gemini\\antigravity\\scratch\\Alzheimer_Disease_Detection\\results\\models\\efficientnet_b0_best.pt",
+            "total_parameters": 4012672,
+            "trainable_parameters": 4012672,
+            "inference_duration_seconds": 2.111,
+            "average_latency_ms_per_image": 2.2,
+            "peak_inference_vram_mb": 112.57,
+            "total_test_samples_evaluated": 960
+        },
+        "resnet18": {
+            "accuracy": 0.984375,
+            "balanced_accuracy": 0.9828621031746032,
+            "macro_precision": 0.9892683422593053,
+            "precision_weighted": 0.984416834598501,
+            "macro_recall_sensitivity": 0.9828621031746032,
+            "recall_weighted": 0.984375,
+            "macro_specificity": 0.9932466491841492,
+            "macro_f1": 0.9859737420908634,
+            "f1_weighted": 0.9843378827070568,
+            "matthews_corrcoef": 0.9742534668103238,
+            "roc_auc": 0.999105342164587,
+            "roc_auc_status": "Computed successfully",
+            "total_test_samples": 960,
+            "confusion_matrix": [
+                [
+                    477,
+                    3,
+                    0,
+                    0
+                ],
+                [
+                    5,
+                    330,
+                    1,
+                    0
+                ],
+                [
+                    2,
+                    4,
+                    129,
+                    0
+                ],
+                [
+                    0,
+                    0,
+                    0,
+                    9
+                ]
+            ],
+            "per_class_metrics": {
+                "Non_Demented": {
+                    "display_name": "Non-Demented (Control)",
+                    "precision": 0.9855371900826446,
+                    "recall_sensitivity": 0.99375,
+                    "specificity": 0.9854166666666667,
+                    "f1_score": 0.9896265560165977,
+                    "roc_auc": 0.9987977430555556,
+                    "support": 480
+                },
+                "Very_Mild_Demented": {
+                    "display_name": "Very Mild Demented (Early Stage)",
+                    "precision": 0.9792284866468842,
+                    "recall_sensitivity": 0.9821428571428571,
+                    "specificity": 0.9887820512820513,
+                    "f1_score": 0.9806835066864784,
+                    "roc_auc": 0.9979109432234432,
+                    "support": 336
+                },
+                "Mild_Demented": {
+                    "display_name": "Mild Demented (Intermediate Stage)",
+                    "precision": 0.9923076923076923,
+                    "recall_sensitivity": 0.9555555555555556,
+                    "specificity": 0.9987878787878788,
+                    "f1_score": 0.9735849056603774,
+                    "roc_auc": 0.999712682379349,
+                    "support": 135
+                },
+                "Moderate_Demented": {
+                    "display_name": "Moderate Demented (Advanced Stage)",
+                    "precision": 1.0,
+                    "recall_sensitivity": 1.0,
+                    "specificity": 1.0,
+                    "f1_score": 1.0,
+                    "roc_auc": 1.0,
+                    "support": 9
+                }
+            },
+            "model_id": "resnet18",
+            "model_name": "ResNet-18",
+            "checkpoint_path": "C:\\Users\\vijay\\.gemini\\antigravity\\scratch\\Alzheimer_Disease_Detection\\results\\models\\resnet18_best.pt",
+            "total_parameters": 11178564,
+            "trainable_parameters": 11178564,
+            "inference_duration_seconds": 1.697,
+            "average_latency_ms_per_image": 1.77,
+            "peak_inference_vram_mb": 116.48,
+            "total_test_samples_evaluated": 960
+        }
+    },
+    "clinical_disclaimer": "This deep learning model is developed strictly for research and academic purposes. It is NOT clinically certified, medically validated, or intended for direct clinical diagnostic or therapeutic use."
+}

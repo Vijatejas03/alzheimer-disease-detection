@@ -1,4 +1,4 @@
-﻿# =============================================================================
+# =============================================================================
 # .gitignore - Alzheimer Disease Detection Project
 # =============================================================================
 
@@ -45,7 +45,11 @@ data/dataset/Very_Mild_Demented/
 data/dataset/Mild_Demented/
 data/dataset/Moderate_Demented/
 data/raw/
-data/test_samples/
+data/cache/
+checkpoints/
+runs/
+outputs/
+reports/generated/
 
 # Always keep the placeholder .gitkeep files so directory structure is tracked
 !data/dataset/Non_Demented/.gitkeep
@@ -54,9 +58,15 @@ data/test_samples/
 !data/dataset/Moderate_Demented/.gitkeep
 !data/raw/.gitkeep
 !data/test_samples/.gitkeep
+# Allow lightweight curated demo samples (12 files, ~50 KB) for deployment
+!data/test_samples/*.jpg
+!data/test_samples/*.png
+
 
 # =============================================================================
-# MODEL CHECKPOINTS (large binary files - manage separately via DVC or releases)
+# MODEL CHECKPOINTS (large binary files)
+# ResNet-18 is 128 MB (exceeds GitHub 100 MB limit) -> Hosted as GitHub Release asset
+# MobileNetV2 (26 MB) and EfficientNet-B0 (46 MB) are tracked for zero-setup deployment
 # =============================================================================
 results/models/*.pt
 results/models/*.pth
@@ -64,22 +74,24 @@ results/models/*.pkl
 results/models/*.bin
 results/models/*.onnx
 
-# Keep placeholder
+# Allow checkpoints under GitHub 100 MB limit for deployment
+!results/models/mobilenet_v2_best.pt
+!results/models/efficientnet_b0_best.pt
 !results/models/.gitkeep
+
 
 # =============================================================================
 # GENERATED EXPERIMENT OUTPUTS
-# Confusion matrices, training curves, metric JSON logs are generated
-# artifacts. Do NOT commit them automatically - they belong to specific runs.
+# Track metrics, evaluation figures, and error analysis required by Streamlit
 # =============================================================================
-results/figures/*.png
-results/figures/*.jpg
-results/figures/*.pdf
-results/metrics/*.json
+!results/metrics/*.json
+!results/metrics/*.csv
+!results/metrics/*.md
+!results/figures/**
+!results/error_analysis/**
+!results/robustness/**
+!results/calibration/**
 
-# Keep placeholders
-!results/figures/.gitkeep
-!results/metrics/.gitkeep
 
 # =============================================================================
 # LOGS
@@ -90,7 +102,9 @@ logs/
 # =============================================================================
 # STREAMLIT RUNTIME
 # =============================================================================
-.streamlit/
+.streamlit/secrets.toml
+!.streamlit/config.toml
+
 
 # =============================================================================
 # JUPYTER

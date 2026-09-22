@@ -1,0 +1,41 @@
+{
+    "training_completed_successfully": true,
+    "model_architecture": "ResNet-18",
+    "epochs_completed": 25,
+    "best_epoch": 25,
+    "best_val_macro_f1": 0.9866,
+    "best_val_accuracy": 0.9812,
+    "best_val_balanced_accuracy": 0.9855,
+    "best_val_mcc": 0.9692,
+    "training_duration_seconds": 966.99,
+    "actual_batch_size": 16,
+    "gpu_name": "NVIDIA GeForce RTX 3050 Laptop GPU",
+    "total_vram_mb": 4095.5,
+    "peak_vram_mb": 380.65,
+    "amp_enabled": true,
+    "checkpoint_path": "C:\\Users\\vijay\\.gemini\\antigravity\\scratch\\Alzheimer_Disease_Detection\\results\\models\\resnet18_best.pt",
+    "history_path": "C:\\Users\\vijay\\.gemini\\antigravity\\scratch\\Alzheimer_Disease_Detection\\results\\metrics\\resnet18_history.json",
+    "training_curve_path": "C:\\Users\\vijay\\.gemini\\antigravity\\scratch\\Alzheimer_Disease_Detection\\results\\figures\\resnet18_training_curve.png",
+    "checkpoint_integrity_test": {
+        "status": "PASSED",
+        "checkpoint_exists": true,
+        "keys_verified": [
+            "epoch",
+            "model_name",
+            "model_state_dict",
+            "optimizer_state_dict",
+            "val_macro_f1",
+            "val_accuracy",
+            "class_weights"
+        ],
+        "saved_epoch": 25,
+        "saved_val_macro_f1": 0.9866254626912505,
+        "saved_val_accuracy": 0.98125,
+        "inference_smoke_test_shape": [
+            16,
+            4
+        ]
+    },
+    "warnings_or_errors": [],
+    "clinical_disclaimer": "This deep learning model is developed strictly for research and academic purposes. It is NOT clinically certified, medically validated, or intended for direct clinical diagnostic or therapeutic use."
+}

@@ -1,0 +1,103 @@
+{
+  "timestamp": "2026-09-22T00:33:21+05:30",
+  "environment": {
+    "python_executable": "C:\\Users\\vijay\\AppData\\Local\\Programs\\Python\\Python312\\python.exe",
+    "python_version": "3.12.10 (tags/v3.12.10:0cc8128, Apr  8 2025, 12:21:36) [MSC v.1943 64 bit (AMD64)]",
+    "previous_diagnosed_python": "3.14.6 (CPU-only, no CUDA wheels available)",
+    "pytorch_version": "2.6.0+cu124",
+    "torchvision_version": "0.21.0+cu124",
+    "cuda_available": true,
+    "cuda_version": "12.4",
+    "cudnn_version": 90100,
+    "device_count": 1
+  },
+  "gpu_hardware": {
+    "device_id": 0,
+    "name": "NVIDIA GeForce RTX 3050 Laptop GPU",
+    "vram_total_mb": 4095.5,
+    "vram_total_bytes": 4294443008,
+    "compute_capability": "8.6",
+    "major_capability": 8,
+    "minor_capability": 6,
+    "multi_processor_count": 16,
+    "driver_version": "591.84"
+  },
+  "host_hardware": {
+    "cpu_model": "AMD Ryzen 7 170 with Radeon Graphics",
+    "cpu_physical_cores": 8,
+    "cpu_logical_threads": 16,
+    "system_ram_gb": 15.32,
+    "system_ram_bytes": 16447819776,
+    "operating_system": "Microsoft Windows 11 Home",
+    "architecture": "AMD64"
+  },
+  "training_configuration": {
+    "device": "cuda",
+    "initial_batch_size": 16,
+    "allowed_batch_size_fallbacks": [8, 4],
+    "mixed_precision_amp": true,
+    "amp_dtype": "torch.float16",
+    "pin_memory": true,
+    "num_workers": 0,
+    "image_size": [224, 224],
+    "input_channels": 3,
+    "dataset_split_ratios": {
+      "train": 0.70,
+      "validation": 0.15,
+      "test": 0.15
+    },
+    "split_counts": {
+      "train": 4480,
+      "validation": 960,
+      "test": 960,
+      "total_unique": 6400
+    },
+    "random_seed": 42
+  },
+  "minimal_cuda_amp_verification_test": {
+    "status": "PASSED",
+    "test_passed": true,
+    "tensor_shape": [16, 3, 224, 224],
+    "tensor_device": "cuda:0",
+    "tensor_dtype": "torch.float32",
+    "standard_op_success": true,
+    "conv2d_success": true,
+    "conv2d_output_shape": [16, 32, 224, 224],
+    "amp_success": true,
+    "amp_output_dtype": "torch.float16",
+    "amp_loss_val": -244975.09375,
+    "vram_allocated_mb": 218.98,
+    "vram_reserved_mb": 238.0,
+    "max_memory_allocated_mb": 219.27,
+    "execution_time_ms": 308.06
+  },
+  "model_vram_benchmarks": {
+    "MobileNetV2": {
+      "total_parameters": 2228996,
+      "trainable_parameters": 2228996,
+      "batch_size": 16,
+      "precision": "FP16 (AMP)",
+      "forward_backward_peak_vram_mb": 645.7,
+      "vram_headroom_percent": 84.2,
+      "status": "VERIFIED_ON_GPU"
+    },
+    "ResNet18": {
+      "total_parameters": 11178564,
+      "trainable_parameters": 11178564,
+      "batch_size": 16,
+      "precision": "FP16 (AMP)",
+      "forward_backward_peak_vram_mb": 293.1,
+      "vram_headroom_percent": 92.8,
+      "status": "VERIFIED_ON_GPU"
+    },
+    "EfficientNetB0": {
+      "total_parameters": 4012672,
+      "trainable_parameters": 4012672,
+      "batch_size": 16,
+      "precision": "FP16 (AMP)",
+      "forward_backward_peak_vram_mb": 734.2,
+      "vram_headroom_percent": 82.1,
+      "status": "VERIFIED_ON_GPU"
+    }
+  }
+}

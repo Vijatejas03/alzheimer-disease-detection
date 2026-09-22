@@ -1,0 +1,10 @@
+{
+    "model_name": "EfficientNet-B0",
+    "architecture_slug": "efficientnet_b0",
+    "learned_temperature": 1.296217679977417,
+    "optimization_objective": "Negative Log-Likelihood (CrossEntropyLoss)",
+    "optimization_algorithm": "L-BFGS",
+    "validation_split_samples": 960,
+    "fitted_on": "reports/splits/validation.csv",
+    "test_leakage": false
+}

@@ -1,0 +1,961 @@
+filepath,filename,canonical_class,original_class,width,height,channels,sha256,split
+data/dataset/Mild_Demented/mild_724.jpg,mild_724.jpg,Mild Demented,MildDemented,128,128,1,9b332628d5b51cb2b3daa3c3d2fb99605705415c8ec884639194a29a90d001c1,test
+data/dataset/Mild_Demented/mild_363.jpg,mild_363.jpg,Mild Demented,MildDemented,128,128,1,97d7fe8ce635c5e92f48bdea360609f92e871fde424a250e55fb73090d06c85b,test
+data/dataset/Mild_Demented/mild_163.jpg,mild_163.jpg,Mild Demented,MildDemented,128,128,1,c8ffde773ed0b525661baa450b591af7dcc91d2a6b9f930fe56f04c98deaabcc,test
+data/dataset/Mild_Demented/mild_668.jpg,mild_668.jpg,Mild Demented,MildDemented,128,128,1,f2d607c6db9349c942f908535c839022d2c7acc959beaa9d963eaba01d0c0042,test
+data/dataset/Mild_Demented/mild_793.jpg,mild_793.jpg,Mild Demented,MildDemented,128,128,1,11423b6f510fad00e7409b477437790d33da42df305099ca0bd18cbfb3eea5d5,test
+data/dataset/Mild_Demented/mild_891.jpg,mild_891.jpg,Mild Demented,MildDemented,128,128,1,10095f81952c375701227b5a6c5d53c6806b16b4938e7fa9b5a22ec7e41b01e5,test
+data/dataset/Mild_Demented/mild_672.jpg,mild_672.jpg,Mild Demented,MildDemented,128,128,1,2dd34ec5828f6f00d72f35cc8591f0653424599ab947255770cb036337d22d15,test
+data/dataset/Mild_Demented/mild_609.jpg,mild_609.jpg,Mild Demented,MildDemented,128,128,1,f036a253a11d8e7cb8106ec62e7a099f547dcd4f129aa91572de9b6437ec77c2,test
+data/dataset/Mild_Demented/mild_112.jpg,mild_112.jpg,Mild Demented,MildDemented,128,128,1,9e9d00e1d784e53fc9a4172b75cd19115f5025f8a0299e3284323b5eb102daa5,test
+data/dataset/Mild_Demented/mild_312.jpg,mild_312.jpg,Mild Demented,MildDemented,128,128,1,6900e987dcf5f2462aeb0a9df62148b6731a9629a84074fdaa65e54257b3bd56,test
+data/dataset/Mild_Demented/mild_412.jpg,mild_412.jpg,Mild Demented,MildDemented,128,128,1,bdd1bfa8103be6606a0d322581b83b0789df810f62e66abd536d67799853f545,test
+data/dataset/Mild_Demented/mild_491.jpg,mild_491.jpg,Mild Demented,MildDemented,128,128,1,6a22bcf4dffb933e72470a55e1758a81eb2a3b09a3bacd89f35d3ed1678e62e4,test
+data/dataset/Mild_Demented/mild_2.jpg,mild_2.jpg,Mild Demented,MildDemented,128,128,1,de474b1b182dfc2700ff108d44fef2893d69e73d44f6c7e10a0959b760055370,test
+data/dataset/Mild_Demented/mild_386.jpg,mild_386.jpg,Mild Demented,MildDemented,128,128,1,993c8ab676d8225cca80b0ec6ee35b4fc1663af4b43d11488a15e4010f93d0e4,test
+data/dataset/Mild_Demented/mild_519.jpg,mild_519.jpg,Mild Demented,MildDemented,128,128,1,fc62e61fd7477b4886ddcda9d6bcaa9651299e5f3c33619ec9a39bc4dca331db,test
+data/dataset/Mild_Demented/mild_365.jpg,mild_365.jpg,Mild Demented,MildDemented,128,128,1,6ee8c13278c8cab259f0971f0c2098c1733d551f27d36844d1a1530460a5ad71,test
+data/dataset/Mild_Demented/mild_798.jpg,mild_798.jpg,Mild Demented,MildDemented,128,128,1,9bcd29aea1c82116052a87e33018d6ee9deda93a1ae4e1d443682d4a92f3f2e4,test
+data/dataset/Mild_Demented/mild_273.jpg,mild_273.jpg,Mild Demented,MildDemented,128,128,1,e23d7f30a554e04ae6ffeef777852d499ae5ea8d7f34bd00a20e35cb7061fd85,test
+data/dataset/Mild_Demented/mild_351.jpg,mild_351.jpg,Mild Demented,MildDemented,128,128,1,d5d074df4b3772573b33c5b2c47454642fdb13f9f0b383b9c48a378a63f22120,test
+data/dataset/Mild_Demented/mild_256.jpg,mild_256.jpg,Mild Demented,MildDemented,128,128,1,e9b7f1e5b0dfe2fb501cb5bbc656b348081b92e34d6e2816b1edc47f6cfb7cd1,test
+data/dataset/Mild_Demented/mild_584.jpg,mild_584.jpg,Mild Demented,MildDemented,128,128,1,47c9f26a8fb84a776f6312c10c4e8a4eba9b5726f6494b05da333259aae1f3ac,test
+data/dataset/Mild_Demented/mild_330.jpg,mild_330.jpg,Mild Demented,MildDemented,128,128,1,618b04772458e9b2976a3f071d82696f0ad83c3b67a966aaa5aa832e9299dde9,test
+data/dataset/Mild_Demented/mild_54.jpg,mild_54.jpg,Mild Demented,MildDemented,128,128,1,eea475dda72faed3fbcc4306a1edcb43dc3b16aa01df4e364651282b19631938,test
+data/dataset/Mild_Demented/mild_284.jpg,mild_284.jpg,Mild Demented,MildDemented,128,128,1,aa51cbdecb125341d8635e980af2f1e0aa949d0ef26f7c61a899d278b5233520,test
+data/dataset/Mild_Demented/mild_270.jpg,mild_270.jpg,Mild Demented,MildDemented,128,128,1,2c95338f683abdc721c77eb7abb0301f6ccfb506ce100a3c2e5452301f57fa85,test
+data/dataset/Mild_Demented/mild_434.jpg,mild_434.jpg,Mild Demented,MildDemented,128,128,1,97b74deaebf3ab5bef0ddab961c1cf24fb3bed76981d942887ce5abdea45186e,test
+data/dataset/Mild_Demented/mild_165.jpg,mild_165.jpg,Mild Demented,MildDemented,128,128,1,42e245de7b2ce679dc9a05a8e1c16d0bbaa50140926b088af5852b1fe0fd3c04,test
+data/dataset/Mild_Demented/mild_424.jpg,mild_424.jpg,Mild Demented,MildDemented,128,128,1,09aa1049aecbd7972d2aecd9d3efba0a7f61fb38960f20a65229af74aa6cda2b,test
+data/dataset/Mild_Demented/mild_819.jpg,mild_819.jpg,Mild Demented,MildDemented,128,128,1,c2e7dce4e8af70a8fd0a830aeebd02dc210b14fd67be65cfa2c1c7d944f42d96,test
+data/dataset/Mild_Demented/mild_507.jpg,mild_507.jpg,Mild Demented,MildDemented,128,128,1,c48b59abe1b8f018c48e6b737e4afab50e996bce586c36964957d52a5a9f9352,test
+data/dataset/Mild_Demented/mild_254.jpg,mild_254.jpg,Mild Demented,MildDemented,128,128,1,443d904dec2f5ad98e1a72fd4d760faf55eb5e5e5ade541447e94c3a63357cc2,test
+data/dataset/Mild_Demented/mild_300.jpg,mild_300.jpg,Mild Demented,MildDemented,128,128,1,e68b8d7db420941e9f2ae2f4628c159bc9aaa070149577d367ebd9c85ce59dfc,test
+data/dataset/Mild_Demented/mild_436.jpg,mild_436.jpg,Mild Demented,MildDemented,128,128,1,f845e93d563cf30381836d4c53b03763f3410b24684ea528b82b6ba8142521f9,test
+data/dataset/Mild_Demented/mild_287.jpg,mild_287.jpg,Mild Demented,MildDemented,128,128,1,83e99834f037a84dc97360b9d6a6435131df726babe9673c3667dae585aaade6,test
+data/dataset/Mild_Demented/mild_502.jpg,mild_502.jpg,Mild Demented,MildDemented,128,128,1,fd897984194cedd38b6aed5e0bfdc155429f9b73941edf3bf12a9a93579484c2,test
+data/dataset/Mild_Demented/mild_325.jpg,mild_325.jpg,Mild Demented,MildDemented,128,128,1,101bf89bb5f66960197b04f9e104dd410ddd59351284fb76ba5790854cb8fbd9,test
+data/dataset/Mild_Demented/mild_58.jpg,mild_58.jpg,Mild Demented,MildDemented,128,128,1,da42a8f193e8d02e9e1f6e73af4feac43d597934db69a96a45ac00ba8b675793,test
+data/dataset/Mild_Demented/mild_33.jpg,mild_33.jpg,Mild Demented,MildDemented,128,128,1,66aaf0af11f69cfb6048cf3e741f10c56f5955c5cb8fb1d4c44bcbeaf2a18087,test
+data/dataset/Mild_Demented/mild_352.jpg,mild_352.jpg,Mild Demented,MildDemented,128,128,1,bb70e7502a45f65cf6f21a84825e3ac5a6b3b337196d472c809b15dac807e78c,test
+data/dataset/Mild_Demented/mild_835.jpg,mild_835.jpg,Mild Demented,MildDemented,128,128,1,ba550e944a3e66cb4265063d7fc6f2448c3c9f29ab51d80fe9e5766e62ab13b8,test
+data/dataset/Mild_Demented/mild_523.jpg,mild_523.jpg,Mild Demented,MildDemented,128,128,1,a08f1b574f1e763b58e08e5ebbf2ca632e29bede8661483186f5c20b04963cad,test
+data/dataset/Mild_Demented/mild_241.jpg,mild_241.jpg,Mild Demented,MildDemented,128,128,1,1873673652c9e26117c0a9f5a611a48cb885db39ea412f7fa396c8f66b3ca067,test
+data/dataset/Mild_Demented/mild_81.jpg,mild_81.jpg,Mild Demented,MildDemented,128,128,1,0352100e84f6ce70c67253d62e71ccb6786f63f2d73eef21530ba0c00aa039d2,test
+data/dataset/Mild_Demented/mild_75.jpg,mild_75.jpg,Mild Demented,MildDemented,128,128,1,44595b292d725bfc99401236b75cb42ada088303e70be57a8e3c2c05d9eb795b,test
+data/dataset/Mild_Demented/mild_345.jpg,mild_345.jpg,Mild Demented,MildDemented,128,128,1,17e8f70caa96754a67548110891cc3f598b6f5e9639e603f9c9a9a8bf4fc6b92,test
+data/dataset/Mild_Demented/mild_761.jpg,mild_761.jpg,Mild Demented,MildDemented,128,128,1,3ec9a256aec6c230e217098767f48ff78e3df35fd1612a92467c81fb90d8d293,test
+data/dataset/Mild_Demented/mild_787.jpg,mild_787.jpg,Mild Demented,MildDemented,128,128,1,c59a12688baf053446584aeec8033bd4cb5f3482b16b0be613ff190b13dc0cd9,test
+data/dataset/Mild_Demented/mild_872.jpg,mild_872.jpg,Mild Demented,MildDemented,128,128,1,4c903e7bd5990bec717f3c8c7c600fba7d8b949ba265f01c7686afa45f951757,test
+data/dataset/Mild_Demented/mild_194.jpg,mild_194.jpg,Mild Demented,MildDemented,128,128,1,5d99b57fcff862f8f00e5724f751d743e0b6de103d8aa9c988f836a5473d467e,test
+data/dataset/Mild_Demented/mild_251.jpg,mild_251.jpg,Mild Demented,MildDemented,128,128,1,c54eb086480b6ba1d578f6889ef0a724f0c1f66db9c3f5cefc199bd890341302,test
+data/dataset/Mild_Demented/mild_55.jpg,mild_55.jpg,Mild Demented,MildDemented,128,128,1,df42ea11b410ffef555c5782b1ba24b16a3757253421ac04d2976b4fbd557b66,test
+data/dataset/Mild_Demented/mild_324.jpg,mild_324.jpg,Mild Demented,MildDemented,128,128,1,dfeed987b9bba4caf56841a67ddd751010bcac60d18d762a2714177d9e2e5215,test
+data/dataset/Mild_Demented/mild_785.jpg,mild_785.jpg,Mild Demented,MildDemented,128,128,1,157fcfd3e6ed07485b6ff4dfb587ffd579aad58b55250732c243c594e695379d,test
+data/dataset/Mild_Demented/mild_855.jpg,mild_855.jpg,Mild Demented,MildDemented,128,128,1,811edb34515f408f5d85cb6987b4f141d04b978400a1b4ad1504dcdc9c5c54b1,test
+data/dataset/Mild_Demented/mild_374.jpg,mild_374.jpg,Mild Demented,MildDemented,128,128,1,0ffcba35292521b7315534bea60992ac4b6f1065674dc7cc7bf07f4e0d7d7a6d,test
+data/dataset/Mild_Demented/mild_780.jpg,mild_780.jpg,Mild Demented,MildDemented,128,128,1,ff1c1e42239001b751e1f1ff5a1343d4e8bbe842e173af561977449aa975cdb4,test
+data/dataset/Mild_Demented/mild_869.jpg,mild_869.jpg,Mild Demented,MildDemented,128,128,1,887485a69716bfc895ab93dce4001f7fc0e9741b8dcdd835a2adee0d6fa22bbf,test
+data/dataset/Mild_Demented/mild_558.jpg,mild_558.jpg,Mild Demented,MildDemented,128,128,1,8d281afa1cdcd2ce16f63b5a59219e2710fd292042934285396451816bbd250f,test
+data/dataset/Mild_Demented/mild_8.jpg,mild_8.jpg,Mild Demented,MildDemented,128,128,1,19d53e0a888e6a0d045406db377bebb91b5cd4b8cd1c42e941b5c5c78755cc4d,test
+data/dataset/Mild_Demented/mild_532.jpg,mild_532.jpg,Mild Demented,MildDemented,128,128,1,db5aa25a9afcd99539710e169dc5b74d875e1d076d69a20c3898d22bc0a26d37,test
+data/dataset/Mild_Demented/mild_3.jpg,mild_3.jpg,Mild Demented,MildDemented,128,128,1,5522e7fedca2f4f5675d00d9dc4ba76a2022ec61437c2f364d719cd895d62767,test
+data/dataset/Mild_Demented/mild_813.jpg,mild_813.jpg,Mild Demented,MildDemented,128,128,1,09b5c1f27efa3d520c7f110d3d209d54c5f5898a3e4104fb3ffe43627f799ee0,test
+data/dataset/Mild_Demented/mild_280.jpg,mild_280.jpg,Mild Demented,MildDemented,128,128,1,0a42c0cfee2a8f6d96ee13d42e87a850e338cc0f2cec91599821574ec1755028,test
+data/dataset/Mild_Demented/mild_219.jpg,mild_219.jpg,Mild Demented,MildDemented,128,128,1,6e6395a8fadc28b5680be84348c102de7fdc3accb9efb697e2cb6ded42e06243,test
+data/dataset/Mild_Demented/mild_866.jpg,mild_866.jpg,Mild Demented,MildDemented,128,128,1,dfe8749787debe348020819b613069b3806c5796b65ba26c2eb65ddfb9a9f0e9,test
+data/dataset/Mild_Demented/mild_623.jpg,mild_623.jpg,Mild Demented,MildDemented,128,128,1,760f193fd49a8db692e9674a6582e6ed934b9b9ce1c00d6003f934daecac8fbe,test
+data/dataset/Mild_Demented/mild_526.jpg,mild_526.jpg,Mild Demented,MildDemented,128,128,1,7b53b2945d471503cbea1735bbdd1adaa0df77aa61b4e6db13ff26e675a65496,test
+data/dataset/Mild_Demented/mild_333.jpg,mild_333.jpg,Mild Demented,MildDemented,128,128,1,d93e69437b10ff9e7e4dd97ae5bbe4eca08e08366634aed0fed9a36f1fddf3b1,test
+data/dataset/Mild_Demented/mild_486.jpg,mild_486.jpg,Mild Demented,MildDemented,128,128,1,7586b75da10d460d5a6dd11cef405eea20d844b83b48557d0a04b2c81668ac37,test
+data/dataset/Mild_Demented/mild_89.jpg,mild_89.jpg,Mild Demented,MildDemented,128,128,1,9f21f5dc36014e956c8923e83e467e3a7e1bb36db8b5cc1df3900c4c5100b328,test
+data/dataset/Mild_Demented/mild_465.jpg,mild_465.jpg,Mild Demented,MildDemented,128,128,1,44191d677835e50b02359114acea5b05d1b75852ce101f497b25b465e760a79e,test
+data/dataset/Mild_Demented/mild_815.jpg,mild_815.jpg,Mild Demented,MildDemented,128,128,1,a20cd08ec61484ea2d81adf1e59b014c5a37572d92e3e9527970461d350abb27,test
+data/dataset/Mild_Demented/mild_190.jpg,mild_190.jpg,Mild Demented,MildDemented,128,128,1,fec87c08e0907cccb2b353f9947d1bb68c5710be54c0e021a18c7722e045624c,test
+data/dataset/Mild_Demented/mild_422.jpg,mild_422.jpg,Mild Demented,MildDemented,128,128,1,94d1f1f4f0bf7fe6c2abe14b55db2f77af20f05ad912cacd4d81c9be2676ab07,test
+data/dataset/Mild_Demented/mild_168.jpg,mild_168.jpg,Mild Demented,MildDemented,128,128,1,160635bc3e3133f6cff75441ba2e12f43f907b6fb779c8f3d668090f49becdba,test
+data/dataset/Mild_Demented/mild_83.jpg,mild_83.jpg,Mild Demented,MildDemented,128,128,1,bdc0cb8f83a938f0cb6480d6c243ab18013aaeb48608e5b824f97a25707ee1a8,test
+data/dataset/Mild_Demented/mild_527.jpg,mild_527.jpg,Mild Demented,MildDemented,128,128,1,75c704455d74e792294d5c4d00f1d6a4925c8ceb072f0ec12bdf43e40789ff1c,test
+data/dataset/Mild_Demented/mild_582.jpg,mild_582.jpg,Mild Demented,MildDemented,128,128,1,9b75c737a4405a54ed4590c01404af2764d28972169e9df225a0906ec7e01ee7,test
+data/dataset/Mild_Demented/mild_423.jpg,mild_423.jpg,Mild Demented,MildDemented,128,128,1,6540769095a00078b413350b7f0f43fd23e7bbb4ace4b98a4c8bb7a8e6b85718,test
+data/dataset/Mild_Demented/mild_159.jpg,mild_159.jpg,Mild Demented,MildDemented,128,128,1,d7ff5fef0fec8c0bb0223226ba1c16c6022768718f645fb6bb8829989aecc80a,test
+data/dataset/Mild_Demented/mild_548.jpg,mild_548.jpg,Mild Demented,MildDemented,128,128,1,94fc440bf799748e8e704fe268702657230db04d477b9d9f51516e2e015a2657,test
+data/dataset/Mild_Demented/mild_15.jpg,mild_15.jpg,Mild Demented,MildDemented,128,128,1,bfdbad373f9b35e50f7beda0333741b744e300d0fc473236373991b2e87120fb,test
+data/dataset/Mild_Demented/mild_172.jpg,mild_172.jpg,Mild Demented,MildDemented,128,128,1,331716d806b1463c5490a365d97587158ff152340997ff4747c7efd431e23fb5,test
+data/dataset/Mild_Demented/mild_160.jpg,mild_160.jpg,Mild Demented,MildDemented,128,128,1,4e665a8ebb3dd5c2f534dbe93f074bc6e0464e92d8db1fff22f9aa763c9fd081,test
+data/dataset/Mild_Demented/mild_763.jpg,mild_763.jpg,Mild Demented,MildDemented,128,128,1,70a1826c6ed8b26172927fefd66cb238be8e5c8806cfed257b85db1f105c154d,test
+data/dataset/Mild_Demented/mild_728.jpg,mild_728.jpg,Mild Demented,MildDemented,128,128,1,f4fb16863458b537b93181b31cf4c9cd42bef863a7c0aaf35ed1142d037be003,test
+data/dataset/Mild_Demented/mild_77.jpg,mild_77.jpg,Mild Demented,MildDemented,128,128,1,02981f5bd8ca8395b238b5bfee2756c417adb92a6b58557f65e42e21666363a1,test
+data/dataset/Mild_Demented/mild_157.jpg,mild_157.jpg,Mild Demented,MildDemented,128,128,1,97672806ff532045ead17eaa2c24277487f0d5aeca8d30e6fb9d14fa5b71c969,test
+data/dataset/Mild_Demented/mild_842.jpg,mild_842.jpg,Mild Demented,MildDemented,128,128,1,4d6c5c66675443a3121ebeabfe5c965bb2f00faf7fa249b2ab9364f384c8da17,test
+data/dataset/Mild_Demented/mild_230.jpg,mild_230.jpg,Mild Demented,MildDemented,128,128,1,9261b1216c7e83943d4ec69e50735f386dd8a4f1829c6fa89db53e241e46dde5,test
+data/dataset/Mild_Demented/mild_593.jpg,mild_593.jpg,Mild Demented,MildDemented,128,128,1,0e772c78da8063dfeb019695bb09737c95c590be8315f8de155c5665249670fe,test
+data/dataset/Mild_Demented/mild_749.jpg,mild_749.jpg,Mild Demented,MildDemented,128,128,1,2ed6e2a4f0f534432aaaa9ae7797794248a3699063f58f919680daea4300806f,test
+data/dataset/Mild_Demented/mild_455.jpg,mild_455.jpg,Mild Demented,MildDemented,128,128,1,c4a4b7e05f22ceccd9aefa31d70c484cc9ef06e45af6ebf21fdd38426b48bb80,test
+data/dataset/Mild_Demented/mild_269.jpg,mild_269.jpg,Mild Demented,MildDemented,128,128,1,5d3a7aabd47d59c9eafc3429a1932ea45677e2b5952dd1766ef1e945300f465c,test
+data/dataset/Mild_Demented/mild_663.jpg,mild_663.jpg,Mild Demented,MildDemented,128,128,1,e0aa3380b432f921b1daa14a1589569ffe603d1f50ec2e191016c9a813086d00,test
+data/dataset/Mild_Demented/mild_108.jpg,mild_108.jpg,Mild Demented,MildDemented,128,128,1,41e7c5c89f895ba3df10e04ceb0bcecfede0fc8ef2ccddcd8428556b56a524b6,test
+data/dataset/Mild_Demented/mild_659.jpg,mild_659.jpg,Mild Demented,MildDemented,128,128,1,7d226ec6492e1201f0e2da0d4e459fbe8b3a5d7d3ee0bdf1e0f2388572fa5b53,test
+data/dataset/Mild_Demented/mild_512.jpg,mild_512.jpg,Mild Demented,MildDemented,128,128,1,b6dfa5df012afd78ea4232610bcf9604ac76d35a59ea281bfa5dfb84e756f3ad,test
+data/dataset/Mild_Demented/mild_664.jpg,mild_664.jpg,Mild Demented,MildDemented,128,128,1,53899aa2130eaaf118584abca1069666877585ed0642058904ef834acad50cb9,test
+data/dataset/Mild_Demented/mild_585.jpg,mild_585.jpg,Mild Demented,MildDemented,128,128,1,bebe84be692cbc1ee823e2bde18754798dda56a2ad07b9df4ab4a39be4278779,test
+data/dataset/Mild_Demented/mild_597.jpg,mild_597.jpg,Mild Demented,MildDemented,128,128,1,f64adedfb4cebbc52c424d6f9df9b169a7b4f10ec2a9b7dbdb325520c00a6407,test
+data/dataset/Mild_Demented/mild_207.jpg,mild_207.jpg,Mild Demented,MildDemented,128,128,1,78e29c4410cb004e75c18c88d1220ac3e5c62b70b149ee5aedfe8d4a899253ca,test
+data/dataset/Mild_Demented/mild_71.jpg,mild_71.jpg,Mild Demented,MildDemented,128,128,1,935bb98a2100377e491d5388f381ff7690da67bb6f466e692e076478a5586426,test
+data/dataset/Mild_Demented/mild_759.jpg,mild_759.jpg,Mild Demented,MildDemented,128,128,1,918ac9660753c554c564c78e0ca12ba26d4ba29363b625b3a5346327bdc57fd9,test
+data/dataset/Mild_Demented/mild_306.jpg,mild_306.jpg,Mild Demented,MildDemented,128,128,1,e6775253f58959e780336e2e28164b8600773f5489f8a47bc94a60e466fb8415,test
+data/dataset/Mild_Demented/mild_680.jpg,mild_680.jpg,Mild Demented,MildDemented,128,128,1,8014ae3d7ef57fbb0fd06a32284baad8434899c6a5db7e0ea0f7c9e3689c9b55,test
+data/dataset/Mild_Demented/mild_827.jpg,mild_827.jpg,Mild Demented,MildDemented,128,128,1,7dc43b2715071b3b82e052adc3cbf0169ff768dc402b71baa45ce2ae5dc744a0,test
+data/dataset/Mild_Demented/mild_317.jpg,mild_317.jpg,Mild Demented,MildDemented,128,128,1,97a311e8ca692e13d941e1c652f43b4fc0a615fe4165cb4c8d1e1b20ffea97d8,test
+data/dataset/Mild_Demented/mild_337.jpg,mild_337.jpg,Mild Demented,MildDemented,128,128,1,57570f16deb0114f349a98302ae2b141b9a41a6ba259b9532b2ed9125b547dd7,test
+data/dataset/Mild_Demented/mild_678.jpg,mild_678.jpg,Mild Demented,MildDemented,128,128,1,537a2c7e8716a6dd9ef48a9ea9545c741ce726f9074ccfee794aa5f6e404a2bd,test
+data/dataset/Mild_Demented/mild_283.jpg,mild_283.jpg,Mild Demented,MildDemented,128,128,1,d60f1f14b5f2d55bbec4071ecada084587b5db83d5e3a173cf6da6b6e72a7d5c,test
+data/dataset/Mild_Demented/mild_113.jpg,mild_113.jpg,Mild Demented,MildDemented,128,128,1,d43cacf1c085a865fc255b2db2e46870fa4248a4183865cf44f750783c1aabbc,test
+data/dataset/Mild_Demented/mild_634.jpg,mild_634.jpg,Mild Demented,MildDemented,128,128,1,c932811e35c4d8ce3c8a2c9e32e33697daeb0dfe0ce6bee575ec40a122f17aac,test
+data/dataset/Mild_Demented/mild_445.jpg,mild_445.jpg,Mild Demented,MildDemented,128,128,1,1730aa069532cf9fac5c6073c5a004d2d2fd924ec3c394302184d06b4db32dc2,test
+data/dataset/Mild_Demented/mild_233.jpg,mild_233.jpg,Mild Demented,MildDemented,128,128,1,4beb15ca773769effc533f2513daab34dd267383aeb31eaee80a40e41fba9aac,test
+data/dataset/Mild_Demented/mild_888.jpg,mild_888.jpg,Mild Demented,MildDemented,128,128,1,4f8617061c713f78c091ea4fa3d11f0b5d4240e779988851b647d8bb98a6cd53,test
+data/dataset/Mild_Demented/mild_181.jpg,mild_181.jpg,Mild Demented,MildDemented,128,128,1,ed64b6ffb7ea520bfcd61235a580826608ef33ed706c25be5977c7d7801bdd03,test
+data/dataset/Mild_Demented/mild_356.jpg,mild_356.jpg,Mild Demented,MildDemented,128,128,1,7993356678cd5c03c3b690223ffae05337b07924b44a755d2c810682f659d2a0,test
+data/dataset/Mild_Demented/mild_201.jpg,mild_201.jpg,Mild Demented,MildDemented,128,128,1,166ad3b16b06e5193c9bd2d8739443b74a33e6f2832bcd45f8e199ddc6620928,test
+data/dataset/Mild_Demented/mild_661.jpg,mild_661.jpg,Mild Demented,MildDemented,128,128,1,9c342b78dccf461bd95911e146e28e1c227d1308dae8657df3a34202c0b7f780,test
+data/dataset/Mild_Demented/mild_250.jpg,mild_250.jpg,Mild Demented,MildDemented,128,128,1,0c530266a2ac103f56a09c2a9118857c62d20f4ac4f0bbb62a048883f04a5034,test
+data/dataset/Mild_Demented/mild_517.jpg,mild_517.jpg,Mild Demented,MildDemented,128,128,1,951cbc82766cfc6ffb461b24ff7639a45987fa002476bc02d8ad18d734cb8b12,test
+data/dataset/Mild_Demented/mild_430.jpg,mild_430.jpg,Mild Demented,MildDemented,128,128,1,0a492223df430b0d5ffd0a0346586791a6fe40120332ae71903ea89def08af58,test
+data/dataset/Mild_Demented/mild_676.jpg,mild_676.jpg,Mild Demented,MildDemented,128,128,1,6a4d27644d9deae0e3ff8e347c9a551b4a0da607bdcf2d36389c33e71d726f63,test
+data/dataset/Mild_Demented/mild_141.jpg,mild_141.jpg,Mild Demented,MildDemented,128,128,1,c0cd6e444914979cfcde293dcb52678d13468402c6f02b3a91e1761b0716a445,test
+data/dataset/Mild_Demented/mild_611.jpg,mild_611.jpg,Mild Demented,MildDemented,128,128,1,d2b40d06f58de52c9f0d46c0403cfc2c384cda479b6e6c452bf6236433393ffe,test
+data/dataset/Mild_Demented/mild_821.jpg,mild_821.jpg,Mild Demented,MildDemented,128,128,1,f1959d415a73cde52632e105eca7de8af5dd9f7de9045ad79c5de5aadc5ff516,test
+data/dataset/Mild_Demented/mild_70.jpg,mild_70.jpg,Mild Demented,MildDemented,128,128,1,b9b988d40dd24b732d226e501108cff39826b76bea3cf1b0baa51644c5634b2f,test
+data/dataset/Mild_Demented/mild_5.jpg,mild_5.jpg,Mild Demented,MildDemented,128,128,1,62f1df5e42611da807ddd77243983fef8a2956385a301ff8e6a8da6d4fd2d054,test
+data/dataset/Mild_Demented/mild_195.jpg,mild_195.jpg,Mild Demented,MildDemented,128,128,1,b4ad218a8059e075d6c458a506666f245b10d456f16e6bf51f335646fcf38e75,test
+data/dataset/Mild_Demented/mild_119.jpg,mild_119.jpg,Mild Demented,MildDemented,128,128,1,d63810a37b47ca3580a6383ddcb00925efa7f2f45e1ff0817d254fdd518f4af4,test
+data/dataset/Mild_Demented/mild_20.jpg,mild_20.jpg,Mild Demented,MildDemented,128,128,1,1eabf6b27f887f5f98e771114b0d4a2d9282c776692bae69adf3a55067ca20f1,test
+data/dataset/Mild_Demented/mild_16.jpg,mild_16.jpg,Mild Demented,MildDemented,128,128,1,9b1b68c7ef0f4ed1d8ff716a93b1271ae683f0e96c9b99af9ee0460c2a291354,test
+data/dataset/Mild_Demented/mild_733.jpg,mild_733.jpg,Mild Demented,MildDemented,128,128,1,6323827a41f0392a2fab0b6c15c5fc848c8189786f62615a6eca61621d69bf3c,test
+data/dataset/Mild_Demented/mild_420.jpg,mild_420.jpg,Mild Demented,MildDemented,128,128,1,890a1557dc02a979e292d325d635a522b32107d77aef497da6126b801b567dea,test
+data/dataset/Moderate_Demented/moderate_16.jpg,moderate_16.jpg,Moderate Demented,ModerateDemented,128,128,1,2d81741cc468ed71c40085056608ae9851cd63f8130bfd3aa64ebf97b578af6f,test
+data/dataset/Moderate_Demented/moderate_31.jpg,moderate_31.jpg,Moderate Demented,ModerateDemented,128,128,1,3b85ae38b690f4304490ae560bc61469dbbf5b7d25875203dfc53837bbb6c671,test
+data/dataset/Moderate_Demented/moderate_13.jpg,moderate_13.jpg,Moderate Demented,ModerateDemented,128,128,1,173a6d28c6e014c9c8e7be5ddc7b75e58f6bd9e582e8a2381b05a1c95c09f4f6,test
+data/dataset/Moderate_Demented/moderate_21.jpg,moderate_21.jpg,Moderate Demented,ModerateDemented,128,128,1,4f6cf37fa930bfe4c70dfb23160a9b44f8cdc4fb577d420b7a47e8e78f87662a,test
+data/dataset/Moderate_Demented/moderate_53.jpg,moderate_53.jpg,Moderate Demented,ModerateDemented,128,128,1,3472c63b238c872a07fb2e785b1c113a03c2a0c0546e919d5686a8b51c084474,test
+data/dataset/Moderate_Demented/moderate_9.jpg,moderate_9.jpg,Moderate Demented,ModerateDemented,128,128,1,a9599c3984db0ccad3fa2ecdfc16f6aa05371dbdf88ff2c433ac55657bd3e5b4,test
+data/dataset/Moderate_Demented/moderate_48.jpg,moderate_48.jpg,Moderate Demented,ModerateDemented,128,128,1,9faff83c925c9d8ef55f3ec9ec458a6bd46761b7043232a447be5e50f8280efe,test
+data/dataset/Moderate_Demented/moderate_58.jpg,moderate_58.jpg,Moderate Demented,ModerateDemented,128,128,1,ec83b2f59f486e1e1d40e066f89bf3c3d0bd31aaa6d0887717439c9f3ae7a91a,test
+data/dataset/Moderate_Demented/moderate_27.jpg,moderate_27.jpg,Moderate Demented,ModerateDemented,128,128,1,3374922e56e160188b7ee11a24165ef423b833e06dbaa641a3f72dd9969a18f4,test
+data/dataset/Non_Demented/non_1193.jpg,non_1193.jpg,Non-Demented,NonDemented,128,128,1,affa9e98c870350c8439d7e024ee07b2d4441c95c7dfcb4f1fa38c3bf6e49347,test
+data/dataset/Non_Demented/non_3030.jpg,non_3030.jpg,Non-Demented,NonDemented,128,128,1,0ab367c68927bea80aed932c5e1c802a6ba9e36e2f94a2d36e1fceebe20aac93,test
+data/dataset/Non_Demented/non_1149.jpg,non_1149.jpg,Non-Demented,NonDemented,128,128,1,baa989a079d00dd7c436001f43ab1128df6cc4c9e68d7ecb7a97684562a82a96,test
+data/dataset/Non_Demented/non_1119.jpg,non_1119.jpg,Non-Demented,NonDemented,128,128,1,f09f1dbf34e11de903ecf1e9b6db5c8c3cf8f6bb3a8fdfb6ae8c3d78d3b0155e,test
+data/dataset/Non_Demented/non_2209.jpg,non_2209.jpg,Non-Demented,NonDemented,128,128,1,08b9017cd1714801400fcfa613db7cdf29bf832df044168b63a12fa9b06e70fc,test
+data/dataset/Non_Demented/non_1222.jpg,non_1222.jpg,Non-Demented,NonDemented,128,128,1,0e5cbcd5854c838f33d5997b0761e63b2922150610c3b62613f3d0720d9c332d,test
+data/dataset/Non_Demented/non_234.jpg,non_234.jpg,Non-Demented,NonDemented,128,128,1,c1703ba70b4f8939c006b2b4880dc30131edc5be1a109f583305942e09444a54,test
+data/dataset/Non_Demented/non_2344.jpg,non_2344.jpg,Non-Demented,NonDemented,128,128,1,1c0ddaa59ec0d37d4399146a659f658ffbbd071b7143685c590b44b607d1a381,test
+data/dataset/Non_Demented/non_2426.jpg,non_2426.jpg,Non-Demented,NonDemented,128,128,1,cee5ff379da6ef52ed557e735aeddfbbba8d136bd71e894adbf54b341c9e695a,test
+data/dataset/Non_Demented/non_2295.jpg,non_2295.jpg,Non-Demented,NonDemented,128,128,1,949aeea814f419c1627f9e998d903dd415c63a09aa2c5141a4032407dea841aa,test
+data/dataset/Non_Demented/non_1778.jpg,non_1778.jpg,Non-Demented,NonDemented,128,128,1,e2877aefe0da752a38ae8ec98003275bbf80fca31adb682a64e2be920ec8a526,test
+data/dataset/Non_Demented/non_2687.jpg,non_2687.jpg,Non-Demented,NonDemented,128,128,1,9711311531192dffd5816fcce55605402af021e41c1b7bb6fde288c09a8887dd,test
+data/dataset/Non_Demented/non_730.jpg,non_730.jpg,Non-Demented,NonDemented,128,128,1,ba2b23d24012ce7da3d32f63722f739650b4569d9ff3bad85922a545f2ea98c8,test
+data/dataset/Non_Demented/non_13.jpg,non_13.jpg,Non-Demented,NonDemented,128,128,1,56bd282baff41c657e26ada655d2869529f49ac35065e4cc39e707a500c187b7,test
+data/dataset/Non_Demented/non_337.jpg,non_337.jpg,Non-Demented,NonDemented,128,128,1,9504134436dc3a8e164702f74cd074e8b06b04149065b894fd13878ec5a98886,test
+data/dataset/Non_Demented/non_1979.jpg,non_1979.jpg,Non-Demented,NonDemented,128,128,1,fa5d499a50e8833b8f8c3b86f6b0d2276883b06ac8794299dd129716dd128814,test
+data/dataset/Non_Demented/non_311.jpg,non_311.jpg,Non-Demented,NonDemented,128,128,1,b6fdc8af9510b677e4c0b9df9fffb3186c459c1c9dbd8e4de446c6072601a0ba,test
+data/dataset/Non_Demented/non_203.jpg,non_203.jpg,Non-Demented,NonDemented,128,128,1,b2c432e1571cad08e8941b4936e41abaead7a11ae36275d92787de1453440000,test
+data/dataset/Non_Demented/non_1004.jpg,non_1004.jpg,Non-Demented,NonDemented,128,128,1,efc497a96cfd8858135605f950028fa004806a27235b4a6902a111656cfd1d1b,test
+data/dataset/Non_Demented/non_1587.jpg,non_1587.jpg,Non-Demented,NonDemented,128,128,1,efc74e5d89b1b4f6d471d05871d9f5eabc7c3e95c96143bc4d23396beba3b155,test
+data/dataset/Non_Demented/non_24.jpg,non_24.jpg,Non-Demented,NonDemented,128,128,1,2fd18479a941230dbf2827572bbec202ea8931cbc4ce3ec518fd5b53c733a302,test
+data/dataset/Non_Demented/non_1865.jpg,non_1865.jpg,Non-Demented,NonDemented,128,128,1,feaa3f1e91c16cf2d8ff3783584adec30450ed0194c908c0c4fea5e7c55eb2d7,test
+data/dataset/Non_Demented/non_1263.jpg,non_1263.jpg,Non-Demented,NonDemented,128,128,1,075067d6585f035fe2932f662671797bc6e6b8a891f5c5df255b5131fcb84e7c,test
+data/dataset/Non_Demented/non_2397.jpg,non_2397.jpg,Non-Demented,NonDemented,128,128,1,c613de3ead36fc734ba4f0cfac7251c0837389513ba3ea3195b262c2bcc304dc,test
+data/dataset/Non_Demented/non_1868.jpg,non_1868.jpg,Non-Demented,NonDemented,128,128,1,502ebae2b7fb0400cc6dccea93a0d3a86ac584e7722c2e5231048aa67581bd5c,test
+data/dataset/Non_Demented/non_2787.jpg,non_2787.jpg,Non-Demented,NonDemented,128,128,1,fd5b6596d4bd12bbe64af34e2abb449c42d9f3cf09e4f21796a983bab9a03d19,test
+data/dataset/Non_Demented/non_1006.jpg,non_1006.jpg,Non-Demented,NonDemented,128,128,1,69053b4cf5f347a1755ab043afd3a607049311ac0bb643f5037c60fc3e856563,test
+data/dataset/Non_Demented/non_2422.jpg,non_2422.jpg,Non-Demented,NonDemented,128,128,1,7eeed6dbc085b45568bd6ddca26a01b6ad25545662a579bc91cd217fb8985d72,test
+data/dataset/Non_Demented/non_1086.jpg,non_1086.jpg,Non-Demented,NonDemented,128,128,1,c1b60976482c71988d5acf44e81890a5ed905e445a7cac1398ff490bc810f0ad,test
+data/dataset/Non_Demented/non_1885.jpg,non_1885.jpg,Non-Demented,NonDemented,128,128,1,c60fe269bd842755618834707c3031937da993f45871e5c0b339c46c5dc01990,test
+data/dataset/Non_Demented/non_1680.jpg,non_1680.jpg,Non-Demented,NonDemented,128,128,1,b5d1ae2842baa91e9bf7a3419511f6bb8d1d0d5275531cd0a6f0d60dd2aaca56,test
+data/dataset/Non_Demented/non_306.jpg,non_306.jpg,Non-Demented,NonDemented,128,128,1,ac41da57c16769ba54205bd4f09aab4d2b6d13b28dc346a72aabd5cf2bb8fc55,test
+data/dataset/Non_Demented/non_3041.jpg,non_3041.jpg,Non-Demented,NonDemented,128,128,1,0fae2301a7466ef80a38c0c7c4798a96a7868a115697fdd61db1b555a6793ae3,test
+data/dataset/Non_Demented/non_3085.jpg,non_3085.jpg,Non-Demented,NonDemented,128,128,1,82aadb7b56d12d0eb8f37ebb78b97c56a34e2e99df25dfbdc573f2e0daa4496c,test
+data/dataset/Non_Demented/non_819.jpg,non_819.jpg,Non-Demented,NonDemented,128,128,1,d59e629211afb0c16858bc16c72da0a81b2617b3edbd76533dd78d56f9786b81,test
+data/dataset/Non_Demented/non_37.jpg,non_37.jpg,Non-Demented,NonDemented,128,128,1,ff681ec8ade39b607c293e75a4ba753e25eb95c28c80c363a59a8bf620172966,test
+data/dataset/Non_Demented/non_1228.jpg,non_1228.jpg,Non-Demented,NonDemented,128,128,1,27e74b619319e9ad2e7869469ee6e3e5247e2908a331cfa216d1951a470ebaa4,test
+data/dataset/Non_Demented/non_56.jpg,non_56.jpg,Non-Demented,NonDemented,128,128,1,796cb9d162a21af5754d048db15ac870478dfdb521f487c929caa7175cf63a9d,test
+data/dataset/Non_Demented/non_636.jpg,non_636.jpg,Non-Demented,NonDemented,128,128,1,3d7e6861db3ce3f4450f2868cef62f3b360e747d025869c24ac7dc64feed01e0,test
+data/dataset/Non_Demented/non_2891.jpg,non_2891.jpg,Non-Demented,NonDemented,128,128,1,bdcb17f2f824c3807b344cad61c05ab895681fb50e7025d9fca1a943133a9bd6,test
+data/dataset/Non_Demented/non_2859.jpg,non_2859.jpg,Non-Demented,NonDemented,128,128,1,b50930201b4446d521deca7186ad0db1f896ad585bff5140f9f9c88df5f722c7,test
+data/dataset/Non_Demented/non_252.jpg,non_252.jpg,Non-Demented,NonDemented,128,128,1,0d18736c29d1a43f597054efc0e36857da8adcaa448b27548ff2703af6677426,test
+data/dataset/Non_Demented/non_1076.jpg,non_1076.jpg,Non-Demented,NonDemented,128,128,1,585d4dcdbb41bba8ad15b7dfa965199f25909871b5ddb776312969b9154b31dd,test
+data/dataset/Non_Demented/non_1935.jpg,non_1935.jpg,Non-Demented,NonDemented,128,128,1,63e4d04d9e62db22eda054a4ad3d3c9531f7c6dc198fa26262341fb45b764ce0,test
+data/dataset/Non_Demented/non_2481.jpg,non_2481.jpg,Non-Demented,NonDemented,128,128,1,c2b3df04cbd24915c25e8ca9fd858acf6fdd563b719024aa17ffbc8f1d1623a8,test
+data/dataset/Non_Demented/non_1957.jpg,non_1957.jpg,Non-Demented,NonDemented,128,128,1,fe426b4e20c437b20a084429beb0dccda17f70c9b25c382f80b1189d52ef8a37,test
+data/dataset/Non_Demented/non_2262.jpg,non_2262.jpg,Non-Demented,NonDemented,128,128,1,8d26f4b53217ad725fd2ef8043f261e4ad08ba81563a4d913965554d16a769b3,test
+data/dataset/Non_Demented/non_279.jpg,non_279.jpg,Non-Demented,NonDemented,128,128,1,b69680bf37423e810f3ba407ab942d41747226291d6d6aae0ac0c30111e9e17f,test
+data/dataset/Non_Demented/non_1829.jpg,non_1829.jpg,Non-Demented,NonDemented,128,128,1,7681d8c17d8cbfc285fed6061e207cb2384f279fce3fd9b60e95031bac671c14,test
+data/dataset/Non_Demented/non_1056.jpg,non_1056.jpg,Non-Demented,NonDemented,128,128,1,47ed4207bfe728bc02bde9ad536faf382ed8cc8ece6265df49c5ed241600ad3e,test
+data/dataset/Non_Demented/non_2244.jpg,non_2244.jpg,Non-Demented,NonDemented,128,128,1,49bf325460275375e41a9241a4a91344051c3b6679e0fc3cedc5cfbbe9714a08,test
+data/dataset/Non_Demented/non_1589.jpg,non_1589.jpg,Non-Demented,NonDemented,128,128,1,68a28260e2c061324afb241e2b80f07c7ebf21546f714ca41ad959fbfbb3b98a,test
+data/dataset/Non_Demented/non_503.jpg,non_503.jpg,Non-Demented,NonDemented,128,128,1,57748bad206fca163b5ae3c72d2d2c3f8bf4b1f792990d8bf8c8e9b758f58229,test
+data/dataset/Non_Demented/non_2204.jpg,non_2204.jpg,Non-Demented,NonDemented,128,128,1,7819564a0e60d1b043f3a9b6d07aec1d1333c77a391d6b83bbaaedb5141a330e,test
+data/dataset/Non_Demented/non_1227.jpg,non_1227.jpg,Non-Demented,NonDemented,128,128,1,818842ac95abd272ed6b97c7e84dbae752129fb516ae0e69a13f570b1a6879e9,test
+data/dataset/Non_Demented/non_1733.jpg,non_1733.jpg,Non-Demented,NonDemented,128,128,1,fb0214e427a1a697449f7aef56e36fc145aadd2b89dd5bbbcbb07cec65bc19e5,test
+data/dataset/Non_Demented/non_1396.jpg,non_1396.jpg,Non-Demented,NonDemented,128,128,1,c00c92a58a5c6ed85ab8ce24fde8256e88069b24dba80db3bd67a14393e87667,test
+data/dataset/Non_Demented/non_1121.jpg,non_1121.jpg,Non-Demented,NonDemented,128,128,1,936b5d1fe92e07e3135d39999c6dfcca2c5c88fc4130226a7110415b52ef1d74,test
+data/dataset/Non_Demented/non_645.jpg,non_645.jpg,Non-Demented,NonDemented,128,128,1,e84ef90ee746f54f208f5c95a51103998ac8d34e858a116fec13e74a8b803d14,test
+data/dataset/Non_Demented/non_1426.jpg,non_1426.jpg,Non-Demented,NonDemented,128,128,1,419ae838c58587e982d438358736b06231d4e7fa8d2eaffbdb31fb4c5880e51f,test
+data/dataset/Non_Demented/non_1195.jpg,non_1195.jpg,Non-Demented,NonDemented,128,128,1,ea5d99021b3c66bf93d131cb4b435744a9c077a4dcf92feaf2704c0bb7f9d6cf,test
+data/dataset/Non_Demented/non_17.jpg,non_17.jpg,Non-Demented,NonDemented,128,128,1,c01f52589d4075e548d284959599882790177a5eb04565fe059073c3d4fe858b,test
+data/dataset/Non_Demented/non_2326.jpg,non_2326.jpg,Non-Demented,NonDemented,128,128,1,99ab1ec38a8d77f6b639184acfac4650cd6332a54fb23d5c4ff36298356814bc,test
+data/dataset/Non_Demented/non_3162.jpg,non_3162.jpg,Non-Demented,NonDemented,128,128,1,ca454a9c5a4b8b243b0d21afe386fbfa8e4700814c83910cebc330526dee83b9,test
+data/dataset/Non_Demented/non_3055.jpg,non_3055.jpg,Non-Demented,NonDemented,128,128,1,c021566431d21a37cdc8d315285596ef2e82bcb35e3ebf3cd0824a4d89a9514c,test
+data/dataset/Non_Demented/non_420.jpg,non_420.jpg,Non-Demented,NonDemented,128,128,1,9d4416b535af21a50727beef2d62f7f3741e4bc5b0482ab5cad83a0f12284752,test
+data/dataset/Non_Demented/non_622.jpg,non_622.jpg,Non-Demented,NonDemented,128,128,1,b913a183f24ce1584f3d0a9d81ea424c7bdd67ad626ac4e07e3343683dc8d490,test
+data/dataset/Non_Demented/non_84.jpg,non_84.jpg,Non-Demented,NonDemented,128,128,1,4cc16c800076c23328ef5c6a7a9fec67816a29a8625bdf67a20d3f7aafeb5af9,test
+data/dataset/Non_Demented/non_2337.jpg,non_2337.jpg,Non-Demented,NonDemented,128,128,1,63a449b3cb87e61d682200cc802cd52375566a656fa1377ef50dd07358de78a5,test
+data/dataset/Non_Demented/non_2869.jpg,non_2869.jpg,Non-Demented,NonDemented,128,128,1,a59d73e3668dbd4c14a1c97f6f20831dc1b2c6462d8a9800426de20d9f3fff90,test
+data/dataset/Non_Demented/non_452.jpg,non_452.jpg,Non-Demented,NonDemented,128,128,1,d768443f834b4d2527aa1f91306e6ba5833e657f3e546ba8413f74969efacfd3,test
+data/dataset/Non_Demented/non_2791.jpg,non_2791.jpg,Non-Demented,NonDemented,128,128,1,09b579d53a1e9cdd2df762e530d01cb7634b1ea2d698dcd95e358225923f0e20,test
+data/dataset/Non_Demented/non_1046.jpg,non_1046.jpg,Non-Demented,NonDemented,128,128,1,97e2f445639085c0f1c9be89dce872fa346b331d1857443774dd674146e628c6,test
+data/dataset/Non_Demented/non_2098.jpg,non_2098.jpg,Non-Demented,NonDemented,128,128,1,8058beda163d4e44ec83ba7cbec2b19f99b11faff9dfc41ebe75bc7137cdc24e,test
+data/dataset/Non_Demented/non_3013.jpg,non_3013.jpg,Non-Demented,NonDemented,128,128,1,c967b420e6bf73d79f2fb1206f15842caaaaa35f61baa66884d3f8a06ca3872e,test
+data/dataset/Non_Demented/non_1683.jpg,non_1683.jpg,Non-Demented,NonDemented,128,128,1,db3f554182aa6c4db1200514235937cdf25c771876bb88fad5d80eb378e2a5fe,test
+data/dataset/Non_Demented/non_2726.jpg,non_2726.jpg,Non-Demented,NonDemented,128,128,1,1d68a9991248b9c4c0577d4079b36ced091688a7f8b008586ad747c2bb520cf9,test
+data/dataset/Non_Demented/non_469.jpg,non_469.jpg,Non-Demented,NonDemented,128,128,1,8faccb51afa39b51f9b9b6915029915deb9a048a7a46b5a49def533e4cb83b8d,test
+data/dataset/Non_Demented/non_835.jpg,non_835.jpg,Non-Demented,NonDemented,128,128,1,7001804e1d7e8934e4c421f91d3dc767a12ebadd6242cf2170bde227494ca2c4,test
+data/dataset/Non_Demented/non_565.jpg,non_565.jpg,Non-Demented,NonDemented,128,128,1,44d0161c607e844dbc3be1db4b4d2a4bba2cb6d9aa86e2e442d012e7dfa91f68,test
+data/dataset/Non_Demented/non_519.jpg,non_519.jpg,Non-Demented,NonDemented,128,128,1,90abe4feec0e1df598ec36f92121be18dcc2294bf3d4a1f468257701ac137fb0,test
+data/dataset/Non_Demented/non_2558.jpg,non_2558.jpg,Non-Demented,NonDemented,128,128,1,cfcc54ce9a326c02b7a5194bef965fdba0122c5e5e57d1daff99ec88f5747aaf,test
+data/dataset/Non_Demented/non_473.jpg,non_473.jpg,Non-Demented,NonDemented,128,128,1,db6da6e176bc0f62bd49ea1fb0415cbc22cb35b850e491ef73d477a81f11825c,test
+data/dataset/Non_Demented/non_2817.jpg,non_2817.jpg,Non-Demented,NonDemented,128,128,1,c6845bd08bdcb7383021e14e450cd325da681d783b99ef628cc09713ba004017,test
+data/dataset/Non_Demented/non_2169.jpg,non_2169.jpg,Non-Demented,NonDemented,128,128,1,7a7a28c4a1132007de54ab1effd6b76205374ac2badba2fcbd8e403a7b4e1f9e,test
+data/dataset/Non_Demented/non_1554.jpg,non_1554.jpg,Non-Demented,NonDemented,128,128,1,20e588d8c8cba5d4c0621e654dd492cf5a6bb620732442d506df9de3e7aecf76,test
+data/dataset/Non_Demented/non_415.jpg,non_415.jpg,Non-Demented,NonDemented,128,128,1,bc3008ea7f413fa4ae92d67d0ea223f1b8dbc02715ffe44b1e67886e5d07ab3b,test
+data/dataset/Non_Demented/non_2666.jpg,non_2666.jpg,Non-Demented,NonDemented,128,128,1,fb73959708dfc5a125adc9c7ec154a75b99671d4a536ae8f9625c27cdab98f2c,test
+data/dataset/Non_Demented/non_276.jpg,non_276.jpg,Non-Demented,NonDemented,128,128,1,794542e71d359f63e72957c3b717e27bb3993228566f7b6389aafe946774ea55,test
+data/dataset/Non_Demented/non_2130.jpg,non_2130.jpg,Non-Demented,NonDemented,128,128,1,5e9b8468e2ad151cc8b0ad6513ba597bfcecb2e03eec5a6f398d1926c1b09938,test
+data/dataset/Non_Demented/non_2054.jpg,non_2054.jpg,Non-Demented,NonDemented,128,128,1,2946d2a1e7a5f334ee67ae6ecc11080328dc76b0e7428b93496f3e119188687a,test
+data/dataset/Non_Demented/non_2923.jpg,non_2923.jpg,Non-Demented,NonDemented,128,128,1,3ff22d0e9e014bfc4fffc470ef7fb36ccb841c4af12cb3c3f7e4e89b175a86e3,test
+data/dataset/Non_Demented/non_2405.jpg,non_2405.jpg,Non-Demented,NonDemented,128,128,1,8aad6f07cc5a68adcfb5458f536dcc524a76938b89654967031bf80feef28e0f,test
+data/dataset/Non_Demented/non_1299.jpg,non_1299.jpg,Non-Demented,NonDemented,128,128,1,a0243120111f17f2d79ed46d25824463777d588df2fa1063da4c2f3e50cab4ae,test
+data/dataset/Non_Demented/non_36.jpg,non_36.jpg,Non-Demented,NonDemented,128,128,1,ce625ba4df77231737e1ca35744251abba90ba7e98cba59c844282c2a5ae8451,test
+data/dataset/Non_Demented/non_1597.jpg,non_1597.jpg,Non-Demented,NonDemented,128,128,1,41842fcc8ba58a5d2abd6e0cc5bff4fce2b3364d19949d4bda0c7536b795d8ff,test
+data/dataset/Non_Demented/non_1100.jpg,non_1100.jpg,Non-Demented,NonDemented,128,128,1,fd3189d90a8dafea0921eafef34d17b165eccb773c1984d2422b4eaf1591ea5f,test
+data/dataset/Non_Demented/non_2482.jpg,non_2482.jpg,Non-Demented,NonDemented,128,128,1,7adee8fdf7172e4ec25d3912efd5106d577eff983876a29b9ca5d436d41c60d6,test
+data/dataset/Non_Demented/non_2763.jpg,non_2763.jpg,Non-Demented,NonDemented,128,128,1,33dd4aa6d0c0084086f72cdb66e16650f04038471a3c583c37aab894633211fe,test
+data/dataset/Non_Demented/non_822.jpg,non_822.jpg,Non-Demented,NonDemented,128,128,1,18ffa670777873b82d28cfd140c45565f3023bb17a97ec135377f722432b763c,test
+data/dataset/Non_Demented/non_2672.jpg,non_2672.jpg,Non-Demented,NonDemented,128,128,1,cf31e08758b6124a43653c5c825e47531f132b1ec264a476bb1129aeb3dec19f,test
+data/dataset/Non_Demented/non_820.jpg,non_820.jpg,Non-Demented,NonDemented,128,128,1,1b23aa8ddc46141fc994018077e5afe2c81035e1d4afd6725f0fe5f608bd7fc1,test
+data/dataset/Non_Demented/non_1643.jpg,non_1643.jpg,Non-Demented,NonDemented,128,128,1,efccd510604d2827e12f8eab4e4e7413df1174a6b31fbb4f15d5650fbc952f24,test
+data/dataset/Non_Demented/non_1478.jpg,non_1478.jpg,Non-Demented,NonDemented,128,128,1,12e944172e1cb0fb1c2f869efb43da292e0d16a0c9179401763a2e15ca406717,test
+data/dataset/Non_Demented/non_2355.jpg,non_2355.jpg,Non-Demented,NonDemented,128,128,1,a5903435d34096d5755b50602be57e1adbde1d1953ae7becef0cd6129c5de5b4,test
+data/dataset/Non_Demented/non_794.jpg,non_794.jpg,Non-Demented,NonDemented,128,128,1,441c3a94d601bb8f8a60ec450363ba9dd9be409220e911f59bd0d73c89216088,test
+data/dataset/Non_Demented/non_1188.jpg,non_1188.jpg,Non-Demented,NonDemented,128,128,1,f9dd2928a81ddc88a317b63eb845932eaf8bb238cb3ae0cb3b8cad94b7f7607a,test
+data/dataset/Non_Demented/non_891.jpg,non_891.jpg,Non-Demented,NonDemented,128,128,1,9bd1cacc4e3bceb52ca565f4b2aa977ef521e9adaa43e1279418277deed2f36f,test
+data/dataset/Non_Demented/non_2205.jpg,non_2205.jpg,Non-Demented,NonDemented,128,128,1,84ee3b3af0b014feba2a7b4ec76961b98b7d92aaa45dcfb76a73ca7b3e5d660c,test
+data/dataset/Non_Demented/non_2401.jpg,non_2401.jpg,Non-Demented,NonDemented,128,128,1,bba1c388ea35dca4b2b29549556c79848fde9a6339bf8bd53239f750e09d5a45,test
+data/dataset/Non_Demented/non_2192.jpg,non_2192.jpg,Non-Demented,NonDemented,128,128,1,8cf48d4e7030fc4621df08c3362e6eaf580e1f6497def0707eaf0a3e24c594a5,test
+data/dataset/Non_Demented/non_2218.jpg,non_2218.jpg,Non-Demented,NonDemented,128,128,1,fc52146724fc58b387b3cde94465edc619495c0459be455dff07cfc6f589e6d1,test
+data/dataset/Non_Demented/non_637.jpg,non_637.jpg,Non-Demented,NonDemented,128,128,1,d127dfb66d5dc70ee8e1fb3e80afbfec12db4e515b4db5dc43bd275f376c27b2,test
+data/dataset/Non_Demented/non_198.jpg,non_198.jpg,Non-Demented,NonDemented,128,128,1,9337930b2d173a9f4f11d6cb1339e94b0b64b6d511f060b11e8a109c1d9ec89c,test
+data/dataset/Non_Demented/non_1721.jpg,non_1721.jpg,Non-Demented,NonDemented,128,128,1,36f7913d10ea4bedb212d465b2069bbee32dec70f3a67eb4bcbdc2dc580950a1,test
+data/dataset/Non_Demented/non_1464.jpg,non_1464.jpg,Non-Demented,NonDemented,128,128,1,d68921352c632e9260edf0a326ca56a09fa9eafbd17c85a33c7434ed0af38233,test
+data/dataset/Non_Demented/non_722.jpg,non_722.jpg,Non-Demented,NonDemented,128,128,1,4e245d89cf18dbc74afc7ad3eff31de1bc1104dfed250565900af1ebc99268b8,test
+data/dataset/Non_Demented/non_738.jpg,non_738.jpg,Non-Demented,NonDemented,128,128,1,3d8e9375d7ac0cdc37903a6b57c563031fae44bca9f1d7c15dc8563fa2ca1d87,test
+data/dataset/Non_Demented/non_1147.jpg,non_1147.jpg,Non-Demented,NonDemented,128,128,1,e8db114cad29395d84d37836b19c0a06960a08cecba998cd1f004e00450f107e,test
+data/dataset/Non_Demented/non_2722.jpg,non_2722.jpg,Non-Demented,NonDemented,128,128,1,5aae79adabf8fa192b8fa40965c108d55588119844b152a51fdc2c59e6ffac4c,test
+data/dataset/Non_Demented/non_1873.jpg,non_1873.jpg,Non-Demented,NonDemented,128,128,1,094e21d16138432f42c37ede043c74b2002eee1c04a0522f7834b9ead7fe81ab,test
+data/dataset/Non_Demented/non_2296.jpg,non_2296.jpg,Non-Demented,NonDemented,128,128,1,fb733419c061e745dc312b8a4349720e46e1e0b71adcbe16bc79d42172013613,test
+data/dataset/Non_Demented/non_1458.jpg,non_1458.jpg,Non-Demented,NonDemented,128,128,1,28e7913b0eb7abaa3dd8d3b4c437714e75f1d1135c011ea1fe6c17a6fad526d1,test
+data/dataset/Non_Demented/non_1109.jpg,non_1109.jpg,Non-Demented,NonDemented,128,128,1,8b7bd5d178f4418394d637465db4a53bd573512acbb043a768ff7e870a82700e,test
+data/dataset/Non_Demented/non_3140.jpg,non_3140.jpg,Non-Demented,NonDemented,128,128,1,0fe56a5bc4e1b84fc1a640f9ee60cf2ca429871fa35e12296a5081ae95f7b6c7,test
+data/dataset/Non_Demented/non_1232.jpg,non_1232.jpg,Non-Demented,NonDemented,128,128,1,d5023d31373f074e816acb4f0968ac795096fa68c5b80de0647d0ad75bf287a8,test
+data/dataset/Non_Demented/non_2272.jpg,non_2272.jpg,Non-Demented,NonDemented,128,128,1,fb1039ae492c12ff0446e0aa8219d8f4526629e56eff0f47e17ea1ef5ffa78ba,test
+data/dataset/Non_Demented/non_1704.jpg,non_1704.jpg,Non-Demented,NonDemented,128,128,1,187b0111be61f16f5470205b70c70d0e7bcb26e265ae3fb598d93c6b9673a53e,test
+data/dataset/Non_Demented/non_3190.jpg,non_3190.jpg,Non-Demented,NonDemented,128,128,1,1b9faba90f8336d645bdf11ce812398c528e1015e6e817efa00bcb8e09b56892,test
+data/dataset/Non_Demented/non_914.jpg,non_914.jpg,Non-Demented,NonDemented,128,128,1,55d845205ab0c489858c839482f872e63a3c7c30d24e56a866209dc05828046e,test
+data/dataset/Non_Demented/non_1879.jpg,non_1879.jpg,Non-Demented,NonDemented,128,128,1,29e5e79273bce65e1a408fe1ab5064f091883dec1cae0eece6a96ccfc7a682b2,test
+data/dataset/Non_Demented/non_2598.jpg,non_2598.jpg,Non-Demented,NonDemented,128,128,1,79b231e9dbba6a5d5df1ff5740cb18e7cd03062d62a52a8926ccd93846b28d83,test
+data/dataset/Non_Demented/non_3033.jpg,non_3033.jpg,Non-Demented,NonDemented,128,128,1,35c890f44d8516315713e9c353c055a43ced2cf6a3a44892aa889096485071d9,test
+data/dataset/Non_Demented/non_2761.jpg,non_2761.jpg,Non-Demented,NonDemented,128,128,1,45173eee6f1932fa810de14b8430c0c4c6bb35d8391085c8d48b016f7661a8f2,test
+data/dataset/Non_Demented/non_1404.jpg,non_1404.jpg,Non-Demented,NonDemented,128,128,1,01075d4f68c0f7177be62297c5741a6021b570a78438ab379d1bfa64adb510ac,test
+data/dataset/Non_Demented/non_1823.jpg,non_1823.jpg,Non-Demented,NonDemented,128,128,1,4285488410342c9ea7159f9fda653dc438f46b2a114bd3eacbf582f403c7377f,test
+data/dataset/Non_Demented/non_1681.jpg,non_1681.jpg,Non-Demented,NonDemented,128,128,1,9cc976add7b8b485b7d3cf5a453dcc312aadcfbebb40a4f7a2dbdbf21b9ea19a,test
+data/dataset/Non_Demented/non_317.jpg,non_317.jpg,Non-Demented,NonDemented,128,128,1,3af011dcf8907166e147b9947d34f841baf2fd1440014ce8b58ff58bc30d74e7,test
+data/dataset/Non_Demented/non_594.jpg,non_594.jpg,Non-Demented,NonDemented,128,128,1,ab7f6409aeab7a82ac5ec44d71e1579693ac1965ac676330d5bdbf7b6234b098,test
+data/dataset/Non_Demented/non_1479.jpg,non_1479.jpg,Non-Demented,NonDemented,128,128,1,d648c2c7745b78199ee229b35e18d38a9ae1067974b0d59ccbfbcbd7c4cc8fbd,test
+data/dataset/Non_Demented/non_1529.jpg,non_1529.jpg,Non-Demented,NonDemented,128,128,1,7cb37a60ebb4bfb8b606b1a0ad2806b24b86e76788396b98c8ec5f1bdf140f24,test
+data/dataset/Non_Demented/non_246.jpg,non_246.jpg,Non-Demented,NonDemented,128,128,1,730ff2be9df4681102c826a89871f1ab38e15d8a5f2d5865204e84ceb1573628,test
+data/dataset/Non_Demented/non_2373.jpg,non_2373.jpg,Non-Demented,NonDemented,128,128,1,0e4a9030b1b8d19c75917652bebc969bd238bfc781b6ce5693375816e831dd49,test
+data/dataset/Non_Demented/non_1073.jpg,non_1073.jpg,Non-Demented,NonDemented,128,128,1,fc1caa1cdcfccefcb90b0e8171d0a4f94efb290667a9e7df7ec842adbe046138,test
+data/dataset/Non_Demented/non_296.jpg,non_296.jpg,Non-Demented,NonDemented,128,128,1,3016c63f4602e2b7a89f12094215e4d8d5108c3ed6476fff4fbdad938380ee7e,test
+data/dataset/Non_Demented/non_2439.jpg,non_2439.jpg,Non-Demented,NonDemented,128,128,1,662cacd91fbdf3305ce4310b0929a10407b648d5b5dce15fe5bfbf625bd6540f,test
+data/dataset/Non_Demented/non_784.jpg,non_784.jpg,Non-Demented,NonDemented,128,128,1,566c38cf44a3ebe73161138bc1a3d5799d31c87cb2501ec66c3dbb75dfa3d99b,test
+data/dataset/Non_Demented/non_1031.jpg,non_1031.jpg,Non-Demented,NonDemented,128,128,1,fcdb26ebd7de7519cd2c63b94c98e0e89c119de15d124d7e607c95fe6c174b13,test
+data/dataset/Non_Demented/non_615.jpg,non_615.jpg,Non-Demented,NonDemented,128,128,1,3cd8162a1e143f13d7b5cfbfb45330cd0ff82ac21b6c52b0e4babe4ff79479d4,test
+data/dataset/Non_Demented/non_703.jpg,non_703.jpg,Non-Demented,NonDemented,128,128,1,482d8ccc7290689b30d3739a35d8b9eb8de0d3b570180ce46ad41df2bfa82bfc,test
+data/dataset/Non_Demented/non_2792.jpg,non_2792.jpg,Non-Demented,NonDemented,128,128,1,66bfdca8e0fd1e32b0e95ec534c3f3ecc2986da8a86644c5a7201a337b6a37e0,test
+data/dataset/Non_Demented/non_2621.jpg,non_2621.jpg,Non-Demented,NonDemented,128,128,1,7e8ba519e3f023d7e849074c85123ded57d72b798d319a1f17ad16bd150178fc,test
+data/dataset/Non_Demented/non_1685.jpg,non_1685.jpg,Non-Demented,NonDemented,128,128,1,a3f47abd7b97f09c577969227cf90d55db21b2ddd73753efac8ee6fd687f6957,test
+data/dataset/Non_Demented/non_2713.jpg,non_2713.jpg,Non-Demented,NonDemented,128,128,1,e561fa76dc11295992996b774d985b052c2b6de19a4aa7eac5f611bb91143889,test
+data/dataset/Non_Demented/non_588.jpg,non_588.jpg,Non-Demented,NonDemented,128,128,1,579692b8bbec889013ce47e87f326e6400b56d4a3b10b30420420702a12f0cae,test
+data/dataset/Non_Demented/non_971.jpg,non_971.jpg,Non-Demented,NonDemented,128,128,1,3d3a396c6199c6b1b672279a6f62590b7d7c654d744db1bdc38d05a7d4ccb432,test
+data/dataset/Non_Demented/non_3154.jpg,non_3154.jpg,Non-Demented,NonDemented,128,128,1,f0015d2e7d43bf1f1c03992aa43431adfe8bee50c4ad69cbde710f2cc5465eeb,test
+data/dataset/Non_Demented/non_482.jpg,non_482.jpg,Non-Demented,NonDemented,128,128,1,2e9862c0684ada4f265aa93b5c18f841b0f2d72cfea0c2eb6efdd6a161a45109,test
+data/dataset/Non_Demented/non_1784.jpg,non_1784.jpg,Non-Demented,NonDemented,128,128,1,c42854a2f512589031e0d9de600fa25a648c4b0e36b6f2130c4721cd09fd7cab,test
+data/dataset/Non_Demented/non_3007.jpg,non_3007.jpg,Non-Demented,NonDemented,128,128,1,f1bf3ab468a7410a4607f3ddc575eede99589fa56843be715abf2ad01b4e13df,test
+data/dataset/Non_Demented/non_2573.jpg,non_2573.jpg,Non-Demented,NonDemented,128,128,1,40e5f855b1165117568f3b3ef9db9618fc7f638470e25634f44c94afa7923b71,test
+data/dataset/Non_Demented/non_1521.jpg,non_1521.jpg,Non-Demented,NonDemented,128,128,1,8bed32fe9817350ce86786ea3e791dd2afe1fd876ebd6ef7d91abe17719bb22d,test
+data/dataset/Non_Demented/non_2268.jpg,non_2268.jpg,Non-Demented,NonDemented,128,128,1,e769e6b3de67e9d5a100aec6f9186e46512bcd42d493fb0648eb3d52f173f71d,test
+data/dataset/Non_Demented/non_2421.jpg,non_2421.jpg,Non-Demented,NonDemented,128,128,1,17c6045a9b095cb8225376bf7849538419046ffa04c477ca173174aa649e28c2,test
+data/dataset/Non_Demented/non_209.jpg,non_209.jpg,Non-Demented,NonDemented,128,128,1,ab53a0e7556e7ed98ccbaa298925a266175ee4cc97e0f4a02b68f3a5ccbbb780,test
+data/dataset/Non_Demented/non_2730.jpg,non_2730.jpg,Non-Demented,NonDemented,128,128,1,a300053729163d3c9b7cfc44076d9676549f4f2fa331446d3055be328e45d7e4,test
+data/dataset/Non_Demented/non_1811.jpg,non_1811.jpg,Non-Demented,NonDemented,128,128,1,44a3de816425b459b823af7c18982c2e55f23765f3540f4f814e478955473bc6,test
+data/dataset/Non_Demented/non_2492.jpg,non_2492.jpg,Non-Demented,NonDemented,128,128,1,3a65cd5fe831efa5829131c4c3de293c8ff6a5ab96e9ea760147dc7fc42c0fbc,test
+data/dataset/Non_Demented/non_2357.jpg,non_2357.jpg,Non-Demented,NonDemented,128,128,1,ffc028e39afe2a269bb132c0024a7582874aff3b8b6372a72579d672ba6f2dc0,test
+data/dataset/Non_Demented/non_1798.jpg,non_1798.jpg,Non-Demented,NonDemented,128,128,1,82a219be8a5d8bb4fe55aee68f4bc0a4ed2b465e5b72cb1280a9295741c31adf,test
+data/dataset/Non_Demented/non_336.jpg,non_336.jpg,Non-Demented,NonDemented,128,128,1,43053915b784fdfcc804a89d2699dbed7b4bdabaeff9764ecb57f742e242f282,test
+data/dataset/Non_Demented/non_3200.jpg,non_3200.jpg,Non-Demented,NonDemented,128,128,1,761c8ccc11c7249dd8aa31c89fb32829caec5a6fe28ce8fc9148c305ed19fe1a,test
+data/dataset/Non_Demented/non_421.jpg,non_421.jpg,Non-Demented,NonDemented,128,128,1,bef9e79fb37f2b5a92e39a8c4855682a9e6e89d0a37d0d14f1012740c448b836,test
+data/dataset/Non_Demented/non_826.jpg,non_826.jpg,Non-Demented,NonDemented,128,128,1,18bed7cf185dca90aa91b0e4704a859b1c7a1e6342061c7b610f6ea3100f2689,test
+data/dataset/Non_Demented/non_1519.jpg,non_1519.jpg,Non-Demented,NonDemented,128,128,1,5e68c09abac98e60ceb2cef4cc811e67c32f48876f6ff413896b44ad2401b749,test
+data/dataset/Non_Demented/non_2470.jpg,non_2470.jpg,Non-Demented,NonDemented,128,128,1,591f41853fdbf03b03d37439bd25a6ee0939be25713a843d0ce75214b9a77bbd,test
+data/dataset/Non_Demented/non_782.jpg,non_782.jpg,Non-Demented,NonDemented,128,128,1,7f166de5b1e9be87f274fca91ae05304587cf949cd2b17919a07222216633218,test
+data/dataset/Non_Demented/non_2990.jpg,non_2990.jpg,Non-Demented,NonDemented,128,128,1,bb5b02a1ae41d6d017953602a2b354903c9548920781c143ea3c40b78118371d,test
+data/dataset/Non_Demented/non_2429.jpg,non_2429.jpg,Non-Demented,NonDemented,128,128,1,0c3842c5571e6fa5180b2c8ca697b425ffb533b8b2c0fa2e9bb54d366ed4a583,test
+data/dataset/Non_Demented/non_761.jpg,non_761.jpg,Non-Demented,NonDemented,128,128,1,c751af9d6d1c482927d7316517aad20b54a52d6829a016416f4c435e830de870,test
+data/dataset/Non_Demented/non_2181.jpg,non_2181.jpg,Non-Demented,NonDemented,128,128,1,226f93c45e2f835ac4b41cdae9a0ac304dff5ae55882a5e36db505cafd0e5767,test
+data/dataset/Non_Demented/non_3044.jpg,non_3044.jpg,Non-Demented,NonDemented,128,128,1,4fa7fb809e5bcb342df4ae29c592500e5f225ed4d2a169adb3fce53b51811302,test
+data/dataset/Non_Demented/non_345.jpg,non_345.jpg,Non-Demented,NonDemented,128,128,1,e50e9f0eaf61a3861ce0e5bb234abbe3c8aeb1fcacbf6ff4ca0e471a579416a5,test
+data/dataset/Non_Demented/non_1850.jpg,non_1850.jpg,Non-Demented,NonDemented,128,128,1,9898589bb04550f35db569beb8ca24eb25e191a16be97fc9f3630b2dbe48d458,test
+data/dataset/Non_Demented/non_1973.jpg,non_1973.jpg,Non-Demented,NonDemented,128,128,1,1c06ec357e7265150e21948e82953f80f24a23f429d622c649c858ef4cc7e030,test
+data/dataset/Non_Demented/non_1690.jpg,non_1690.jpg,Non-Demented,NonDemented,128,128,1,92beed6d401429f44dff972232579cf1f7f99347c906771672e4c836da009c0b,test
+data/dataset/Non_Demented/non_2157.jpg,non_2157.jpg,Non-Demented,NonDemented,128,128,1,47ac6bf1a3cd5e4a98b659702dff2292c303f2f5147c31dd882ce9dcc9d349b7,test
+data/dataset/Non_Demented/non_2856.jpg,non_2856.jpg,Non-Demented,NonDemented,128,128,1,1bfdd813efbc499a758239bea3a5d982b8415ab7dcbbe926a4ea1b6bc8d5b709,test
+data/dataset/Non_Demented/non_1541.jpg,non_1541.jpg,Non-Demented,NonDemented,128,128,1,35fa5ff2aff2f5bd92d45ee4e9b9a806db310e43bb18a540f21cbd6fa90a8d43,test
+data/dataset/Non_Demented/non_713.jpg,non_713.jpg,Non-Demented,NonDemented,128,128,1,5b63e0bc2beec644f2a056406717c3d90706d3fda08d59ccb9fc73273742bb08,test
+data/dataset/Non_Demented/non_666.jpg,non_666.jpg,Non-Demented,NonDemented,128,128,1,491b7f13c8490b8182a13734bbf73309d5e559030875e5dc26a77ae5099cf09e,test
+data/dataset/Non_Demented/non_355.jpg,non_355.jpg,Non-Demented,NonDemented,128,128,1,b94bb7b516a383d1b76ead954c114c3456b771c20aeb1d581aa74118135be0c6,test
+data/dataset/Non_Demented/non_930.jpg,non_930.jpg,Non-Demented,NonDemented,128,128,1,3fe7d4410df19f59877110f2431a6c8294bfbef916181d6782fa0da308a21582,test
+data/dataset/Non_Demented/non_882.jpg,non_882.jpg,Non-Demented,NonDemented,128,128,1,691fbfc7331ae1f941d67dcfbd25eb582658f2b94d134e2e26403ebd0bb62b2a,test
+data/dataset/Non_Demented/non_1398.jpg,non_1398.jpg,Non-Demented,NonDemented,128,128,1,b4ea7783658f19501c5c2c93d4bf4f25bdd945dbd81ec4bd4a660fc6032a5853,test
+data/dataset/Non_Demented/non_1631.jpg,non_1631.jpg,Non-Demented,NonDemented,128,128,1,32f7ef601e5bf477e4020551e46fe43f69a8eb78d1c2d68e22cb7f02a48a0297,test
+data/dataset/Non_Demented/non_1497.jpg,non_1497.jpg,Non-Demented,NonDemented,128,128,1,9ff57dc057b6620f216d805d2d696e0aff37427c4536e9072a4780828ed1a166,test
+data/dataset/Non_Demented/non_3102.jpg,non_3102.jpg,Non-Demented,NonDemented,128,128,1,7c363a3eafd3638635e78c2358f40e2d7306577cf288f07b70b01c61caca2027,test
+data/dataset/Non_Demented/non_1504.jpg,non_1504.jpg,Non-Demented,NonDemented,128,128,1,775cc0f77be3a572084422e809ac3b044b1ebf023a84f0647484fd82438c6e78,test
+data/dataset/Non_Demented/non_1512.jpg,non_1512.jpg,Non-Demented,NonDemented,128,128,1,33bec57ff10ca343646a0eaa9533eb962e055ff659a5ad5f7650d1b77f9f0d77,test
+data/dataset/Non_Demented/non_2745.jpg,non_2745.jpg,Non-Demented,NonDemented,128,128,1,324697d566d820959a0e7786238467a2377088cd470f6e7bacc9ae10814c9e00,test
+data/dataset/Non_Demented/non_1279.jpg,non_1279.jpg,Non-Demented,NonDemented,128,128,1,b58ce710ddd095a51ba7c1facfb4b38cb09fec4632aa86e844d97d979b85ddf5,test
+data/dataset/Non_Demented/non_757.jpg,non_757.jpg,Non-Demented,NonDemented,128,128,1,42d1c7d4bb5b5837993516fc852b46ac6c0f69c8f87660395b63741f84fda804,test
+data/dataset/Non_Demented/non_3198.jpg,non_3198.jpg,Non-Demented,NonDemented,128,128,1,c58504d30b70295e964018cdf9b5ca0adfdb4448aaff2a918fc288fe22b08f20,test
+data/dataset/Non_Demented/non_2886.jpg,non_2886.jpg,Non-Demented,NonDemented,128,128,1,d5edd6e61c60514288f1a2a1441a1d28930f9568d18f0cd3326c9a6fd7f4d77c,test
+data/dataset/Non_Demented/non_282.jpg,non_282.jpg,Non-Demented,NonDemented,128,128,1,bc6cb9e0353ee42c87ca3565de54cdbba0c8ef8ff7bce5883e8b24dbb0274b3a,test
+data/dataset/Non_Demented/non_2185.jpg,non_2185.jpg,Non-Demented,NonDemented,128,128,1,186894d05b92618ebf6d8763eb1ef46088d04972880c492716f8443b4b361425,test
+data/dataset/Non_Demented/non_2815.jpg,non_2815.jpg,Non-Demented,NonDemented,128,128,1,d76db6d265b055c1e7e7569f0be5599f88d3719b1ded96192d17103ca23e7e71,test
+data/dataset/Non_Demented/non_1451.jpg,non_1451.jpg,Non-Demented,NonDemented,128,128,1,b9d507db65687cfe2535aeafe2073ca93f89aeaf245798d0b6557f42bc4ce829,test
+data/dataset/Non_Demented/non_1974.jpg,non_1974.jpg,Non-Demented,NonDemented,128,128,1,ac0ca8e18f6f9a81084e6866c4600d5d5c57e42b0ab4c0b0839284a315ce4808,test
+data/dataset/Non_Demented/non_1257.jpg,non_1257.jpg,Non-Demented,NonDemented,128,128,1,43349b0fc279b242971ae483ccca7e9de44afc8fccb890d510d084b777a73407,test
+data/dataset/Non_Demented/non_1477.jpg,non_1477.jpg,Non-Demented,NonDemented,128,128,1,eb5c036e8e5e2c78a83153b33d9a43957c063fb9072ad83167bb134247fcc04e,test
+data/dataset/Non_Demented/non_2829.jpg,non_2829.jpg,Non-Demented,NonDemented,128,128,1,c89384ac32d6687717ea08336bd9f6fdf7f7f86dbc34462581502053cf33f9ad,test
+data/dataset/Non_Demented/non_268.jpg,non_268.jpg,Non-Demented,NonDemented,128,128,1,2693e2b6094c62a938fe6e4ee19495ef9d7973b25dffa2f98531020b3ce85645,test
+data/dataset/Non_Demented/non_668.jpg,non_668.jpg,Non-Demented,NonDemented,128,128,1,8f3e35cfe9e0e63ab04100cc259d3479617a7df9d011498d298fd3949f26fb80,test
+data/dataset/Non_Demented/non_1902.jpg,non_1902.jpg,Non-Demented,NonDemented,128,128,1,d54ae2c0297acba9744ae85fb368917ee9fc30c709289b0be1adfd1c54ec85a0,test
+data/dataset/Non_Demented/non_1469.jpg,non_1469.jpg,Non-Demented,NonDemented,128,128,1,e4bf6c40568aa18fd4aedfa23a81a3b426f5104d95e7895b72bab1d64fe598c1,test
+data/dataset/Non_Demented/non_1379.jpg,non_1379.jpg,Non-Demented,NonDemented,128,128,1,f7a30cbcb4218afb0019754175c4e51758909b5dff0331414c2f7b3f12e55596,test
+data/dataset/Non_Demented/non_2603.jpg,non_2603.jpg,Non-Demented,NonDemented,128,128,1,9612e1cf0b0f6c177a45ea61f8c7d3f2ee4c63f5bd66c738104fabca3622bb27,test
+data/dataset/Non_Demented/non_1743.jpg,non_1743.jpg,Non-Demented,NonDemented,128,128,1,6eec7007af169ad7dd8d514a287b1b8056c8a6e5322668944915a6a4c4da9168,test
+data/dataset/Non_Demented/non_601.jpg,non_601.jpg,Non-Demented,NonDemented,128,128,1,dab4f164646cf61071fa2da50140919cbabf063fe82b2f736a5287bb0c045acc,test
+data/dataset/Non_Demented/non_283.jpg,non_283.jpg,Non-Demented,NonDemented,128,128,1,1bda021f185920c16dae52f94793d209ad3562f900407b3d0d3faa2fd13ea52d,test
+data/dataset/Non_Demented/non_1448.jpg,non_1448.jpg,Non-Demented,NonDemented,128,128,1,66d3c3195463383a82fa4eede173f42912359a74be2dc2c85509482cb11794c6,test
+data/dataset/Non_Demented/non_3016.jpg,non_3016.jpg,Non-Demented,NonDemented,128,128,1,edc1129c5bc1f498b355b745720a6d5f5063d6865f77d97341eff678b87b2843,test
+data/dataset/Non_Demented/non_1175.jpg,non_1175.jpg,Non-Demented,NonDemented,128,128,1,4d8146871501a423a1bc3ce405ed731cfe1c5d60651da30def89ae63bdea0dd0,test
+data/dataset/Non_Demented/non_1270.jpg,non_1270.jpg,Non-Demented,NonDemented,128,128,1,e827f63092783e2fd271b9cf49e7ae0887b39d2e9ad449362fa2bdf0ab1a11ec,test
+data/dataset/Non_Demented/non_1201.jpg,non_1201.jpg,Non-Demented,NonDemented,128,128,1,a6bd9f3f693388df36714608b34e336b98a3b4449238b211e6da0bf269468112,test
+data/dataset/Non_Demented/non_2018.jpg,non_2018.jpg,Non-Demented,NonDemented,128,128,1,8d8d31c94bcaf274242a46f39db6a30471543859a61ea40a5fb32bcda8889f00,test
+data/dataset/Non_Demented/non_742.jpg,non_742.jpg,Non-Demented,NonDemented,128,128,1,520c446ba37ea4d3f3c21953ca7c6cad027dc9fb679cad26826eb7977c01abec,test
+data/dataset/Non_Demented/non_1772.jpg,non_1772.jpg,Non-Demented,NonDemented,128,128,1,b7ae804198a30a415affdfeaac7eb8ee6e821c4d00647e891c43d455917e2126,test
+data/dataset/Non_Demented/non_2410.jpg,non_2410.jpg,Non-Demented,NonDemented,128,128,1,9731436e47fd86ecf998d43d79b1274897605f69e6d1b39d253fe9cd15bff460,test
+data/dataset/Non_Demented/non_2919.jpg,non_2919.jpg,Non-Demented,NonDemented,128,128,1,b5e713a42acc871ca665be629d58daa65fa6a9f23e28af7e8905cef38f0e865b,test
+data/dataset/Non_Demented/non_2177.jpg,non_2177.jpg,Non-Demented,NonDemented,128,128,1,94d90c8c095820765e1bd2cb16e963597f447b0d2fd4b9cf26eea2466b113565,test
+data/dataset/Non_Demented/non_2671.jpg,non_2671.jpg,Non-Demented,NonDemented,128,128,1,ec4982f012fb891a6e30fa841550a7ad533fb59318b3b0911948f9338a63484a,test
+data/dataset/Non_Demented/non_240.jpg,non_240.jpg,Non-Demented,NonDemented,128,128,1,e769cd88f550eff81bbbc2e1cc5363d935ad485cc6fe95a4a4a8ae5a082f6f26,test
+data/dataset/Non_Demented/non_2281.jpg,non_2281.jpg,Non-Demented,NonDemented,128,128,1,ac5bff92a8c1ff93b187c6e2e784e302cbdd0769f541e787b0f4aedd3781c366,test
+data/dataset/Non_Demented/non_1373.jpg,non_1373.jpg,Non-Demented,NonDemented,128,128,1,0160a94bea5a8e91749e79def0f135ef182d3eb02b3c108d74efa0947c9d5adc,test
+data/dataset/Non_Demented/non_770.jpg,non_770.jpg,Non-Demented,NonDemented,128,128,1,c360d42d83480c5f33a00c72de872a56b047bd0a9178753db62169550191858d,test
+data/dataset/Non_Demented/non_1034.jpg,non_1034.jpg,Non-Demented,NonDemented,128,128,1,e6fb9486806600f4e928022cebfdf7bcdaef787cdc8cc74cb35c900b5df021bc,test
+data/dataset/Non_Demented/non_126.jpg,non_126.jpg,Non-Demented,NonDemented,128,128,1,39ad7f71e087b26cfe5c18b8f40a553205414bac9d7588b16decfbdc8e5dc4db,test
+data/dataset/Non_Demented/non_547.jpg,non_547.jpg,Non-Demented,NonDemented,128,128,1,27469fd89b3c8fff632289cf7b80cc58eed2590028d5fb7305156ee5dceea372,test
+data/dataset/Non_Demented/non_2489.jpg,non_2489.jpg,Non-Demented,NonDemented,128,128,1,87560884b2e9a1961f21da68661614f100932ba5cbcb7c1d009f72f31f8208bd,test
+data/dataset/Non_Demented/non_199.jpg,non_199.jpg,Non-Demented,NonDemented,128,128,1,6a739ad803cd5cb1bd199631a76259903d0379fb23f0339a10553559d4764222,test
+data/dataset/Non_Demented/non_1049.jpg,non_1049.jpg,Non-Demented,NonDemented,128,128,1,4c92017b924bfd94d65531dad6dfa633038c8b6dd73e8140fca9b880e7176010,test
+data/dataset/Non_Demented/non_2885.jpg,non_2885.jpg,Non-Demented,NonDemented,128,128,1,adf372b72a12c64921fa840ca3b1d9e25591f513fad9967bbd7228e044440ea8,test
+data/dataset/Non_Demented/non_1523.jpg,non_1523.jpg,Non-Demented,NonDemented,128,128,1,ccbc65cc4c1dfb4a3a7ab71612e6e9846ce7aff6976202d52c35e26f6476c8de,test
+data/dataset/Non_Demented/non_1347.jpg,non_1347.jpg,Non-Demented,NonDemented,128,128,1,56b3742accf9f1a4631af193c83fa5220eb1b2f7f63f18e83a3a7f0ce984f8bc,test
+data/dataset/Non_Demented/non_679.jpg,non_679.jpg,Non-Demented,NonDemented,128,128,1,7140d850df6f1d4233d69d42e1424f8785de8bd8ecd6a13160f7b315e6ee4fe1,test
+data/dataset/Non_Demented/non_1037.jpg,non_1037.jpg,Non-Demented,NonDemented,128,128,1,453d032e2f66c4a40a624923733ed66f86bc5c593c3e932a4e11671c4fd9723c,test
+data/dataset/Non_Demented/non_1452.jpg,non_1452.jpg,Non-Demented,NonDemented,128,128,1,fe532536e6a653dbc155cbbfc4c42d1fea3244a64f966db097de15e34dcd7d58,test
+data/dataset/Non_Demented/non_2332.jpg,non_2332.jpg,Non-Demented,NonDemented,128,128,1,ddb43b9e7e2a48cc63aa49dc51574244f685c25feeec690e483d99c9064fe230,test
+data/dataset/Non_Demented/non_1338.jpg,non_1338.jpg,Non-Demented,NonDemented,128,128,1,e5fd1499c5663619e2c64f7a64093bd6b2040d43085a176d9c960dbf36510b16,test
+data/dataset/Non_Demented/non_2551.jpg,non_2551.jpg,Non-Demented,NonDemented,128,128,1,10efad522b3ef6a089deb83ad192f86cd777a443ba587518212fe4cb3967533e,test
+data/dataset/Non_Demented/non_2456.jpg,non_2456.jpg,Non-Demented,NonDemented,128,128,1,a7e0744c098abfc3385d12bacff1711616094b85c29529bba20178d15298bbbc,test
+data/dataset/Non_Demented/non_1804.jpg,non_1804.jpg,Non-Demented,NonDemented,128,128,1,36ff46700a6abfe1f85e15cdee10cf36fa52b246d106a9f402d20420740fe887,test
+data/dataset/Non_Demented/non_1402.jpg,non_1402.jpg,Non-Demented,NonDemented,128,128,1,2c1850d95bb067251d6c6773dd234d740d44d097b7a898f4e3d7fa6b45e24643,test
+data/dataset/Non_Demented/non_2469.jpg,non_2469.jpg,Non-Demented,NonDemented,128,128,1,1a35e277e817e7296321fac88b1277e3a0884bae4bfc67665bea0e474251942a,test
+data/dataset/Non_Demented/non_928.jpg,non_928.jpg,Non-Demented,NonDemented,128,128,1,4973698a408c760d5d358b1e8085cd46b96de8fb7d957b8e92e6b207be20cd42,test
+data/dataset/Non_Demented/non_1138.jpg,non_1138.jpg,Non-Demented,NonDemented,128,128,1,48135cf34a678b64b08c2e0d05fcdc4b65ac75241f347932c22f6c838080c773,test
+data/dataset/Non_Demented/non_569.jpg,non_569.jpg,Non-Demented,NonDemented,128,128,1,311684e9fdb88d72d895476cb3be574f1a0ed6572d1210af88b79993f546bc2b,test
+data/dataset/Non_Demented/non_848.jpg,non_848.jpg,Non-Demented,NonDemented,128,128,1,9f3a7955518edacf9ce897da5a4dd36120b25254589a02b49baa2449b0bfeb4a,test
+data/dataset/Non_Demented/non_174.jpg,non_174.jpg,Non-Demented,NonDemented,128,128,1,4388f310f007fec5e544b17edb756b316c0e59908c531d5cfe46737efe9895b8,test
+data/dataset/Non_Demented/non_1363.jpg,non_1363.jpg,Non-Demented,NonDemented,128,128,1,ef4adfcac134007442a6e2e6a86840abb88e5619d24b1ee9a5853160e7b0037c,test
+data/dataset/Non_Demented/non_2346.jpg,non_2346.jpg,Non-Demented,NonDemented,128,128,1,ff40c4b4615a1f74241eca9f1d7442da2ee83383e023d664d8dcd9405586dc60,test
+data/dataset/Non_Demented/non_444.jpg,non_444.jpg,Non-Demented,NonDemented,128,128,1,951bcbeb704fdb84beb9ee1d58f834195df49e0215bd403dfe1e16c0b67ede00,test
+data/dataset/Non_Demented/non_2269.jpg,non_2269.jpg,Non-Demented,NonDemented,128,128,1,51831d56bce1961c43e7f4b852d02204598ab05f5c5cc36fe400219a9dc9a10b,test
+data/dataset/Non_Demented/non_2003.jpg,non_2003.jpg,Non-Demented,NonDemented,128,128,1,3f9fa3b6de16a27f79a03962761459dc8138905b6813f1d88a15c72a337f3833,test
+data/dataset/Non_Demented/non_1063.jpg,non_1063.jpg,Non-Demented,NonDemented,128,128,1,ec648584503e614ccfb351efdddf9c775f862faa6cc39cdb2e8ea35cdd9a58b8,test
+data/dataset/Non_Demented/non_2467.jpg,non_2467.jpg,Non-Demented,NonDemented,128,128,1,83bce20b6cdb6f503224c42759abc05d114a7acb3f12f9556ff021a48aa1c5a3,test
+data/dataset/Non_Demented/non_1993.jpg,non_1993.jpg,Non-Demented,NonDemented,128,128,1,275ca9ad0064807931d535de49e3d0dcbe74432f929c2a9c527bd8e5ef12b09a,test
+data/dataset/Non_Demented/non_1325.jpg,non_1325.jpg,Non-Demented,NonDemented,128,128,1,46e5711d4c533485ad42f25a90f808b0e65ca8159355640834f3383b92c1eb71,test
+data/dataset/Non_Demented/non_68.jpg,non_68.jpg,Non-Demented,NonDemented,128,128,1,52536580220f1b9965486d194550aa261f07c2a2bd4d4701e5f5c39a1ddf8b25,test
+data/dataset/Non_Demented/non_2539.jpg,non_2539.jpg,Non-Demented,NonDemented,128,128,1,021c265b3d532267dbd12d50f93d5775be760f09657a525b3c9d3fbdaf18efed,test
+data/dataset/Non_Demented/non_29.jpg,non_29.jpg,Non-Demented,NonDemented,128,128,1,1cd7dae8ce7606b002da5ca3d09381cf0115c6abe7598309aa34e28fb64c177b,test
+data/dataset/Non_Demented/non_2753.jpg,non_2753.jpg,Non-Demented,NonDemented,128,128,1,e134bdc0e4eb116b5bcbd2bec852ef6a9cb3349a5f565be35c3131e4fbe328e8,test
+data/dataset/Non_Demented/non_52.jpg,non_52.jpg,Non-Demented,NonDemented,128,128,1,67a6501ad6c487f42cfdb9045529a20bfe4a10db505b693e56633c1a98eaa028,test
+data/dataset/Non_Demented/non_973.jpg,non_973.jpg,Non-Demented,NonDemented,128,128,1,84706da45fb70f423733dd91dccf69fa83b8b35b37d2a78152ed887e72d0d348,test
+data/dataset/Non_Demented/non_2839.jpg,non_2839.jpg,Non-Demented,NonDemented,128,128,1,0c568668a5be447aeb12206cc1c331f4e50c251cadbee7097cf82d211d38b05a,test
+data/dataset/Non_Demented/non_153.jpg,non_153.jpg,Non-Demented,NonDemented,128,128,1,6d5ad940fd49d56223fb0e365933c874d0616547c6496beb30950c56cc462bc1,test
+data/dataset/Non_Demented/non_2347.jpg,non_2347.jpg,Non-Demented,NonDemented,128,128,1,db26e790d42a3782030dd8b764e1d9e42d493f76b28b2227acc0d2c8c70716da,test
+data/dataset/Non_Demented/non_2428.jpg,non_2428.jpg,Non-Demented,NonDemented,128,128,1,772ce3426028d2b065883a7edb8e46f619a1749c8268695f54f4d85e314cfa14,test
+data/dataset/Non_Demented/non_2275.jpg,non_2275.jpg,Non-Demented,NonDemented,128,128,1,9388bf854f5b652c2ae6f742c57e017476553efd60b77987005c36d6a9becbcd,test
+data/dataset/Non_Demented/non_488.jpg,non_488.jpg,Non-Demented,NonDemented,128,128,1,c91479fc2271516c023273386861aec131d02ad083a282e821f298d401971a47,test
+data/dataset/Non_Demented/non_2858.jpg,non_2858.jpg,Non-Demented,NonDemented,128,128,1,c0f7310c6ab1f50fee4eaf41b05f812f8e2aa4b4900f3ff4a0c0461805167b79,test
+data/dataset/Non_Demented/non_2143.jpg,non_2143.jpg,Non-Demented,NonDemented,128,128,1,917be3311186c20642d9873ff72919fd3521ec78d20eec2a4f3a961d3def87d3,test
+data/dataset/Non_Demented/non_1764.jpg,non_1764.jpg,Non-Demented,NonDemented,128,128,1,7492d402cb9a45cebbb058822d972f431267ac4500bd8404cf080183bab52175,test
+data/dataset/Non_Demented/non_2630.jpg,non_2630.jpg,Non-Demented,NonDemented,128,128,1,9a4a7bfb3679be48878a627d805619bc6e3794aa4b030decf58aa27a8903d23e,test
+data/dataset/Non_Demented/non_2285.jpg,non_2285.jpg,Non-Demented,NonDemented,128,128,1,81529a93c0e85e7cfcb624e5ec2bf299ce22dc859ef8732bfc3d8c3bea9eeffe,test
+data/dataset/Non_Demented/non_2721.jpg,non_2721.jpg,Non-Demented,NonDemented,128,128,1,c84989f370e8afe0ddbcb1d1dae04d06c1e50af8720228c2532dcca076b803ae,test
+data/dataset/Non_Demented/non_732.jpg,non_732.jpg,Non-Demented,NonDemented,128,128,1,2283006dde5fdc5f6cf962cd072cc7b4772165e19be12b66a3728631c7880dce,test
+data/dataset/Non_Demented/non_2056.jpg,non_2056.jpg,Non-Demented,NonDemented,128,128,1,82d0b87770f82343e60f235382b94bb2870acf099e5d21598a810106af5a9717,test
+data/dataset/Non_Demented/non_2037.jpg,non_2037.jpg,Non-Demented,NonDemented,128,128,1,d0966872aa1725a51d4322cbda629edb9e8794f276445f6977875d62620263d1,test
+data/dataset/Non_Demented/non_82.jpg,non_82.jpg,Non-Demented,NonDemented,128,128,1,7b8fabfca699422ef83af92e2511cb3886f539942dbeb2f6731a46d30fb5a539,test
+data/dataset/Non_Demented/non_1580.jpg,non_1580.jpg,Non-Demented,NonDemented,128,128,1,7185ded6ff5a9e7d1395d1da29054fe88b31695da682b43008e2d8c6afa2fca5,test
+data/dataset/Non_Demented/non_1266.jpg,non_1266.jpg,Non-Demented,NonDemented,128,128,1,e47f4ae1c4ec795caa3c9265c0dede290c6278bd3b74edde18f34670a378209b,test
+data/dataset/Non_Demented/non_1162.jpg,non_1162.jpg,Non-Demented,NonDemented,128,128,1,8834ff63085b39e2d379269942491d27df545d0244bfa79952ad51dc5e2d5197,test
+data/dataset/Non_Demented/non_2946.jpg,non_2946.jpg,Non-Demented,NonDemented,128,128,1,82e67142632aa0baf63f7b871d6dfec0a8604fc35195d8cdf384e940d1e9e691,test
+data/dataset/Non_Demented/non_2676.jpg,non_2676.jpg,Non-Demented,NonDemented,128,128,1,e8550e297aeb0d695666252c9ba48db135168cac1c33e4bbac71029ca0ec85eb,test
+data/dataset/Non_Demented/non_1676.jpg,non_1676.jpg,Non-Demented,NonDemented,128,128,1,2a2b6e68390d95b8d35e6f72e02c1b2d0d8840c770856f6337255b8a152b7609,test
+data/dataset/Non_Demented/non_1284.jpg,non_1284.jpg,Non-Demented,NonDemented,128,128,1,849d0aa8af1a6711288deb5ba80df9b032668a93db8f4bdf32da32d7de1e5f07,test
+data/dataset/Non_Demented/non_141.jpg,non_141.jpg,Non-Demented,NonDemented,128,128,1,ab3c725578a5144506c83bf914813045874d4606191fc1e1e66872f551e38742,test
+data/dataset/Non_Demented/non_2648.jpg,non_2648.jpg,Non-Demented,NonDemented,128,128,1,0a34003f8ce35aaf13698e020ab6f7762a9e0bbc1244b6349d150351cd9c651d,test
+data/dataset/Non_Demented/non_3151.jpg,non_3151.jpg,Non-Demented,NonDemented,128,128,1,54b2c56ba7da9f648deee109d49746a53d7e5b0e10933c76e878a63dbde2a6a8,test
+data/dataset/Non_Demented/non_1304.jpg,non_1304.jpg,Non-Demented,NonDemented,128,128,1,7337cb0793bf9193be05e0f6e40b7e438166a56313f6507e828a6374f1b3c98e,test
+data/dataset/Non_Demented/non_102.jpg,non_102.jpg,Non-Demented,NonDemented,128,128,1,33a07c86dd8b87763f895180137e68b7414d5aa90ae3ef26751e5d782b1a44ce,test
+data/dataset/Non_Demented/non_2784.jpg,non_2784.jpg,Non-Demented,NonDemented,128,128,1,20f4cd1bba7c1c06b9edeb1c7dbf4be76d0c3252d8bfddde700417c56106cfea,test
+data/dataset/Non_Demented/non_1339.jpg,non_1339.jpg,Non-Demented,NonDemented,128,128,1,bc1aa0603d30f35e664efe840c4ae7c9458c9cdd400ce2de5550f5e2bb156f35,test
+data/dataset/Non_Demented/non_1499.jpg,non_1499.jpg,Non-Demented,NonDemented,128,128,1,36ad264beaa003a0ac06c51266186cfb2e5296fffa7bdf523497344ad50d6d16,test
+data/dataset/Non_Demented/non_2750.jpg,non_2750.jpg,Non-Demented,NonDemented,128,128,1,ccfd9115d8c34cdca083dd13ad95b5a47d55b859d6266532d5465359aca57ccc,test
+data/dataset/Non_Demented/non_39.jpg,non_39.jpg,Non-Demented,NonDemented,128,128,1,027ab6ff3edfa46e9f37546ae742a7a718c2703685a3b5228bdc2905c689e91d,test
+data/dataset/Non_Demented/non_1318.jpg,non_1318.jpg,Non-Demented,NonDemented,128,128,1,41903ef3a330164c2c8bfd435aad36eea6d6e768fbfc163b3a4bc1c008b171b1,test
+data/dataset/Non_Demented/non_258.jpg,non_258.jpg,Non-Demented,NonDemented,128,128,1,62377da6bccafbb1e1297bef9ac2d94171345ad32eeea77c4df4c28e63a4367b,test
+data/dataset/Non_Demented/non_1087.jpg,non_1087.jpg,Non-Demented,NonDemented,128,128,1,e53b31a5b69d797aa05a43035f3a14f002f0b2475e63bc0af56062ec38a7f435,test
+data/dataset/Non_Demented/non_1659.jpg,non_1659.jpg,Non-Demented,NonDemented,128,128,1,f6210acb4fc67503f381478a805d3a0eb2e88470651ed6bde6cc8d456683d923,test
+data/dataset/Non_Demented/non_310.jpg,non_310.jpg,Non-Demented,NonDemented,128,128,1,ba14a90be3494c79acb6a1285ea47bbec907766015426294827692be2f11cfb5,test
+data/dataset/Non_Demented/non_2044.jpg,non_2044.jpg,Non-Demented,NonDemented,128,128,1,939ebb7bd6e9a53d80df2c3d835740d529d643d10ed3b99fe6c83a8be04823a1,test
+data/dataset/Non_Demented/non_264.jpg,non_264.jpg,Non-Demented,NonDemented,128,128,1,4d2c329671e254728ddcc5b2d30fe8bef0b3ddd5b89623876f58019a18e2a474,test
+data/dataset/Non_Demented/non_744.jpg,non_744.jpg,Non-Demented,NonDemented,128,128,1,1728792b3606856c7771b3d6422302866fcf26189950d6d4669ac31bc4247605,test
+data/dataset/Non_Demented/non_405.jpg,non_405.jpg,Non-Demented,NonDemented,128,128,1,e0c6ef3eecc6854d9f07ae12616ee05b56f5354db875d2d8614c4afbe58df4db,test
+data/dataset/Non_Demented/non_2324.jpg,non_2324.jpg,Non-Demented,NonDemented,128,128,1,bc990b283b8bd85aa06b018afc4b33e12dfaf9095d51733c2f18a88b37c14bd8,test
+data/dataset/Non_Demented/non_2566.jpg,non_2566.jpg,Non-Demented,NonDemented,128,128,1,952bd9673f40f50540048c17e608ff7968e864ff8a3f5237dc09b21849f1b369,test
+data/dataset/Non_Demented/non_161.jpg,non_161.jpg,Non-Demented,NonDemented,128,128,1,05f806e0ae6540da47d8a523f31c3d5bb3766dac94865d56a5ad5139ffcede21,test
+data/dataset/Non_Demented/non_1652.jpg,non_1652.jpg,Non-Demented,NonDemented,128,128,1,1a216d7b0a307efc1cd5db6656bbf66fdc705c23cea6d16fd6d6263833128ece,test
+data/dataset/Non_Demented/non_2414.jpg,non_2414.jpg,Non-Demented,NonDemented,128,128,1,8eece027cc1ac238ead24a38db4552bc61ff5fd6918e6a151007adbb47dd57ff,test
+data/dataset/Non_Demented/non_654.jpg,non_654.jpg,Non-Demented,NonDemented,128,128,1,5341f6687bdc4ca8a99a82263b99aed82825f01a0a14077373063cfcc8cf92ba,test
+data/dataset/Non_Demented/non_1055.jpg,non_1055.jpg,Non-Demented,NonDemented,128,128,1,4acd923a277c69be03591a53412bd988df965257e78d9baee03f780ae5264896,test
+data/dataset/Non_Demented/non_960.jpg,non_960.jpg,Non-Demented,NonDemented,128,128,1,b3fc2d516570b06d8c15f0201875fb32235cb9667b4f2e0c62bf12b01d9daa11,test
+data/dataset/Non_Demented/non_899.jpg,non_899.jpg,Non-Demented,NonDemented,128,128,1,5d62df2630290202de126896c02ca7b3596fa9fcf8ef327be754363774563283,test
+data/dataset/Non_Demented/non_1550.jpg,non_1550.jpg,Non-Demented,NonDemented,128,128,1,98a3df3eef251daae60cca16a8bbe23907ee6dd4640310a2b45070af7e3491f2,test
+data/dataset/Non_Demented/non_935.jpg,non_935.jpg,Non-Demented,NonDemented,128,128,1,4c26aed901d4fd136d0f2beec11b75bd5e5f855d8f0965cc874182470c5a9cf8,test
+data/dataset/Non_Demented/non_1560.jpg,non_1560.jpg,Non-Demented,NonDemented,128,128,1,ac759de89d0d36d10aadd99a2ecd7d1e617ef842bcf3c3630f577938a2991b2c,test
+data/dataset/Non_Demented/non_1312.jpg,non_1312.jpg,Non-Demented,NonDemented,128,128,1,01f7d76ad619d24914b523387369508d10251f50674621fc8d5da2513779183f,test
+data/dataset/Non_Demented/non_2759.jpg,non_2759.jpg,Non-Demented,NonDemented,128,128,1,fa4b9090e04c37323d621a5a1e03c0813b2576f1aee010c165e8aacbf556f9f0,test
+data/dataset/Non_Demented/non_552.jpg,non_552.jpg,Non-Demented,NonDemented,128,128,1,327ee82ffee4d88db6db310b81d852a3414d738a892076221ed33f0a9433f175,test
+data/dataset/Non_Demented/non_2114.jpg,non_2114.jpg,Non-Demented,NonDemented,128,128,1,9f41991b0d44257439b56358be450fdf56d2a2044b19c1dd465853de39854121,test
+data/dataset/Non_Demented/non_2122.jpg,non_2122.jpg,Non-Demented,NonDemented,128,128,1,5bb1eb6e61561af476f9d3c2b313231f06f5dea7de26e6b4aae2e03a7aa28ad8,test
+data/dataset/Non_Demented/non_403.jpg,non_403.jpg,Non-Demented,NonDemented,128,128,1,42118ac35c836c0d250c507c783e9c3a68f1c158c7812ade5b02a74b8be0f05f,test
+data/dataset/Non_Demented/non_232.jpg,non_232.jpg,Non-Demented,NonDemented,128,128,1,c6a2ae0b0e2e04e804878f6f2b80363f00577836492d3ba046b028d59034faf2,test
+data/dataset/Non_Demented/non_2828.jpg,non_2828.jpg,Non-Demented,NonDemented,128,128,1,76d0e385752f00e230e87076bf51a1ea0449a44c530e27e1c38be25282eb4896,test
+data/dataset/Non_Demented/non_429.jpg,non_429.jpg,Non-Demented,NonDemented,128,128,1,7899e8a90a990b40272b73d471c530f58ab33d16c0c0cfc699414fa8f2682f62,test
+data/dataset/Non_Demented/non_387.jpg,non_387.jpg,Non-Demented,NonDemented,128,128,1,12dd79033983823b7d5ca46a0723aa6a66ad19188e569d2b7612457b8edbf3ed,test
+data/dataset/Non_Demented/non_1608.jpg,non_1608.jpg,Non-Demented,NonDemented,128,128,1,b7ac4b062966570262b082f4a41053d4eefbb9f4df07818081974961f1ee2656,test
+data/dataset/Non_Demented/non_261.jpg,non_261.jpg,Non-Demented,NonDemented,128,128,1,d4c7ce5c0ee3a0e5ee1d0c3145cad52c5c6244a93f0b4b21bad23260e754e5ad,test
+data/dataset/Non_Demented/non_943.jpg,non_943.jpg,Non-Demented,NonDemented,128,128,1,ff4f028cb4f9fa9afcc1ed45ced5c4fc8c24c9862a2cc89122915542569bc8c8,test
+data/dataset/Non_Demented/non_2134.jpg,non_2134.jpg,Non-Demented,NonDemented,128,128,1,41a17e079faa3156e1c6a3d2d5f608d1c00ba8b06e461844332c224f1d79e3ad,test
+data/dataset/Non_Demented/non_1248.jpg,non_1248.jpg,Non-Demented,NonDemented,128,128,1,109c12ad6db02e685b0745687ccf488e9af448e90549a722b182a572d02ddc07,test
+data/dataset/Non_Demented/non_1161.jpg,non_1161.jpg,Non-Demented,NonDemented,128,128,1,4a209adc0eacc9cd78bcce029ba623d0c70375a4c50df46fda5165e55428be0d,test
+data/dataset/Non_Demented/non_1933.jpg,non_1933.jpg,Non-Demented,NonDemented,128,128,1,ff977fcb44a2e624f0bf2a5dc3539fb07c0632eb716b88de6480a3b04194bc41,test
+data/dataset/Non_Demented/non_2486.jpg,non_2486.jpg,Non-Demented,NonDemented,128,128,1,859b9aab059b309411c3556844bda28947db2feb8ec9535963304cacf6903326,test
+data/dataset/Non_Demented/non_2335.jpg,non_2335.jpg,Non-Demented,NonDemented,128,128,1,381f02fa6eaba995e6f0e4e210cf3c526febff7ddd4ce441d5edfa17396e78a4,test
+data/dataset/Non_Demented/non_257.jpg,non_257.jpg,Non-Demented,NonDemented,128,128,1,4e801e270de46fe9903d06101b2a1db91069c59342de84224bedfa0869a55fb8,test
+data/dataset/Non_Demented/non_2531.jpg,non_2531.jpg,Non-Demented,NonDemented,128,128,1,71b6d75ab9f29760a869d547937e81921bff8561bb8fcf9b1c400e41ad80050d,test
+data/dataset/Non_Demented/non_3003.jpg,non_3003.jpg,Non-Demented,NonDemented,128,128,1,0bdc1b3f9f642dee5f412fc22835c0b149cd438ed137f75f50689a1cd1c2ae77,test
+data/dataset/Non_Demented/non_1027.jpg,non_1027.jpg,Non-Demented,NonDemented,128,128,1,17779bdff61d2545b35e92647afca64ed8645ee04afaf951daf9a136315bd970,test
+data/dataset/Non_Demented/non_1439.jpg,non_1439.jpg,Non-Demented,NonDemented,128,128,1,e3604b01fa9b35d0d3e90a4eb42311d83403135031accd412260b9bf5169f1c0,test
+data/dataset/Non_Demented/non_3002.jpg,non_3002.jpg,Non-Demented,NonDemented,128,128,1,1d18aba5c5cac39ae7ce9a46b95d82dac30fdb23f697e4c6a304a97833f49d6a,test
+data/dataset/Non_Demented/non_3063.jpg,non_3063.jpg,Non-Demented,NonDemented,128,128,1,201675288eee6f00d4ee87041151c3e7f283b06a02ff3dd4b20ecf7ee6b69b1c,test
+data/dataset/Non_Demented/non_728.jpg,non_728.jpg,Non-Demented,NonDemented,128,128,1,74eb2e08c5bb561281ce7834a8753257625ca5e8117fd344bbb428ac779d77f1,test
+data/dataset/Non_Demented/non_1110.jpg,non_1110.jpg,Non-Demented,NonDemented,128,128,1,c7d0f440c66970b7ef543192703f587b016d38ba4feadbdcb13571da028b5d13,test
+data/dataset/Non_Demented/non_866.jpg,non_866.jpg,Non-Demented,NonDemented,128,128,1,279822e0ef313f8105fed0212d2f7e2cf1e0cc45d78bee638282bcf0cb9c73b1,test
+data/dataset/Non_Demented/non_548.jpg,non_548.jpg,Non-Demented,NonDemented,128,128,1,b2b93009ce7ab93a1b5876dfa550c4c3618affce1230c8edffa9f672e49650b2,test
+data/dataset/Non_Demented/non_2263.jpg,non_2263.jpg,Non-Demented,NonDemented,128,128,1,cfd5fa93d7b8d8e22507df0ef8b052b11ac6dddb0d3759555681c49b1243513b,test
+data/dataset/Non_Demented/non_2916.jpg,non_2916.jpg,Non-Demented,NonDemented,128,128,1,4cab2fd3f9e7a738013bf2146bb0d227d3e23f70e9ccb11f49050270adc94189,test
+data/dataset/Non_Demented/non_1068.jpg,non_1068.jpg,Non-Demented,NonDemented,128,128,1,6e941944bc251d704d0d6c57dda8c91e631b9873d5044cbeac80781b70286165,test
+data/dataset/Non_Demented/non_367.jpg,non_367.jpg,Non-Demented,NonDemented,128,128,1,3b5a178cb163351bdf6aef35bc0a432c9abfc755f05ab93c79fe5426a56d1c61,test
+data/dataset/Non_Demented/non_2862.jpg,non_2862.jpg,Non-Demented,NonDemented,128,128,1,b272ac33a11529ccad232e8335974289e68c92204008f390d5cd31f54dfe5997,test
+data/dataset/Non_Demented/non_1011.jpg,non_1011.jpg,Non-Demented,NonDemented,128,128,1,acf794241369bbf6f90c021428fddf315b89d49a236217f4c37ae329566b1903,test
+data/dataset/Non_Demented/non_1667.jpg,non_1667.jpg,Non-Demented,NonDemented,128,128,1,94f669d7a35801b2d0e51de391255b844975e808ed3f1fc0b8ef24a70386833c,test
+data/dataset/Non_Demented/non_3064.jpg,non_3064.jpg,Non-Demented,NonDemented,128,128,1,cbc5593f1a7847ebe885a83e8e4f9ef84be4bf2653d51f11779b4df2ec50aab2,test
+data/dataset/Non_Demented/non_1906.jpg,non_1906.jpg,Non-Demented,NonDemented,128,128,1,66f3aeca22f03279c0bf3895fbacc27c46e83da9e0addcde84c3c2beecbfd374,test
+data/dataset/Non_Demented/non_3058.jpg,non_3058.jpg,Non-Demented,NonDemented,128,128,1,9f9582bd537590394fba64fca0d5b07f632ffe0b61ddb58c3c95a78275f28906,test
+data/dataset/Non_Demented/non_1002.jpg,non_1002.jpg,Non-Demented,NonDemented,128,128,1,94b3922054536869763cd1fc0b912e8b1505854275c428b82bb7c2d40da9496c,test
+data/dataset/Non_Demented/non_652.jpg,non_652.jpg,Non-Demented,NonDemented,128,128,1,898e35e961a749bc4a33c69015026f866c8eb3fba1c75dcc9790aa0007157b1d,test
+data/dataset/Non_Demented/non_1602.jpg,non_1602.jpg,Non-Demented,NonDemented,128,128,1,744021d84b01c06eedb36f932ae4c7da7a88a7512d2199e62519dadc04ddc138,test
+data/dataset/Non_Demented/non_253.jpg,non_253.jpg,Non-Demented,NonDemented,128,128,1,0966b38b8038ddf4e69bcae1660d73762b89ea78f15c1b2a0078cc4d3338b235,test
+data/dataset/Non_Demented/non_2107.jpg,non_2107.jpg,Non-Demented,NonDemented,128,128,1,dab3277faa088f20a6cb30cee417fec8ba823e3326f149459db448f4d4a7e2f5,test
+data/dataset/Non_Demented/non_2700.jpg,non_2700.jpg,Non-Demented,NonDemented,128,128,1,cb6fc692504a116a635c1f2626a77c615b2b0191dd159f6c67f616850bfbf6e2,test
+data/dataset/Non_Demented/non_2912.jpg,non_2912.jpg,Non-Demented,NonDemented,128,128,1,cd1233d266314556a4e8b90e11f09cd1d55f767a0b42298be171ee9e9eee4fe9,test
+data/dataset/Non_Demented/non_576.jpg,non_576.jpg,Non-Demented,NonDemented,128,128,1,ba4efbd8b2351a0e97253a23811d2403bfde69494320ced543776e6eaa6a3fa1,test
+data/dataset/Non_Demented/non_72.jpg,non_72.jpg,Non-Demented,NonDemented,128,128,1,948bac8c3d06bf2a7583df506affe34f2dba6f9ecdd8b256589f26acc8aab721,test
+data/dataset/Non_Demented/non_1563.jpg,non_1563.jpg,Non-Demented,NonDemented,128,128,1,40be27bb28e690d06f042c2ce46c4e1fce1dc23b437fa4c168d446e9d734109e,test
+data/dataset/Non_Demented/non_2150.jpg,non_2150.jpg,Non-Demented,NonDemented,128,128,1,d5100bbf4baa2cd21b131eca67b53f44d78afa2d8e2100631ffbb936ba8f5c1d,test
+data/dataset/Non_Demented/non_1556.jpg,non_1556.jpg,Non-Demented,NonDemented,128,128,1,1189995badaff29b68de33d7861b3a6a084bf1d2731061b12abf909ac8304238,test
+data/dataset/Non_Demented/non_274.jpg,non_274.jpg,Non-Demented,NonDemented,128,128,1,c39b18a15c6184fe0b723f24dccae3648f4b042673b374f551cd90d358730a0c,test
+data/dataset/Non_Demented/non_2838.jpg,non_2838.jpg,Non-Demented,NonDemented,128,128,1,c19393271c0ce9e40e50a5400648717295221eb2c4aee842dd02d4956174d4cf,test
+data/dataset/Non_Demented/non_288.jpg,non_288.jpg,Non-Demented,NonDemented,128,128,1,2b5fad5331a7f462cc39d121d814d48f893c0997a31bde7794f04d29b716c569,test
+data/dataset/Non_Demented/non_638.jpg,non_638.jpg,Non-Demented,NonDemented,128,128,1,828e0b7f05f210df8cfd2933e2f77375349ed0545e21c1e26c4864b56548cc09,test
+data/dataset/Non_Demented/non_2673.jpg,non_2673.jpg,Non-Demented,NonDemented,128,128,1,df4ce86d0ae313da326a0044a4f73448085e121d03a36a33fb7d2847a40252ef,test
+data/dataset/Non_Demented/non_89.jpg,non_89.jpg,Non-Demented,NonDemented,128,128,1,6e5d5ce0723234150a29e936fd55d77b307f2889ace3838caa2730ff098554bd,test
+data/dataset/Non_Demented/non_2953.jpg,non_2953.jpg,Non-Demented,NonDemented,128,128,1,62cc4006bbd6dd9818e426d4e59090a214dd7c2369d3184d7866e8d19a84cbda,test
+data/dataset/Non_Demented/non_583.jpg,non_583.jpg,Non-Demented,NonDemented,128,128,1,daf1601e5bf10fe3f13d3634452188b92e3f05f8a7660e993fd9d0f8cd1415f9,test
+data/dataset/Non_Demented/non_256.jpg,non_256.jpg,Non-Demented,NonDemented,128,128,1,c28208aca05f2a6f2cfc2d0a9fbdefdb92082610f2e7a0f7a74eabd0ac549063,test
+data/dataset/Non_Demented/non_1194.jpg,non_1194.jpg,Non-Demented,NonDemented,128,128,1,0b48bf53c17616f1a057519353859755482b972260bf397c2863131249737036,test
+data/dataset/Non_Demented/non_941.jpg,non_941.jpg,Non-Demented,NonDemented,128,128,1,03c4ea362f2ff668aaed1f0f28c56019fb79d1fa6bcad55d4897014c40a74056,test
+data/dataset/Non_Demented/non_3103.jpg,non_3103.jpg,Non-Demented,NonDemented,128,128,1,4419136807514ae6938a148f6ca653916a3c07b87f917f02281ef7ebdd52691b,test
+data/dataset/Non_Demented/non_805.jpg,non_805.jpg,Non-Demented,NonDemented,128,128,1,5861689c223f5248ab4bf73af49f0fd7dd799ad9692f82610f58170bc1f606f2,test
+data/dataset/Non_Demented/non_3021.jpg,non_3021.jpg,Non-Demented,NonDemented,128,128,1,b5460c93ca7e8db0079431d14699ef7d764c2a674bb0c3dcfa142add8956965a,test
+data/dataset/Non_Demented/non_2504.jpg,non_2504.jpg,Non-Demented,NonDemented,128,128,1,81abbd73754e74ed0a09e9db0f21b96ca43d2db93b574fa108dd64b4187a17fd,test
+data/dataset/Non_Demented/non_1947.jpg,non_1947.jpg,Non-Demented,NonDemented,128,128,1,e8421e39d7666062097d0f5753612d3e102732ad648e895d5327e3d8422d2cb4,test
+data/dataset/Non_Demented/non_632.jpg,non_632.jpg,Non-Demented,NonDemented,128,128,1,e7f1115423572bff9239d3e5530c0f8defef0710f4cb270558a37d9ad7e05a3c,test
+data/dataset/Non_Demented/non_433.jpg,non_433.jpg,Non-Demented,NonDemented,128,128,1,eaaf26ebbc2b4895c964dd28a627dc5d94ea1e57a428c7e51f97dea9289c71f1,test
+data/dataset/Non_Demented/non_2523.jpg,non_2523.jpg,Non-Demented,NonDemented,128,128,1,6aae13eda67f44a7e2247f54e1e81a217b4df286aef75660011e334f14837f50,test
+data/dataset/Non_Demented/non_1488.jpg,non_1488.jpg,Non-Demented,NonDemented,128,128,1,4340ccb8372cd6cb1f5aa2e9703af48a30fe03dbbbf810bd408ba8079e7878b4,test
+data/dataset/Non_Demented/non_721.jpg,non_721.jpg,Non-Demented,NonDemented,128,128,1,55e00f01828dfe7d0c3bc9b4acb1c5017b92a4dd40a59f9a7c5d6a8f93eb819b,test
+data/dataset/Non_Demented/non_1878.jpg,non_1878.jpg,Non-Demented,NonDemented,128,128,1,bb9e416d3e934750c070547d33b3578887294b4487f485568569904889929300,test
+data/dataset/Non_Demented/non_2708.jpg,non_2708.jpg,Non-Demented,NonDemented,128,128,1,7eb6c1879b28905859949aa8e785983ea9ee08a1ff48fb74d6a4b629ffbc27d9,test
+data/dataset/Non_Demented/non_159.jpg,non_159.jpg,Non-Demented,NonDemented,128,128,1,457f2c93409ba5f835fc326831d097402ee4de18999ba1bdbea84a3387e95017,test
+data/dataset/Non_Demented/non_1015.jpg,non_1015.jpg,Non-Demented,NonDemented,128,128,1,7ea807a32d98b7f2651684b5af4eb8dddbbd67bd78f286dcf398863c61f187b1,test
+data/dataset/Non_Demented/non_1703.jpg,non_1703.jpg,Non-Demented,NonDemented,128,128,1,62a15a472b5d026c896c9fc2bb77f6526349ad87ed4589bb8d813aa23563bcd6,test
+data/dataset/Non_Demented/non_780.jpg,non_780.jpg,Non-Demented,NonDemented,128,128,1,ed50b622b4c1ac4e1ebb917b384d181fcc81e2a42eddeb1c6210a2b1dc633a8f,test
+data/dataset/Non_Demented/non_1122.jpg,non_1122.jpg,Non-Demented,NonDemented,128,128,1,51e265b5b4925cadb5adea8983a89a2ede51cb1f5f71952db39364ad6ae3f36d,test
+data/dataset/Non_Demented/non_837.jpg,non_837.jpg,Non-Demented,NonDemented,128,128,1,41aa21dbd1029d0d88e9a36f5b19e275a2b94b5aa525a7f1c307df2be6998277,test
+data/dataset/Non_Demented/non_2762.jpg,non_2762.jpg,Non-Demented,NonDemented,128,128,1,c86eebd46bad03a3c58495bbb137c007816f10d063bf63f165e99954e29db897,test
+data/dataset/Non_Demented/non_3139.jpg,non_3139.jpg,Non-Demented,NonDemented,128,128,1,8ae6d77afc820c10f647da408cb657a8930ac080fc639f1a9c45bad367697f11,test
+data/dataset/Non_Demented/non_626.jpg,non_626.jpg,Non-Demented,NonDemented,128,128,1,b671c065d0a832a41a9849ab7c25be98be3867f833f5ffc1c10cab093b79e188,test
+data/dataset/Non_Demented/non_2325.jpg,non_2325.jpg,Non-Demented,NonDemented,128,128,1,8c0de19f5fa8bb11e14289c7bfd297cf427451d90b99d3e3337597455bd89292,test
+data/dataset/Non_Demented/non_1271.jpg,non_1271.jpg,Non-Demented,NonDemented,128,128,1,e229a072d57a0cd008df0b3c02727f259d30ba9e366a7f382c993deafcbe30cf,test
+data/dataset/Non_Demented/non_352.jpg,non_352.jpg,Non-Demented,NonDemented,128,128,1,1c4f686a75b3e8036842d440602e778b3e78f6a1bb0278b57ffa58ecda927fc8,test
+data/dataset/Non_Demented/non_2793.jpg,non_2793.jpg,Non-Demented,NonDemented,128,128,1,a12a1cf7a90ba5de82c47f2ff9d68f38d62fe8d2a249778d20cb87195fd20cf1,test
+data/dataset/Non_Demented/non_20.jpg,non_20.jpg,Non-Demented,NonDemented,128,128,1,90e2d93bdcac6bdf1d5eea50dc952e3438210fe8ef80c9a5a9b987ce1db7cbda,test
+data/dataset/Non_Demented/non_956.jpg,non_956.jpg,Non-Demented,NonDemented,128,128,1,7e51ddb5bbb13624072201fe95af4ff22742e89fe1dbabb00e63bcf25064b9db,test
+data/dataset/Non_Demented/non_2988.jpg,non_2988.jpg,Non-Demented,NonDemented,128,128,1,66030f99b3dfa14b8df3946d1616db5cbfb8cf8b45a8184eb1e8bfe9854f6778,test
+data/dataset/Non_Demented/non_605.jpg,non_605.jpg,Non-Demented,NonDemented,128,128,1,ff90cf55f1e04ea52b9c7649464bbda64847adf2c9439e210d17b7519410dde0,test
+data/dataset/Non_Demented/non_77.jpg,non_77.jpg,Non-Demented,NonDemented,128,128,1,63088c9822a99551e7ea1b2463a11859527a04eb5bfb79533144943c17914b0c,test
+data/dataset/Non_Demented/non_2274.jpg,non_2274.jpg,Non-Demented,NonDemented,128,128,1,031a4d3ab1f94f7cc26f4c3242401d52207c64ac35107288797db3492e56c933,test
+data/dataset/Non_Demented/non_2796.jpg,non_2796.jpg,Non-Demented,NonDemented,128,128,1,dbda4d750973bb1cd49b4d731c708434a76daccfc1777bc8b31cb3455199553d,test
+data/dataset/Non_Demented/non_38.jpg,non_38.jpg,Non-Demented,NonDemented,128,128,1,530dcc94872f17049dba52acd6c96d034e757e26f933f453c8307932afdfc78f,test
+data/dataset/Non_Demented/non_2391.jpg,non_2391.jpg,Non-Demented,NonDemented,128,128,1,321ed9d0cf49512b318e1528a1ec4032ca54d949b3e1d773dfe59ed3ef330a50,test
+data/dataset/Non_Demented/non_416.jpg,non_416.jpg,Non-Demented,NonDemented,128,128,1,2e8367e5ed322b8aa866586e463da641ebc1b4ed8bc0f75b1d9977bf9edb6501,test
+data/dataset/Non_Demented/non_874.jpg,non_874.jpg,Non-Demented,NonDemented,128,128,1,89294c38ee53bd85d08c0194a858e0c5b57a31383db3fed4dffce8edb8f88bef,test
+data/dataset/Non_Demented/non_878.jpg,non_878.jpg,Non-Demented,NonDemented,128,128,1,88dfd35b2b33ff5bfde39f33b6f729a3afe5d85da1119dca53ca167cad5614b8,test
+data/dataset/Non_Demented/non_1370.jpg,non_1370.jpg,Non-Demented,NonDemented,128,128,1,7ffbf1276e9d7980efba671bf5ecc2bc3ba7b07f3efaea381848249a59b5e638,test
+data/dataset/Non_Demented/non_1715.jpg,non_1715.jpg,Non-Demented,NonDemented,128,128,1,72968c942953f15916464bec0418266a49096fd2be4a54a9f116d3bf4dbc0005,test
+data/dataset/Non_Demented/non_1568.jpg,non_1568.jpg,Non-Demented,NonDemented,128,128,1,62cded4c06f134c6ba9ca290f44e63173ff1ac3681c8e0c18e78b3e16316dab8,test
+data/dataset/Non_Demented/non_2616.jpg,non_2616.jpg,Non-Demented,NonDemented,128,128,1,8334e24453f7f95256432cbe312c0c044b8ce1035ddd1baa4788423ffee0af78,test
+data/dataset/Non_Demented/non_190.jpg,non_190.jpg,Non-Demented,NonDemented,128,128,1,454e61877aa31ea024446af8866c3992a974420c5e65fa90ee960a82ae0f06c4,test
+data/dataset/Non_Demented/non_2819.jpg,non_2819.jpg,Non-Demented,NonDemented,128,128,1,64fcb99422245a0499520e53064754defc8fff8748dd8a84d05a97ddea730ecb,test
+data/dataset/Non_Demented/non_1388.jpg,non_1388.jpg,Non-Demented,NonDemented,128,128,1,447bad6862b9d91a7f5223bafd96a096d46b1d5eaf62685f26cae46a8334d8cf,test
+data/dataset/Non_Demented/non_1834.jpg,non_1834.jpg,Non-Demented,NonDemented,128,128,1,7669e95d04ca98aedc4267c327c1538bb9b7fb129776c9b3ceea457e569538fb,test
+data/dataset/Non_Demented/non_326.jpg,non_326.jpg,Non-Demented,NonDemented,128,128,1,e46dea42477ed380a1ab606cb9f89b2f900267755f01dd11fe190d9960ec7344,test
+data/dataset/Non_Demented/non_2238.jpg,non_2238.jpg,Non-Demented,NonDemented,128,128,1,25f31f935d9f2b76da880384b7c81b34098f442326b825c62df26b45d3036fe9,test
+data/dataset/Non_Demented/non_829.jpg,non_829.jpg,Non-Demented,NonDemented,128,128,1,a225132b0bbfb358b3cebce376bd87e58b87ff5c550159c7beaf15d482bd2bba,test
+data/dataset/Non_Demented/non_143.jpg,non_143.jpg,Non-Demented,NonDemented,128,128,1,9149d568026fd4ae28fe26d8b6134bc41901ab9ff6ef6e4d31588213bb6ed2bf,test
+data/dataset/Non_Demented/non_2561.jpg,non_2561.jpg,Non-Demented,NonDemented,128,128,1,3cd72ed35eab0152fc9d0ca07973a77f59ea3ecb21db26b5517f677dfbe44f20,test
+data/dataset/Non_Demented/non_328.jpg,non_328.jpg,Non-Demented,NonDemented,128,128,1,d9a69f966f68f5306420a8aabb3b010cc5cc5267cd828e6031d546b9ddd3487b,test
+data/dataset/Non_Demented/non_243.jpg,non_243.jpg,Non-Demented,NonDemented,128,128,1,4528d4638dc43827f8ddc3d5a765ae8419ee1f3dddf03faa7ca16aa57d216cc0,test
+data/dataset/Non_Demented/non_2376.jpg,non_2376.jpg,Non-Demented,NonDemented,128,128,1,b89bf0e106b3ef8d56c46ab8e32f02249971fe60bae53e22756d0c4010ff36f2,test
+data/dataset/Non_Demented/non_1843.jpg,non_1843.jpg,Non-Demented,NonDemented,128,128,1,7a8ebb36734a3c3be0604d5ff56abc8645782fe4a693eb038ad1328b7a4b80b8,test
+data/dataset/Non_Demented/non_1430.jpg,non_1430.jpg,Non-Demented,NonDemented,128,128,1,a766869080106b8eaff7c214648164e6f0074ba084feb4b8259bebc1e9b36b8e,test
+data/dataset/Non_Demented/non_2751.jpg,non_2751.jpg,Non-Demented,NonDemented,128,128,1,d162602d35d76f93332adc9f16c2dd5fcd74b11c4e2dedbbdf7d22658a305ed3,test
+data/dataset/Non_Demented/non_963.jpg,non_963.jpg,Non-Demented,NonDemented,128,128,1,e6ddda119abc490b48a4637c87476ae07ea09b8463b39e5041f4ef91a3dd405b,test
+data/dataset/Non_Demented/non_341.jpg,non_341.jpg,Non-Demented,NonDemented,128,128,1,15faae62ed39256cb1a787d5780031b0d0e7f4d032302ca6edc94981b7445880,test
+data/dataset/Non_Demented/non_1812.jpg,non_1812.jpg,Non-Demented,NonDemented,128,128,1,29487b33e4a1047adf8bf19dce88c72acf36e5abff79eee9af0692d089e64022,test
+data/dataset/Non_Demented/non_520.jpg,non_520.jpg,Non-Demented,NonDemented,128,128,1,468a90780b27190b28aa0f2cf3722866da0cd594f9d67964e267cc0c20e795c2,test
+data/dataset/Non_Demented/non_896.jpg,non_896.jpg,Non-Demented,NonDemented,128,128,1,1651ff988a8f0e31476c94f2e62fe437d4d1d8564b9d7c7974e1bfd2b2911f39,test
+data/dataset/Non_Demented/non_1937.jpg,non_1937.jpg,Non-Demented,NonDemented,128,128,1,c5228d9e8697db440109d7f5602b71de1eee71325cc75a6ca7e45c2a5482c25f,test
+data/dataset/Non_Demented/non_1795.jpg,non_1795.jpg,Non-Demented,NonDemented,128,128,1,719d6475694723ab581e90f6d1e774dcaedc37fd18a33a58f0c06e66430663c3,test
+data/dataset/Non_Demented/non_123.jpg,non_123.jpg,Non-Demented,NonDemented,128,128,1,329e9f16999cb7391f12e8460acd94f89b5cb83ab2468df691d89c080167b3bb,test
+data/dataset/Non_Demented/non_308.jpg,non_308.jpg,Non-Demented,NonDemented,128,128,1,8b857254c702cd79fdefc0c0b7bb0b4c4204fdf388ff818beb0b3f691d1e8b6a,test
+data/dataset/Non_Demented/non_222.jpg,non_222.jpg,Non-Demented,NonDemented,128,128,1,d96516b72e788294df7a48a089425271b3f815883d3f5889d545b8e464055187,test
+data/dataset/Non_Demented/non_2402.jpg,non_2402.jpg,Non-Demented,NonDemented,128,128,1,6298ed7e47148b5a64a74da0945b81750f0397692a4581e8b99fda3e825bed38,test
+data/dataset/Non_Demented/non_2459.jpg,non_2459.jpg,Non-Demented,NonDemented,128,128,1,844a0efc2372f1c7560155cba72f46716e9e3736d0b6ef93021aedd25cee9726,test
+data/dataset/Non_Demented/non_1211.jpg,non_1211.jpg,Non-Demented,NonDemented,128,128,1,9d89be97cac0912c3eff5a157635b4bc4ed956b06c04e146811b0fdb45f715ac,test
+data/dataset/Non_Demented/non_2354.jpg,non_2354.jpg,Non-Demented,NonDemented,128,128,1,d45948a3057902e03bdef4c7a753d8e0ed9c35f07800cf301cdb0b48fa03cbb9,test
+data/dataset/Non_Demented/non_2082.jpg,non_2082.jpg,Non-Demented,NonDemented,128,128,1,a8bffe37cef9044d9b044d3b1692fdd008f571e44951a2a7073865817b37d9b3,test
+data/dataset/Non_Demented/non_1242.jpg,non_1242.jpg,Non-Demented,NonDemented,128,128,1,db54d8c09356ffb4172999312b0dd1aa69c56d52ae45087f0276ce77dd9ba09e,test
+data/dataset/Non_Demented/non_604.jpg,non_604.jpg,Non-Demented,NonDemented,128,128,1,756e9d42ca1b2a1c52800e4d26765901421bd25215cff9e37e854d398c62a137,test
+data/dataset/Non_Demented/non_902.jpg,non_902.jpg,Non-Demented,NonDemented,128,128,1,91a60a49a63a24740ddc36b1d99ee471efed9ebc8efeef307dbcf6c8504960af,test
+data/dataset/Non_Demented/non_1697.jpg,non_1697.jpg,Non-Demented,NonDemented,128,128,1,9cbd59e543e68d229b089cd98e900f27f01dd2734adcd179d3e80852814d6fc4,test
+data/dataset/Non_Demented/non_3146.jpg,non_3146.jpg,Non-Demented,NonDemented,128,128,1,3bb7c2385a5991c57190d2dbc15f4b320c024b03bdde70147b92c50d01119bb7,test
+data/dataset/Non_Demented/non_41.jpg,non_41.jpg,Non-Demented,NonDemented,128,128,1,a042bdc953488e84cfe8781558ff04eea4e39c1d9653f5638cfd0e23e792f7fe,test
+data/dataset/Non_Demented/non_719.jpg,non_719.jpg,Non-Demented,NonDemented,128,128,1,a416701e0145f1753ff3f44157bc187d99c92789073e0b2b84ea8a446c9d4d06,test
+data/dataset/Non_Demented/non_2092.jpg,non_2092.jpg,Non-Demented,NonDemented,128,128,1,a0189b6a36659687af9e271097f51c80820f2f193b72b63a3c3f92a614ba9258,test
+data/dataset/Non_Demented/non_2111.jpg,non_2111.jpg,Non-Demented,NonDemented,128,128,1,5156061cb2a77b1672b9032826b46ca8c1ac64e19c6289a9d9edfa94310bca8c,test
+data/dataset/Non_Demented/non_379.jpg,non_379.jpg,Non-Demented,NonDemented,128,128,1,8cbab335bd62f3823247eba25be10283e0ee1e921945e1e1263beebb97de6905,test
+data/dataset/Non_Demented/non_1000.jpg,non_1000.jpg,Non-Demented,NonDemented,128,128,1,2a4d379e849a397b05e90c09342064008a251aced3eb37dfae3f2eb901bbc5e1,test
+data/dataset/Non_Demented/non_2970.jpg,non_2970.jpg,Non-Demented,NonDemented,128,128,1,db469b2b7bff40f428d3899616286a5ceefbb141bf09fac421b25b4ec99c5131,test
+data/dataset/Non_Demented/non_2412.jpg,non_2412.jpg,Non-Demented,NonDemented,128,128,1,3dfcdf5f8bf1b5be745e5740058377419ee4b60e7488876f4a9d019fd9005542,test
+data/dataset/Non_Demented/non_435.jpg,non_435.jpg,Non-Demented,NonDemented,128,128,1,9960fbd4e381829fba27ca91bf18f58be55bbc6f3f237fbd3491ca886ca48b51,test
+data/dataset/Non_Demented/non_2211.jpg,non_2211.jpg,Non-Demented,NonDemented,128,128,1,07b3e2c011293bfcc74dc4813e2ff16f6f00532ef529c4819152cf3bdf43954d,test
+data/dataset/Very_Mild_Demented/verymild_1072.jpg,verymild_1072.jpg,Very Mild Demented,VeryMildDemented,128,128,1,12b37395bcfb956dfdc6530a5b2c6727bb8cada5cc29d2ab9185136aa576ebd6,test
+data/dataset/Very_Mild_Demented/verymild_396.jpg,verymild_396.jpg,Very Mild Demented,VeryMildDemented,128,128,1,2815ab487509b756d9fb207b464727036d9f1fb8a16ba137392cc8d687926085,test
+data/dataset/Very_Mild_Demented/verymild_1539.jpg,verymild_1539.jpg,Very Mild Demented,VeryMildDemented,128,128,1,4e1af0acffddb61dac0d4d46f64307c7b0f2ec2f1311da51c95a7fd442f3cc53,test
+data/dataset/Very_Mild_Demented/verymild_898.jpg,verymild_898.jpg,Very Mild Demented,VeryMildDemented,128,128,1,56093ef263afa9136098acff65e488640ff859e1b8688733747bcbfd7227d420,test
+data/dataset/Very_Mild_Demented/verymild_2240.jpg,verymild_2240.jpg,Very Mild Demented,VeryMildDemented,128,128,1,7e5a0129712a647c18cd8db982724a0ad226aba04ef9d99aaddb93ead60d8cfc,test
+data/dataset/Very_Mild_Demented/verymild_1225.jpg,verymild_1225.jpg,Very Mild Demented,VeryMildDemented,128,128,1,4da46221b5806b7c2838ed0f7eec7555f89744ad3fea57c65235212b5a1dda31,test
+data/dataset/Very_Mild_Demented/verymild_1147.jpg,verymild_1147.jpg,Very Mild Demented,VeryMildDemented,128,128,1,ee1009ac83669bc1fcee29e9786277814bfd318fde24c6bf3fdd8e489d8ec416,test
+data/dataset/Very_Mild_Demented/verymild_2175.jpg,verymild_2175.jpg,Very Mild Demented,VeryMildDemented,128,128,1,165bf65ed9dece43888627aaba18a7253630bbf75f0edac436a14a0636af25ea,test
+data/dataset/Very_Mild_Demented/verymild_2110.jpg,verymild_2110.jpg,Very Mild Demented,VeryMildDemented,128,128,1,933ab32c0ab05697ce51c627eb3c43a13b2304c3f6da3a24dd064da363efd220,test
+data/dataset/Very_Mild_Demented/verymild_1205.jpg,verymild_1205.jpg,Very Mild Demented,VeryMildDemented,128,128,1,c27f00afdec6a002b98a22cf64eede6da5ac4e62325e61ea96510ca3ff78f881,test
+data/dataset/Very_Mild_Demented/verymild_603.jpg,verymild_603.jpg,Very Mild Demented,VeryMildDemented,128,128,1,a1d51167f11fca2a969a9d6b8a61397febe375ae2f5da3407352d3366f04972f,test
+data/dataset/Very_Mild_Demented/verymild_1469.jpg,verymild_1469.jpg,Very Mild Demented,VeryMildDemented,128,128,1,b5f2ea5c460f7c9b6315638a0ef63d2d432a04c37988534d5ac53ed320d6e562,test
+data/dataset/Very_Mild_Demented/verymild_2145.jpg,verymild_2145.jpg,Very Mild Demented,VeryMildDemented,128,128,1,46a8a12d1c99240b72b1cbaa32e8008866b5c140d1d1281648ca766f36da5584,test
+data/dataset/Very_Mild_Demented/verymild_1591.jpg,verymild_1591.jpg,Very Mild Demented,VeryMildDemented,128,128,1,655308f310f8e5fd59ebb35be5fcbfddc99a051f321a1220c62836ab0281b251,test
+data/dataset/Very_Mild_Demented/verymild_1664.jpg,verymild_1664.jpg,Very Mild Demented,VeryMildDemented,128,128,1,0a9b42b6f362eb6725ee222b33271947b0db0e8543d4af81bc7a0788259409d3,test
+data/dataset/Very_Mild_Demented/verymild_657.jpg,verymild_657.jpg,Very Mild Demented,VeryMildDemented,128,128,1,cbaeebf4fb7d282dcbcd640bd8aae692dca54237b15568deee38d64d3426cb1a,test
+data/dataset/Very_Mild_Demented/verymild_8.jpg,verymild_8.jpg,Very Mild Demented,VeryMildDemented,128,128,1,5bf008c6fede2a39f6a00f2c19c08cb05a1c989f496e7ccb9457e1ec0948d28f,test
+data/dataset/Very_Mild_Demented/verymild_1096.jpg,verymild_1096.jpg,Very Mild Demented,VeryMildDemented,128,128,1,cfd5867866eaa34fec6b335e32e772e7a077258ffe0158935443846e0f82c86d,test
+data/dataset/Very_Mild_Demented/verymild_239.jpg,verymild_239.jpg,Very Mild Demented,VeryMildDemented,128,128,1,bd27d520046f0931e96731512d290445f1e3064ae04f2cd4b7eb9073c3348cb6,test
+data/dataset/Very_Mild_Demented/verymild_1728.jpg,verymild_1728.jpg,Very Mild Demented,VeryMildDemented,128,128,1,95c03c3095cc867c9d693a3fbcb6c50d9270070ea32222f210f659ad83c4098b,test
+data/dataset/Very_Mild_Demented/verymild_1361.jpg,verymild_1361.jpg,Very Mild Demented,VeryMildDemented,128,128,1,d1ceb04c31028a45d23c6d8493be7a01a59c7ebf22c8d3693abbdffcfc14b4c2,test
+data/dataset/Very_Mild_Demented/verymild_1186.jpg,verymild_1186.jpg,Very Mild Demented,VeryMildDemented,128,128,1,7a7fe74dce2d9df236dd648252c9707b514e066a9f31d248c052b52178a4d0fd,test
+data/dataset/Very_Mild_Demented/verymild_1421.jpg,verymild_1421.jpg,Very Mild Demented,VeryMildDemented,128,128,1,256ad841da449565022bc8921fb8b40aa99cc9d1028a87c41db2880cda5fc0e2,test
+data/dataset/Very_Mild_Demented/verymild_199.jpg,verymild_199.jpg,Very Mild Demented,VeryMildDemented,128,128,1,4239d8a7007a08215b74dea4e79f1bd11dcd2919bf3e81d0490fab86efab1c18,test
+data/dataset/Very_Mild_Demented/verymild_1777.jpg,verymild_1777.jpg,Very Mild Demented,VeryMildDemented,128,128,1,3472e1e46e7834765400d4431cf1a061e61f1a49c12234925902b002357c5386,test
+data/dataset/Very_Mild_Demented/verymild_1125.jpg,verymild_1125.jpg,Very Mild Demented,VeryMildDemented,128,128,1,1fa609f17ac5026cb41b58ee95cf676341a11bc0be136481457556f3e3b419d1,test
+data/dataset/Very_Mild_Demented/verymild_1095.jpg,verymild_1095.jpg,Very Mild Demented,VeryMildDemented,128,128,1,fa7103eceb5b6b63946f8a412ae3b3e4a86b5ef284fe807a2cdfead617344206,test
+data/dataset/Very_Mild_Demented/verymild_1144.jpg,verymild_1144.jpg,Very Mild Demented,VeryMildDemented,128,128,1,a3467020a13338ac5c234d83b1a5891af197abd95accd5d62ce44ff3db3dfea2,test
+data/dataset/Very_Mild_Demented/verymild_968.jpg,verymild_968.jpg,Very Mild Demented,VeryMildDemented,128,128,1,428a8102c1417a4c27de7e24f941d83c28c71370b40341de0e24894604c65249,test
+data/dataset/Very_Mild_Demented/verymild_2158.jpg,verymild_2158.jpg,Very Mild Demented,VeryMildDemented,128,128,1,6d03d901a8c7ce2ddeee46c3e116d3fca019ac0a9ae625279c70c4b113b40f0c,test
+data/dataset/Very_Mild_Demented/verymild_2059.jpg,verymild_2059.jpg,Very Mild Demented,VeryMildDemented,128,128,1,50bb6ef9c2387fffbb2ae7a29e72ecb1979825b34c7b505f52dbacfb5cbfab73,test
+data/dataset/Very_Mild_Demented/verymild_190.jpg,verymild_190.jpg,Very Mild Demented,VeryMildDemented,128,128,1,9a696114339ff7f80484b5b0abef5f518d93b10ac05707e60e02e23fbd28aba4,test
+data/dataset/Very_Mild_Demented/verymild_1858.jpg,verymild_1858.jpg,Very Mild Demented,VeryMildDemented,128,128,1,c46421e21416d66590dabc4b7874d2dad0800b7b8f6dea7dda9bf829c9cfc1de,test
+data/dataset/Very_Mild_Demented/verymild_1377.jpg,verymild_1377.jpg,Very Mild Demented,VeryMildDemented,128,128,1,a9b4ef425fc283b3fcd9366e9b03c030522361425ea17f9f11fa379655e0b695,test
+data/dataset/Very_Mild_Demented/verymild_1474.jpg,verymild_1474.jpg,Very Mild Demented,VeryMildDemented,128,128,1,aaeb88d18dbe527b481f030e34f529adbf202d58d5cfa2cb5f1cc9a5823a1684,test
+data/dataset/Very_Mild_Demented/verymild_830.jpg,verymild_830.jpg,Very Mild Demented,VeryMildDemented,128,128,1,30af899cb560f4117a73bdeb64031527aaf4e0b31f830891ef4c9b29e9bf943a,test
+data/dataset/Very_Mild_Demented/verymild_987.jpg,verymild_987.jpg,Very Mild Demented,VeryMildDemented,128,128,1,97ad2196b9bc20a14357c665614113110d4fb9b5f2152fbc51b476795adde24f,test
+data/dataset/Very_Mild_Demented/verymild_1494.jpg,verymild_1494.jpg,Very Mild Demented,VeryMildDemented,128,128,1,a6e9be91f1f5d640d37f997143c9e0a76edf8ddc32d3dc82da62e4431a436b46,test
+data/dataset/Very_Mild_Demented/verymild_343.jpg,verymild_343.jpg,Very Mild Demented,VeryMildDemented,128,128,1,0981efbe7cd3150cfc7b5258b082ef10f6deee4e08284a6b0a3752a4d3586b71,test
+data/dataset/Very_Mild_Demented/verymild_1802.jpg,verymild_1802.jpg,Very Mild Demented,VeryMildDemented,128,128,1,4d331ec9d993489f4e8cc2b1e248b67c595ad17e98bf4fd086677489b3579cfd,test
+data/dataset/Very_Mild_Demented/verymild_1886.jpg,verymild_1886.jpg,Very Mild Demented,VeryMildDemented,128,128,1,8bb54be2a512654dcc5debcc707192245623944191dd705ffa295878f672de52,test
+data/dataset/Very_Mild_Demented/verymild_18.jpg,verymild_18.jpg,Very Mild Demented,VeryMildDemented,128,128,1,88c810da646ac3f72fc3c86c2c33089752dd0e05e99b8467ae06a8936f1b464f,test
+data/dataset/Very_Mild_Demented/verymild_429.jpg,verymild_429.jpg,Very Mild Demented,VeryMildDemented,128,128,1,6c10bf02569f38de8dc0d9869e76388158fdd408fcac3c0bc0b9b653d0c1f6b2,test
+data/dataset/Very_Mild_Demented/verymild_1248.jpg,verymild_1248.jpg,Very Mild Demented,VeryMildDemented,128,128,1,96e9321a208e658e2b399155fd817e6aea9730d3dd3edf9c96b4dcc9c3d052ed,test
+data/dataset/Very_Mild_Demented/verymild_135.jpg,verymild_135.jpg,Very Mild Demented,VeryMildDemented,128,128,1,25e5474472a4a7f114c8b0e7886d9af9fb0c84c1bca23df8b687a1a7308d5b7a,test
+data/dataset/Very_Mild_Demented/verymild_1963.jpg,verymild_1963.jpg,Very Mild Demented,VeryMildDemented,128,128,1,c760eaa84f2cd286a66b5ffb8c184998c7a1a37be9cb357a8e59d280e34db461,test
+data/dataset/Very_Mild_Demented/verymild_1229.jpg,verymild_1229.jpg,Very Mild Demented,VeryMildDemented,128,128,1,ec062a8cf5ae79cb77d1e9a4003208b69732f2e4cd39c1c2606e22a4f438e7c6,test
+data/dataset/Very_Mild_Demented/verymild_624.jpg,verymild_624.jpg,Very Mild Demented,VeryMildDemented,128,128,1,b66b298840e48ae1d3a6c82ee48cff27d362e9f20076f0bdc9babacd49c92d28,test
+data/dataset/Very_Mild_Demented/verymild_1561.jpg,verymild_1561.jpg,Very Mild Demented,VeryMildDemented,128,128,1,61428331264223af79c77e9153dd466a73c4e244320f741893565193d9186a15,test
+data/dataset/Very_Mild_Demented/verymild_51.jpg,verymild_51.jpg,Very Mild Demented,VeryMildDemented,128,128,1,fa95e3eb2e2d1e11f283c1a1aa8a392882f74c18b285ede0a545ac4eb3acb52d,test
+data/dataset/Very_Mild_Demented/verymild_110.jpg,verymild_110.jpg,Very Mild Demented,VeryMildDemented,128,128,1,0c875c127300b9408178824aed79fc99f0c0d0a8e68b3425097e0f575681481d,test
+data/dataset/Very_Mild_Demented/verymild_214.jpg,verymild_214.jpg,Very Mild Demented,VeryMildDemented,128,128,1,d8262bb5e7224709295aa65978913598f8bc0f3dea1a3949479da3bde4354995,test
+data/dataset/Very_Mild_Demented/verymild_1990.jpg,verymild_1990.jpg,Very Mild Demented,VeryMildDemented,128,128,1,62d3ae9604aa5024e680622a25e86f30d6c97b548991f3cdc084809eaa743e60,test
+data/dataset/Very_Mild_Demented/verymild_696.jpg,verymild_696.jpg,Very Mild Demented,VeryMildDemented,128,128,1,cd9b9779770a3744ca7f00062cb1696909a7ad7f0c150e3ffc3a8a39127b0170,test
+data/dataset/Very_Mild_Demented/verymild_1295.jpg,verymild_1295.jpg,Very Mild Demented,VeryMildDemented,128,128,1,2c09852fcece28f6459dd00b4cfe7436c1a55225cf4f606c45ce9973c08c9cbe,test
+data/dataset/Very_Mild_Demented/verymild_1420.jpg,verymild_1420.jpg,Very Mild Demented,VeryMildDemented,128,128,1,4ac64496e51e1d26832e4cf95f611fcba5685cf2a99e861ae30bab7d7ac174c1,test
+data/dataset/Very_Mild_Demented/verymild_1794.jpg,verymild_1794.jpg,Very Mild Demented,VeryMildDemented,128,128,1,1de8629f33e69f417d9a84bb4daff1da357e1a1fd0b6b2c806fbc4fff1a56973,test
+data/dataset/Very_Mild_Demented/verymild_1548.jpg,verymild_1548.jpg,Very Mild Demented,VeryMildDemented,128,128,1,1f2f1c6be8d4345dc0c95afdbb6edc8baebf72a41bc241f3a42f2b43448ec564,test
+data/dataset/Very_Mild_Demented/verymild_1599.jpg,verymild_1599.jpg,Very Mild Demented,VeryMildDemented,128,128,1,59d652179077c7a5523f922280e6b45a6fa75b69df48a9b3f925eed6070ab3d7,test
+data/dataset/Very_Mild_Demented/verymild_416.jpg,verymild_416.jpg,Very Mild Demented,VeryMildDemented,128,128,1,9c0617b2e0272bc9a91c5db0c66e90cf85b524e8a3eda5a4653e06535f7d6e28,test
+data/dataset/Very_Mild_Demented/verymild_1654.jpg,verymild_1654.jpg,Very Mild Demented,VeryMildDemented,128,128,1,5f2c93da8f8671cf10b791f0c2f0ec52a12228e097eb8d52b77c140815ad1ab9,test
+data/dataset/Very_Mild_Demented/verymild_2094.jpg,verymild_2094.jpg,Very Mild Demented,VeryMildDemented,128,128,1,6b059607f7ac5a01cc38b531349ba7663620357a4148c99cebe7bca0c77989e5,test
+data/dataset/Very_Mild_Demented/verymild_1029.jpg,verymild_1029.jpg,Very Mild Demented,VeryMildDemented,128,128,1,fc96f945870e543459e94ad3e2ad4ac3a76db3cbecf4af30e20441757e4a8645,test
+data/dataset/Very_Mild_Demented/verymild_923.jpg,verymild_923.jpg,Very Mild Demented,VeryMildDemented,128,128,1,5045d32278b82902ba4682364a2e69b59ce8ada554872afafbd2c48d4a39c1fb,test
+data/dataset/Very_Mild_Demented/verymild_935.jpg,verymild_935.jpg,Very Mild Demented,VeryMildDemented,128,128,1,37fb128f947374fee576998d31f2038cee256f9068cf48f240d0a3f6336468fe,test
+data/dataset/Very_Mild_Demented/verymild_2200.jpg,verymild_2200.jpg,Very Mild Demented,VeryMildDemented,128,128,1,2d086354b9dd62ef06d111705bce81e7027eba66b1070f7474f980c7e9fbb29e,test
+data/dataset/Very_Mild_Demented/verymild_1641.jpg,verymild_1641.jpg,Very Mild Demented,VeryMildDemented,128,128,1,45434582a9d6410f8b7d0f010e7ebd1034066e40e092311f3a7b209d867cddee,test
+data/dataset/Very_Mild_Demented/verymild_536.jpg,verymild_536.jpg,Very Mild Demented,VeryMildDemented,128,128,1,e9abefc66ba929647e2f1066bb262b009efd4dc066f22b35a6bec3ee34ee90f5,test
+data/dataset/Very_Mild_Demented/verymild_1607.jpg,verymild_1607.jpg,Very Mild Demented,VeryMildDemented,128,128,1,8d751249b4ebdff8f8819507b051bce92ddb8cdaa7642bb315b01f6056eae59b,test
+data/dataset/Very_Mild_Demented/verymild_1126.jpg,verymild_1126.jpg,Very Mild Demented,VeryMildDemented,128,128,1,755daf9369cbb9a3ed658e06f998f4258d766f3282e9e474508278c66d188562,test
+data/dataset/Very_Mild_Demented/verymild_2018.jpg,verymild_2018.jpg,Very Mild Demented,VeryMildDemented,128,128,1,7c41987317d69428b6d8f5880eb78e9f9692bf00aa3ed40d9bf17c9ad5a44b11,test
+data/dataset/Very_Mild_Demented/verymild_221.jpg,verymild_221.jpg,Very Mild Demented,VeryMildDemented,128,128,1,a66640061c6958674585953cd920051ecdc63a574b0a8017d99b0c91a3305c35,test
+data/dataset/Very_Mild_Demented/verymild_1910.jpg,verymild_1910.jpg,Very Mild Demented,VeryMildDemented,128,128,1,42b9ef9f5041dfa5d05c84adbd771a9e2be7ab56fb03d319e3cc299a3b888a97,test
+data/dataset/Very_Mild_Demented/verymild_2126.jpg,verymild_2126.jpg,Very Mild Demented,VeryMildDemented,128,128,1,e0ec908efacb226367780a535828cab0b7720493f5b5a5ab9613983b19aafadf,test
+data/dataset/Very_Mild_Demented/verymild_2218.jpg,verymild_2218.jpg,Very Mild Demented,VeryMildDemented,128,128,1,af1b2d4079951f8a480d3169dd80c650ea20bc5f6950a69db59f0589c3297ea5,test
+data/dataset/Very_Mild_Demented/verymild_537.jpg,verymild_537.jpg,Very Mild Demented,VeryMildDemented,128,128,1,4485792bf2d6ffdc56cdb493b16ea9ba97652d5c2f3d86c767514b740cf5bcc8,test
+data/dataset/Very_Mild_Demented/verymild_1576.jpg,verymild_1576.jpg,Very Mild Demented,VeryMildDemented,128,128,1,fb7c3712344750f774cc07642f970b5d9445a81861171cc10271c1b7187228a2,test
+data/dataset/Very_Mild_Demented/verymild_143.jpg,verymild_143.jpg,Very Mild Demented,VeryMildDemented,128,128,1,08a6de44ea634ef0e24e656a5c214586f6e4c5a70aa25d549ae3d175fa8a07bb,test
+data/dataset/Very_Mild_Demented/verymild_521.jpg,verymild_521.jpg,Very Mild Demented,VeryMildDemented,128,128,1,b9ccfbf08bbfb4b003467fa4c61940c55b30f3ddd6b48840a434057b60d7f1a7,test
+data/dataset/Very_Mild_Demented/verymild_240.jpg,verymild_240.jpg,Very Mild Demented,VeryMildDemented,128,128,1,1312083bd6cab39e219acde7286c2009d12420937cdd3be485fc8f2029d7401f,test
+data/dataset/Very_Mild_Demented/verymild_584.jpg,verymild_584.jpg,Very Mild Demented,VeryMildDemented,128,128,1,27091b260a38fef34fce9da65f3df499d1e9754c213b86406dbf9cd4ad6c1b1f,test
+data/dataset/Very_Mild_Demented/verymild_188.jpg,verymild_188.jpg,Very Mild Demented,VeryMildDemented,128,128,1,4fd247a4e7dcb5ce8477f620b58596af48cf4c0cfa6445bdc5a13affaf6ae27f,test
+data/dataset/Very_Mild_Demented/verymild_907.jpg,verymild_907.jpg,Very Mild Demented,VeryMildDemented,128,128,1,8688dda75684879fa7e6218e05e756273ea1673e714ae61b9cc8c2fb420977b6,test
+data/dataset/Very_Mild_Demented/verymild_2014.jpg,verymild_2014.jpg,Very Mild Demented,VeryMildDemented,128,128,1,7190c82c45c5caac0f8a0f9200f85beeb36593cbe4f4dbffc9e827ae5e677fcb,test
+data/dataset/Very_Mild_Demented/verymild_509.jpg,verymild_509.jpg,Very Mild Demented,VeryMildDemented,128,128,1,eae4abfa39c9584ef3201592d9eb2c4c16b7471068b7a2652bc845e057165295,test
+data/dataset/Very_Mild_Demented/verymild_1903.jpg,verymild_1903.jpg,Very Mild Demented,VeryMildDemented,128,128,1,1eab96e1baa59145ab6a2b451194ef14172987841465fa15ca4395d35155f98f,test
+data/dataset/Very_Mild_Demented/verymild_1888.jpg,verymild_1888.jpg,Very Mild Demented,VeryMildDemented,128,128,1,572731130396bd5a6f6e1c0b394adaf12a776038ad0d2ad32c4fe5cf21bd000b,test
+data/dataset/Very_Mild_Demented/verymild_975.jpg,verymild_975.jpg,Very Mild Demented,VeryMildDemented,128,128,1,981b23afa24f2c8fdb4de8a364a6b41b6854db7815bb5e8c5bca7f33cfcb8031,test
+data/dataset/Very_Mild_Demented/verymild_1966.jpg,verymild_1966.jpg,Very Mild Demented,VeryMildDemented,128,128,1,02dabb8b92f3c112e41f28f3dec18bb7dcfa23d9cbebe7e2bd69f0248389835f,test
+data/dataset/Very_Mild_Demented/verymild_1629.jpg,verymild_1629.jpg,Very Mild Demented,VeryMildDemented,128,128,1,108121b44f87adb3c14e310f6aa8e13e49159aa6adf03b80cac651eb05320935,test
+data/dataset/Very_Mild_Demented/verymild_1737.jpg,verymild_1737.jpg,Very Mild Demented,VeryMildDemented,128,128,1,8d78a7a4fb66808ce1cab00de8dbf0a80bacca44ea6175bdc6d200058edac6d0,test
+data/dataset/Very_Mild_Demented/verymild_1677.jpg,verymild_1677.jpg,Very Mild Demented,VeryMildDemented,128,128,1,d5e657fb2322e5f5039b0942fbf0fee5bf7de83b30618a85c5de644c9fe50ba3,test
+data/dataset/Very_Mild_Demented/verymild_1976.jpg,verymild_1976.jpg,Very Mild Demented,VeryMildDemented,128,128,1,27287cdbebce82ee3bbd9cc9c7039f1d7e257e77ad6b14a0e78b35b6d2be675a,test
+data/dataset/Very_Mild_Demented/verymild_245.jpg,verymild_245.jpg,Very Mild Demented,VeryMildDemented,128,128,1,345df448172e6b162124acc59f1ed5bc2ea7b42436035c1ef0e130163011a61e,test
+data/dataset/Very_Mild_Demented/verymild_1682.jpg,verymild_1682.jpg,Very Mild Demented,VeryMildDemented,128,128,1,c344a5853c7b668dd818d250574fc8d4a4233a7baa92fb8b157f9e231ee3f641,test
+data/dataset/Very_Mild_Demented/verymild_274.jpg,verymild_274.jpg,Very Mild Demented,VeryMildDemented,128,128,1,5bf689ee8a4efc5bde6e97c9abcc340ef55c844ae22234a32f87733d1c36946a,test
+data/dataset/Very_Mild_Demented/verymild_499.jpg,verymild_499.jpg,Very Mild Demented,VeryMildDemented,128,128,1,c66bd10291ddd656c7d4d0554125fc5ae9c7f998a4376e77bf5510248e47e6d9,test
+data/dataset/Very_Mild_Demented/verymild_1129.jpg,verymild_1129.jpg,Very Mild Demented,VeryMildDemented,128,128,1,46648efa98cc4dc9ad08a48d463416462e9b4e030ceb2296ab6ae7d78b596bda,test
+data/dataset/Very_Mild_Demented/verymild_320.jpg,verymild_320.jpg,Very Mild Demented,VeryMildDemented,128,128,1,0018ee8d8fe6e530ef7045a82abd4d5f0ffc418ee066f247498f6d987005a4d1,test
+data/dataset/Very_Mild_Demented/verymild_24.jpg,verymild_24.jpg,Very Mild Demented,VeryMildDemented,128,128,1,a0aab03db89add918a6f23a517082b52e0529192c0530033e4653af568652069,test
+data/dataset/Very_Mild_Demented/verymild_43.jpg,verymild_43.jpg,Very Mild Demented,VeryMildDemented,128,128,1,f1e8f32deb1ce33a3dea5866a428644986138c6d2efbd0d6adc6f22aa532f557,test
+data/dataset/Very_Mild_Demented/verymild_1674.jpg,verymild_1674.jpg,Very Mild Demented,VeryMildDemented,128,128,1,e78a2bb75f2339157b9844ac933271e9bdf27289f830db5254b91241cdb1ae09,test
+data/dataset/Very_Mild_Demented/verymild_2177.jpg,verymild_2177.jpg,Very Mild Demented,VeryMildDemented,128,128,1,41b46b6fa0daddd9d9134d6d254eb4d997cfd1eba5fe98792ebdbba0c2ae6d89,test
+data/dataset/Very_Mild_Demented/verymild_1845.jpg,verymild_1845.jpg,Very Mild Demented,VeryMildDemented,128,128,1,6c323ac5488ab06ae8bcacbd3b9d2f25d3ada8cbcb3eae2c9583e6d2c5bc9d8f,test
+data/dataset/Very_Mild_Demented/verymild_633.jpg,verymild_633.jpg,Very Mild Demented,VeryMildDemented,128,128,1,fab89cc199e9cd85360ceedb76efeb5b1ded3d82199c6af92371657101600f26,test
+data/dataset/Very_Mild_Demented/verymild_1352.jpg,verymild_1352.jpg,Very Mild Demented,VeryMildDemented,128,128,1,064c3c01ff0baaf3df8221573f055c2d9ff1b203054c371e9620eede93001d03,test
+data/dataset/Very_Mild_Demented/verymild_734.jpg,verymild_734.jpg,Very Mild Demented,VeryMildDemented,128,128,1,58dcf5eb58ddfbb9a95de9438716cf20782fe132fbbd3164a2eb625db4899f0f,test
+data/dataset/Very_Mild_Demented/verymild_408.jpg,verymild_408.jpg,Very Mild Demented,VeryMildDemented,128,128,1,e64572adb57244f2481eee27078d91396ee3e58f9edf6029761c1c7bde4e672f,test
+data/dataset/Very_Mild_Demented/verymild_970.jpg,verymild_970.jpg,Very Mild Demented,VeryMildDemented,128,128,1,6b1b941dbae586634ba7b60e75ab829332983926a582ff5dec9ccc9321ed79fd,test
+data/dataset/Very_Mild_Demented/verymild_1773.jpg,verymild_1773.jpg,Very Mild Demented,VeryMildDemented,128,128,1,d120cff8fbf74394a2d65463be5f56396ed36290b413323510708a51a1e7e70f,test
+data/dataset/Very_Mild_Demented/verymild_2118.jpg,verymild_2118.jpg,Very Mild Demented,VeryMildDemented,128,128,1,efbe0dce9895430bfc2795d28372b0a7f6a46ff960a51118af067fd76b7d6ed3,test
+data/dataset/Very_Mild_Demented/verymild_345.jpg,verymild_345.jpg,Very Mild Demented,VeryMildDemented,128,128,1,3600a3abae241b938cbd7659425fd45abf4c33a78cc7d01e94b26265175c9e63,test
+data/dataset/Very_Mild_Demented/verymild_623.jpg,verymild_623.jpg,Very Mild Demented,VeryMildDemented,128,128,1,6ba1ae1179eee5864035aefa36543b009a8d865459665850074c813a5f50ee56,test
+data/dataset/Very_Mild_Demented/verymild_1493.jpg,verymild_1493.jpg,Very Mild Demented,VeryMildDemented,128,128,1,b61e6e366a554180e6d26a3c58636e6ae46283695234f0df4d38b8c1c8fdbb5e,test
+data/dataset/Very_Mild_Demented/verymild_1597.jpg,verymild_1597.jpg,Very Mild Demented,VeryMildDemented,128,128,1,a433f1dc5225268efcab710f7b6eebe628ed348026d64034204c8e3583520350,test
+data/dataset/Very_Mild_Demented/verymild_1642.jpg,verymild_1642.jpg,Very Mild Demented,VeryMildDemented,128,128,1,2b890e224cdf69df2ab69c19e386872dde091ce72b92b836684f5f7a94f8b468,test
+data/dataset/Very_Mild_Demented/verymild_1354.jpg,verymild_1354.jpg,Very Mild Demented,VeryMildDemented,128,128,1,539f78d7d8bcfd69339a189ad836350338b5a347ed2838c4896752d212c58522,test
+data/dataset/Very_Mild_Demented/verymild_1648.jpg,verymild_1648.jpg,Very Mild Demented,VeryMildDemented,128,128,1,f6b53dfe0ca850ddce366f7a27bb5d6158d0a6139c1d082b5b6d8d489ca855b2,test
+data/dataset/Very_Mild_Demented/verymild_1999.jpg,verymild_1999.jpg,Very Mild Demented,VeryMildDemented,128,128,1,8fdf80118748a8abf901dd27b801b0ef7fa972cd3bdf60749cd5d81b5d03b922,test
+data/dataset/Very_Mild_Demented/verymild_1560.jpg,verymild_1560.jpg,Very Mild Demented,VeryMildDemented,128,128,1,bfa22de8a95fb8028d44f2d7f048a439611b3591f28adc8299c14bb2f7a5810f,test
+data/dataset/Very_Mild_Demented/verymild_1961.jpg,verymild_1961.jpg,Very Mild Demented,VeryMildDemented,128,128,1,067b544dc2e9920245d0783bc59753dd24fa32ef63d04a480b7654c521c247dc,test
+data/dataset/Very_Mild_Demented/verymild_964.jpg,verymild_964.jpg,Very Mild Demented,VeryMildDemented,128,128,1,1e76e623ef870f7ed3845a8f2ec75a7f06a1592ce96fda4876e4f47e070ddb92,test
+data/dataset/Very_Mild_Demented/verymild_890.jpg,verymild_890.jpg,Very Mild Demented,VeryMildDemented,128,128,1,40c3e5fa5683b65ba75d1ef57e7f84e81f287190f78ed09e65210395574f3928,test
+data/dataset/Very_Mild_Demented/verymild_1679.jpg,verymild_1679.jpg,Very Mild Demented,VeryMildDemented,128,128,1,27e89e123250a79b671c718eaab2a387d837d5171b82bc19533e5eb6af740587,test
+data/dataset/Very_Mild_Demented/verymild_227.jpg,verymild_227.jpg,Very Mild Demented,VeryMildDemented,128,128,1,8bf4224a98e4a45191c4a2191484b393f59f83cd31016420c211497207ea5d3e,test
+data/dataset/Very_Mild_Demented/verymild_1937.jpg,verymild_1937.jpg,Very Mild Demented,VeryMildDemented,128,128,1,864508b58cfba0f7f94aebbd78b1187ce2419266af3ed0121bacc851a25e3c1c,test
+data/dataset/Very_Mild_Demented/verymild_283.jpg,verymild_283.jpg,Very Mild Demented,VeryMildDemented,128,128,1,00535d079520397978f83e2c9785412fdb782d720e94376f692ae52b10d98e96,test
+data/dataset/Very_Mild_Demented/verymild_508.jpg,verymild_508.jpg,Very Mild Demented,VeryMildDemented,128,128,1,c53fb7dda6b25a47e1aac7ff5bb4aa3c66b1eb5556aa719d072a45897d0bccf7,test
+data/dataset/Very_Mild_Demented/verymild_1164.jpg,verymild_1164.jpg,Very Mild Demented,VeryMildDemented,128,128,1,cad16926edea01c5b157d8310ba7b2458b945f4fa19487e21f0cda150beb0ae1,test
+data/dataset/Very_Mild_Demented/verymild_1696.jpg,verymild_1696.jpg,Very Mild Demented,VeryMildDemented,128,128,1,8078a69b12cb9f4002638683e04a57cc8b895ebdfb55e9c94693c0e66342933d,test
+data/dataset/Very_Mild_Demented/verymild_1698.jpg,verymild_1698.jpg,Very Mild Demented,VeryMildDemented,128,128,1,b095c2d6aa3e878999ebf2eaefe5ce96f7be1c93bde93bf8675dcffcf700c91b,test
+data/dataset/Very_Mild_Demented/verymild_44.jpg,verymild_44.jpg,Very Mild Demented,VeryMildDemented,128,128,1,559a1243f6bb453210ad106a8c515efa28749fb7ddcc44c57bd3b5942da4ed74,test
+data/dataset/Very_Mild_Demented/verymild_1739.jpg,verymild_1739.jpg,Very Mild Demented,VeryMildDemented,128,128,1,d38ccc2092b2f03e98f5ed732836646a92eeee5466583b9cdd8950fabfc07957,test
+data/dataset/Very_Mild_Demented/verymild_1939.jpg,verymild_1939.jpg,Very Mild Demented,VeryMildDemented,128,128,1,1b106dd6c6ce16d3fb3333eec040b39b719d124d4cb12a56f304753cfe3e29d7,test
+data/dataset/Very_Mild_Demented/verymild_15.jpg,verymild_15.jpg,Very Mild Demented,VeryMildDemented,128,128,1,f3f8f2637012359f8ccdd2e1dc80b44c9849a990a45e0a374c3f0264a524d3ce,test
+data/dataset/Very_Mild_Demented/verymild_361.jpg,verymild_361.jpg,Very Mild Demented,VeryMildDemented,128,128,1,2242ab086178cc819caa6cda002f7507868d1b472fd97723d3d8b56466f89cb6,test
+data/dataset/Very_Mild_Demented/verymild_277.jpg,verymild_277.jpg,Very Mild Demented,VeryMildDemented,128,128,1,1e9a1dd98d133c36083d489c1f7ff019daa2eb19ccfbc226341c242399efa639,test
+data/dataset/Very_Mild_Demented/verymild_776.jpg,verymild_776.jpg,Very Mild Demented,VeryMildDemented,128,128,1,6d8d8a35dc4f1d3fa241f15434b0f152e958cba065e056a2dfb69db517c28913,test
+data/dataset/Very_Mild_Demented/verymild_266.jpg,verymild_266.jpg,Very Mild Demented,VeryMildDemented,128,128,1,3fb6447a415440827f2cb2101460e07dd9708bbe71618fb810abc7ca3e1656c4,test
+data/dataset/Very_Mild_Demented/verymild_1438.jpg,verymild_1438.jpg,Very Mild Demented,VeryMildDemented,128,128,1,f3d70c375b1c0506484d14ebc5d48ee1d8236c383c6ee09c5365bede23158b4e,test
+data/dataset/Very_Mild_Demented/verymild_1013.jpg,verymild_1013.jpg,Very Mild Demented,VeryMildDemented,128,128,1,d09907d57c318e1716e63ba177264e6e4e40daf29370634568ddf0a98dbfb8d7,test
+data/dataset/Very_Mild_Demented/verymild_1385.jpg,verymild_1385.jpg,Very Mild Demented,VeryMildDemented,128,128,1,84798535a59c179d07dd8931cd06a3a1cf80d3409fd91830707b07257902a20c,test
+data/dataset/Very_Mild_Demented/verymild_114.jpg,verymild_114.jpg,Very Mild Demented,VeryMildDemented,128,128,1,80ee5ab7323d19e1c71c51633ccc7ab37091d465092879ded750de48f63c68ad,test
+data/dataset/Very_Mild_Demented/verymild_418.jpg,verymild_418.jpg,Very Mild Demented,VeryMildDemented,128,128,1,9bf3b73fd85f8a30915aa28e64cb48d0f9b42ef23466d07e630cff2eb5868a31,test
+data/dataset/Very_Mild_Demented/verymild_779.jpg,verymild_779.jpg,Very Mild Demented,VeryMildDemented,128,128,1,277a1fae7843c8ce11ff0e7ec187b732663bb92bc31ec92d7e75b9de83c95bb2,test
+data/dataset/Very_Mild_Demented/verymild_752.jpg,verymild_752.jpg,Very Mild Demented,VeryMildDemented,128,128,1,4731bcd533b362ef21779f86bb1d05b8a03ed3129069985c57dda8d1326eef3a,test
+data/dataset/Very_Mild_Demented/verymild_590.jpg,verymild_590.jpg,Very Mild Demented,VeryMildDemented,128,128,1,63f4133cdfe934b6cea8226ed60acdfa8fdda5c4222a89092781769c558d8ef5,test
+data/dataset/Very_Mild_Demented/verymild_564.jpg,verymild_564.jpg,Very Mild Demented,VeryMildDemented,128,128,1,3fe12fc3aa35791b00ed8c0b8e49bd7796dd737d26b29c059057bee3bf4cf88b,test
+data/dataset/Very_Mild_Demented/verymild_1647.jpg,verymild_1647.jpg,Very Mild Demented,VeryMildDemented,128,128,1,9a00dab24442cffb672006767e762e190cc71d6781053d800dbd0746312c33bd,test
+data/dataset/Very_Mild_Demented/verymild_920.jpg,verymild_920.jpg,Very Mild Demented,VeryMildDemented,128,128,1,b1bbc33ffe798f748af1d70ee6efc7423bc08bf0a356cc22377b9b361d70d9df,test
+data/dataset/Very_Mild_Demented/verymild_2133.jpg,verymild_2133.jpg,Very Mild Demented,VeryMildDemented,128,128,1,03e1d337dce06bc4b50cefbf5503b131ff7e9f2e969e799d77061dab84362cf0,test
+data/dataset/Very_Mild_Demented/verymild_913.jpg,verymild_913.jpg,Very Mild Demented,VeryMildDemented,128,128,1,5663eaa40bbf84dad8b482912e6edb1238c4d3e59ec71287b68ebe6fc54b8590,test
+data/dataset/Very_Mild_Demented/verymild_2087.jpg,verymild_2087.jpg,Very Mild Demented,VeryMildDemented,128,128,1,1318025f01d25c2f993318738d8592876e12160be3fc80b2a227c695abe886c6,test
+data/dataset/Very_Mild_Demented/verymild_1027.jpg,verymild_1027.jpg,Very Mild Demented,VeryMildDemented,128,128,1,74d7ea4c63a6227d11a839a46f33a7efc4615d4bb40f4f58ebd45d5657b11427,test
+data/dataset/Very_Mild_Demented/verymild_1350.jpg,verymild_1350.jpg,Very Mild Demented,VeryMildDemented,128,128,1,2460c3120e0508d486b440d8965de73cc7a2bf2ebdc8e6168413675a0f0c3c6e,test
+data/dataset/Very_Mild_Demented/verymild_425.jpg,verymild_425.jpg,Very Mild Demented,VeryMildDemented,128,128,1,cd6a92ad86aa997aa2f2354958536b4058a108dd56d6c03e997264c7aa723683,test
+data/dataset/Very_Mild_Demented/verymild_293.jpg,verymild_293.jpg,Very Mild Demented,VeryMildDemented,128,128,1,98814e09bee22b848df1e3c6f17a91c2a2e2a365e5ddd7ff647bf909f000bc6d,test
+data/dataset/Very_Mild_Demented/verymild_1788.jpg,verymild_1788.jpg,Very Mild Demented,VeryMildDemented,128,128,1,4810f3b5867eeb6e481d173ebd8a7aed849b5692b06d50882e74f7026bfc776f,test
+data/dataset/Very_Mild_Demented/verymild_164.jpg,verymild_164.jpg,Very Mild Demented,VeryMildDemented,128,128,1,610338e8a7d07d9f9aec9b9387a55a2586d914cc336cf5dbefd11ed572ff9afc,test
+data/dataset/Very_Mild_Demented/verymild_301.jpg,verymild_301.jpg,Very Mild Demented,VeryMildDemented,128,128,1,d485733f0556ab3aab6f8b4c097bd183a254be086d4031e72a42c11054fd6b59,test
+data/dataset/Very_Mild_Demented/verymild_874.jpg,verymild_874.jpg,Very Mild Demented,VeryMildDemented,128,128,1,25d54fa4e422a96ca85c95268d9983fab45a4cd16b923c5ea091caf3df5016e2,test
+data/dataset/Very_Mild_Demented/verymild_1198.jpg,verymild_1198.jpg,Very Mild Demented,VeryMildDemented,128,128,1,5e5721c2f1dd46d6913ee2a28e307faf06f38468fc04218459c23d6d33e90268,test
+data/dataset/Very_Mild_Demented/verymild_619.jpg,verymild_619.jpg,Very Mild Demented,VeryMildDemented,128,128,1,3e59b1bd9bc2574dc2956b5e5478e1bd3e6104ad63112911be24e44232679e88,test
+data/dataset/Very_Mild_Demented/verymild_471.jpg,verymild_471.jpg,Very Mild Demented,VeryMildDemented,128,128,1,68b506d39f03f77714fdbe628dd5cc507e43dd31ae1351d8c1f3088f3adb0933,test
+data/dataset/Very_Mild_Demented/verymild_116.jpg,verymild_116.jpg,Very Mild Demented,VeryMildDemented,128,128,1,6e8f3eaaf23635ac6fcce41bf0fc7add40968f8ef13f9596329df5dbc15d6696,test
+data/dataset/Very_Mild_Demented/verymild_1703.jpg,verymild_1703.jpg,Very Mild Demented,VeryMildDemented,128,128,1,0174557db9be9376b555b384ece84221b3a38f39da487abcf4a0ab4ae98f5201,test
+data/dataset/Very_Mild_Demented/verymild_876.jpg,verymild_876.jpg,Very Mild Demented,VeryMildDemented,128,128,1,5d71f697aede3e814f9a460bb683ee29044dd99f1b8ec581d66b32da9ad1cca5,test
+data/dataset/Very_Mild_Demented/verymild_1285.jpg,verymild_1285.jpg,Very Mild Demented,VeryMildDemented,128,128,1,c6674d8ccbedf0dfdce53f504eb3bcd03581e4f5ac1ead7895696708d4e4c454,test
+data/dataset/Very_Mild_Demented/verymild_208.jpg,verymild_208.jpg,Very Mild Demented,VeryMildDemented,128,128,1,db4bb4cdb8f6982dab175d6a0a013088654478de7d0b7bbf09598ecba5d188c0,test
+data/dataset/Very_Mild_Demented/verymild_1723.jpg,verymild_1723.jpg,Very Mild Demented,VeryMildDemented,128,128,1,99fd0f1acef137bc8f9e02efe9963048f6fe7996f8a7c464ce1637ac62ef72e9,test
+data/dataset/Very_Mild_Demented/verymild_2203.jpg,verymild_2203.jpg,Very Mild Demented,VeryMildDemented,128,128,1,3b54c793099c30fd188ecdfada5265f7aa5fa2e8d18b95e220ba3e7e220f923f,test
+data/dataset/Very_Mild_Demented/verymild_1941.jpg,verymild_1941.jpg,Very Mild Demented,VeryMildDemented,128,128,1,1185cc21e6970c6f911c96b7e5d3f54de098018811974ff7971db546b9807110,test
+data/dataset/Very_Mild_Demented/verymild_1280.jpg,verymild_1280.jpg,Very Mild Demented,VeryMildDemented,128,128,1,8c490ae6c357ad9c599942eefb86c0bde0792efc031faf4a880a3b4fa48fcd63,test
+data/dataset/Very_Mild_Demented/verymild_2007.jpg,verymild_2007.jpg,Very Mild Demented,VeryMildDemented,128,128,1,59852c10a87c3cb16966f58cf8cdc2b3d5b3fa2bc012dec2e9943e1d77d24b54,test
+data/dataset/Very_Mild_Demented/verymild_1443.jpg,verymild_1443.jpg,Very Mild Demented,VeryMildDemented,128,128,1,4ae6bc5e5095f62f1bb9be90303849b13196da91e6140ab5cda7a111353dd147,test
+data/dataset/Very_Mild_Demented/verymild_1359.jpg,verymild_1359.jpg,Very Mild Demented,VeryMildDemented,128,128,1,ee964a6c4856a19a36d678a08b8e6d9de36ac4b941d96d1036432cac42683bc8,test
+data/dataset/Very_Mild_Demented/verymild_387.jpg,verymild_387.jpg,Very Mild Demented,VeryMildDemented,128,128,1,72f869df4c50312ccdd867c584e348c14913e86246526db0014adab8e2a9901c,test
+data/dataset/Very_Mild_Demented/verymild_3.jpg,verymild_3.jpg,Very Mild Demented,VeryMildDemented,128,128,1,b45a930c9740d6380b6764ae43810e59c26f5467189a361bdd3d6c046e990b5b,test
+data/dataset/Very_Mild_Demented/verymild_61.jpg,verymild_61.jpg,Very Mild Demented,VeryMildDemented,128,128,1,a5570034b6b9a10673f3d343944a6e429131757b29fe9933482950cd8f8f0803,test
+data/dataset/Very_Mild_Demented/verymild_768.jpg,verymild_768.jpg,Very Mild Demented,VeryMildDemented,128,128,1,aaf41ccead89b2383ca5993ad87c8281a61742a157410583ffed9f121fed5229,test
+data/dataset/Very_Mild_Demented/verymild_309.jpg,verymild_309.jpg,Very Mild Demented,VeryMildDemented,128,128,1,8ad583ef2307d20f4185134dd00aec12d3c4b65fa81e1a6ed215fad9cecf07b5,test
+data/dataset/Very_Mild_Demented/verymild_342.jpg,verymild_342.jpg,Very Mild Demented,VeryMildDemented,128,128,1,9ee5b47dcac3ad117afd7e168ad912558e4451dc7d4391ad4e44ca5525fcd2d3,test
+data/dataset/Very_Mild_Demented/verymild_1541.jpg,verymild_1541.jpg,Very Mild Demented,VeryMildDemented,128,128,1,5d7ce4c1ea739ca0b66b865178646d046f595d7a985f7ba614d3779f9275272a,test
+data/dataset/Very_Mild_Demented/verymild_326.jpg,verymild_326.jpg,Very Mild Demented,VeryMildDemented,128,128,1,db3e8bb090bf0eded7423d87de12f07528661d9fa4c5d374e5937fba460b13a6,test
+data/dataset/Very_Mild_Demented/verymild_2210.jpg,verymild_2210.jpg,Very Mild Demented,VeryMildDemented,128,128,1,8d8bf180be53247f37a3cda1e2ff0e90d64929f9b715860dd21518bfd4daea2c,test
+data/dataset/Very_Mild_Demented/verymild_1893.jpg,verymild_1893.jpg,Very Mild Demented,VeryMildDemented,128,128,1,f61784d58637153f692e0bbc43de1e272fd24dded8eeaa166b53f29a57635426,test
+data/dataset/Very_Mild_Demented/verymild_494.jpg,verymild_494.jpg,Very Mild Demented,VeryMildDemented,128,128,1,e0b092b6bfae99138dd634e928c61825cb40d9712e98a69c52303d0651a9b123,test
+data/dataset/Very_Mild_Demented/verymild_1201.jpg,verymild_1201.jpg,Very Mild Demented,VeryMildDemented,128,128,1,f60c6da49a696c23c258197171fe565dfe2f0a7554af9dc310db49d43128a4d3,test
+data/dataset/Very_Mild_Demented/verymild_563.jpg,verymild_563.jpg,Very Mild Demented,VeryMildDemented,128,128,1,d466b8c742cbc17d30cfdb5f74743ec5c7adba721f9facccc69e0adcd3bbb01e,test
+data/dataset/Very_Mild_Demented/verymild_1620.jpg,verymild_1620.jpg,Very Mild Demented,VeryMildDemented,128,128,1,996c760e545e244f8de2a774f5ce94d7cd12df48ce24792c9a2f3c1771599d46,test
+data/dataset/Very_Mild_Demented/verymild_1483.jpg,verymild_1483.jpg,Very Mild Demented,VeryMildDemented,128,128,1,610572bc40957b46a4018dcf07734c1e7a385f3f91f74b4b9a7e0b42b72e2286,test
+data/dataset/Very_Mild_Demented/verymild_568.jpg,verymild_568.jpg,Very Mild Demented,VeryMildDemented,128,128,1,3db5f21152c37d86985df60a198de0c32527b3c3674b4448dd9ffc794b537fc5,test
+data/dataset/Very_Mild_Demented/verymild_196.jpg,verymild_196.jpg,Very Mild Demented,VeryMildDemented,128,128,1,a5304bf582ad453fc79b45e2f11cfc89da32778bace58fa59f6169e870a7bf77,test
+data/dataset/Very_Mild_Demented/verymild_1555.jpg,verymild_1555.jpg,Very Mild Demented,VeryMildDemented,128,128,1,b1520eb1c870e0a0ba7ab5605d0bea422c78c1a8986d049481b1d1f04715e98e,test
+data/dataset/Very_Mild_Demented/verymild_1231.jpg,verymild_1231.jpg,Very Mild Demented,VeryMildDemented,128,128,1,477b37cf6346d92ac15ee101de44d03bc604111e5be03f631487b16df04f7b15,test
+data/dataset/Very_Mild_Demented/verymild_1362.jpg,verymild_1362.jpg,Very Mild Demented,VeryMildDemented,128,128,1,26fc6bd94937631ee5f9ec4e3ac934c3b4155b0fb1f102b6acbd224e4b6fb9ee,test
+data/dataset/Very_Mild_Demented/verymild_514.jpg,verymild_514.jpg,Very Mild Demented,VeryMildDemented,128,128,1,a52677d656abb2b132d48e00d510fb61f230dde74d87aab5c963aaa94616816d,test
+data/dataset/Very_Mild_Demented/verymild_210.jpg,verymild_210.jpg,Very Mild Demented,VeryMildDemented,128,128,1,ad2b191d143352234eb9a2915deb5bf23996776e872d68f35e50aa679e2d3a28,test
+data/dataset/Very_Mild_Demented/verymild_2209.jpg,verymild_2209.jpg,Very Mild Demented,VeryMildDemented,128,128,1,e94e80c91b410832ed970b055cc0f95631727d74799488290f16e1bf9c058793,test
+data/dataset/Very_Mild_Demented/verymild_422.jpg,verymild_422.jpg,Very Mild Demented,VeryMildDemented,128,128,1,ce113566b6e864bfd5766ba31ca2101f337a20d4cba6758cb03da66a5f369515,test
+data/dataset/Very_Mild_Demented/verymild_1214.jpg,verymild_1214.jpg,Very Mild Demented,VeryMildDemented,128,128,1,c3eca2c3d230c1426325413fad0e2d7f0f5783cb4985eb5398fe71b3361aea1b,test
+data/dataset/Very_Mild_Demented/verymild_300.jpg,verymild_300.jpg,Very Mild Demented,VeryMildDemented,128,128,1,11fb56b113dee8239576f8524424feb3a3386640d3638fc54ff0e6a4598058a5,test
+data/dataset/Very_Mild_Demented/verymild_1047.jpg,verymild_1047.jpg,Very Mild Demented,VeryMildDemented,128,128,1,93ae5fe49c9d9405dbd38b0c1fe6aeac05c35a668fc38ffa3a5f353219c2a331,test
+data/dataset/Very_Mild_Demented/verymild_1817.jpg,verymild_1817.jpg,Very Mild Demented,VeryMildDemented,128,128,1,d88ce185c8eb67afd49bc0f7008feaa9b86a9a66744d5e13826252d8a998562f,test
+data/dataset/Very_Mild_Demented/verymild_193.jpg,verymild_193.jpg,Very Mild Demented,VeryMildDemented,128,128,1,7611a6b5609d551138476018d5900630b4cbedc9ddb09189002d58e545b2d35b,test
+data/dataset/Very_Mild_Demented/verymild_804.jpg,verymild_804.jpg,Very Mild Demented,VeryMildDemented,128,128,1,f276a569cacfe0d1d72d85dbb52f3d4ae029e07c7efa8021c5fbfb05f5ba3c39,test
+data/dataset/Very_Mild_Demented/verymild_888.jpg,verymild_888.jpg,Very Mild Demented,VeryMildDemented,128,128,1,873e06875f380c10f134f1c6baeb7099db338db21373ba3e0792d60f0ff2979f,test
+data/dataset/Very_Mild_Demented/verymild_182.jpg,verymild_182.jpg,Very Mild Demented,VeryMildDemented,128,128,1,f6fb5cba42df9c8307e86cb16dd00624bc8438c3621d4dc11b60e4e7de5a12a4,test
+data/dataset/Very_Mild_Demented/verymild_1639.jpg,verymild_1639.jpg,Very Mild Demented,VeryMildDemented,128,128,1,dd89247e2ae5329f7f0a57678302073b29bf6d8bac33f82a14d1243375193d90,test
+data/dataset/Very_Mild_Demented/verymild_748.jpg,verymild_748.jpg,Very Mild Demented,VeryMildDemented,128,128,1,9b20bb0e393511955856e48470cda538150b4eec1867a507e7eaa6d397feaffc,test
+data/dataset/Very_Mild_Demented/verymild_2002.jpg,verymild_2002.jpg,Very Mild Demented,VeryMildDemented,128,128,1,d4f47d03a33edde362934b6aca9ac276a913ad271071038fec827dadff5be958,test
+data/dataset/Very_Mild_Demented/verymild_699.jpg,verymild_699.jpg,Very Mild Demented,VeryMildDemented,128,128,1,a68ac013e9286d40ac6defb776226e55f9215478d9134c87e2be2fb199bf9a88,test
+data/dataset/Very_Mild_Demented/verymild_226.jpg,verymild_226.jpg,Very Mild Demented,VeryMildDemented,128,128,1,035ff8a17ff3f2f5c2a909c7f236cab01133cd1ebc051e506c2dfa872c4117c6,test
+data/dataset/Very_Mild_Demented/verymild_1261.jpg,verymild_1261.jpg,Very Mild Demented,VeryMildDemented,128,128,1,75c4a89fc11b00fe3d69ada439a44ca9e99a3e2b4486e4c799d8d8d50b51f208,test
+data/dataset/Very_Mild_Demented/verymild_512.jpg,verymild_512.jpg,Very Mild Demented,VeryMildDemented,128,128,1,5cbfdd3b74394767b3c05e5a40f1830f280b388969da29577011945e0dd8336d,test
+data/dataset/Very_Mild_Demented/verymild_1979.jpg,verymild_1979.jpg,Very Mild Demented,VeryMildDemented,128,128,1,91b7b0062b5bb6087716fdc78508c520fd7626e5b8d286f8d186356e0250ac0e,test
+data/dataset/Very_Mild_Demented/verymild_171.jpg,verymild_171.jpg,Very Mild Demented,VeryMildDemented,128,128,1,f483fef944a61e6ccacc01bd5c45b99d99a393fb77a143b8ca8fb2aa6191e6e4,test
+data/dataset/Very_Mild_Demented/verymild_1453.jpg,verymild_1453.jpg,Very Mild Demented,VeryMildDemented,128,128,1,9260c0e74237160b53b85dcdf97439e7f672501f03c4e8f0fcdc75a6d03e3a84,test
+data/dataset/Very_Mild_Demented/verymild_243.jpg,verymild_243.jpg,Very Mild Demented,VeryMildDemented,128,128,1,0fd0dedf941f4e096db0be0523fc13e6326fb8c3d43351a84f2a814d4746105a,test
+data/dataset/Very_Mild_Demented/verymild_409.jpg,verymild_409.jpg,Very Mild Demented,VeryMildDemented,128,128,1,5e163934bca8716e30b1a9731ffefa1a013bef2b1f54bbefbc06c34c74545a46,test
+data/dataset/Very_Mild_Demented/verymild_495.jpg,verymild_495.jpg,Very Mild Demented,VeryMildDemented,128,128,1,57581f4923ab5af903ac1446471f6849b44d21172b54846eabc1455aff02ba95,test
+data/dataset/Very_Mild_Demented/verymild_80.jpg,verymild_80.jpg,Very Mild Demented,VeryMildDemented,128,128,1,7accc810d35a279205afe4863935d66db0286f1820ebd8968a0cd85a7c29dae5,test
+data/dataset/Very_Mild_Demented/verymild_501.jpg,verymild_501.jpg,Very Mild Demented,VeryMildDemented,128,128,1,27a32a7eccf7835d20d0f8a4b10d868959e160a7c0ad2f0d5acaa5579bae854c,test
+data/dataset/Very_Mild_Demented/verymild_1795.jpg,verymild_1795.jpg,Very Mild Demented,VeryMildDemented,128,128,1,00209cbbe9daecd83c64d6fe17772a6f5495530d2ab259da2ddb6298dbc1ec6d,test
+data/dataset/Very_Mild_Demented/verymild_1918.jpg,verymild_1918.jpg,Very Mild Demented,VeryMildDemented,128,128,1,11411385122ad76f7c13f24c66b6f8b6d42f7ccb5a5c8c92e20500ff4fd670d7,test
+data/dataset/Very_Mild_Demented/verymild_1353.jpg,verymild_1353.jpg,Very Mild Demented,VeryMildDemented,128,128,1,a75a5a49706766f1b6501aeb9058b923bb85c954469c75e6fa906fec51ef36fb,test
+data/dataset/Very_Mild_Demented/verymild_868.jpg,verymild_868.jpg,Very Mild Demented,VeryMildDemented,128,128,1,271c7cbf9b98fe85bcda99b49b868d37838ee8fa142c86cd6b556fbafde01fba,test
+data/dataset/Very_Mild_Demented/verymild_2091.jpg,verymild_2091.jpg,Very Mild Demented,VeryMildDemented,128,128,1,5df372fa66c930ff2fc5114c60725d3e842ac23a56cbf083040bacd17c4f8429,test
+data/dataset/Very_Mild_Demented/verymild_433.jpg,verymild_433.jpg,Very Mild Demented,VeryMildDemented,128,128,1,31bfe8c1545010475a89e58f502ab5c12eadef80d2d5cec35145cc86715f49b1,test
+data/dataset/Very_Mild_Demented/verymild_1506.jpg,verymild_1506.jpg,Very Mild Demented,VeryMildDemented,128,128,1,a370a3dc4b81c407f9f2994702bb77ce39039299b009ca3f8c9971c3f5f545d3,test
+data/dataset/Very_Mild_Demented/verymild_463.jpg,verymild_463.jpg,Very Mild Demented,VeryMildDemented,128,128,1,ab9e669cc5c251e4ab2cb3aa277e88ea10173a39fe879d25147c9a376f917d28,test
+data/dataset/Very_Mild_Demented/verymild_858.jpg,verymild_858.jpg,Very Mild Demented,VeryMildDemented,128,128,1,a6c4b6bbc99e8b0caac028e7d91c45d45dc84a17502cc047858063f18bbb1758,test
+data/dataset/Very_Mild_Demented/verymild_1586.jpg,verymild_1586.jpg,Very Mild Demented,VeryMildDemented,128,128,1,cbe916ecb378c48833543889b518f6b8d0a414e3f377079d3e4fd1860e8ec81a,test
+data/dataset/Very_Mild_Demented/verymild_2053.jpg,verymild_2053.jpg,Very Mild Demented,VeryMildDemented,128,128,1,6f0d7bbc3c5219c4d7a14180f669bba155162bd36526a10274daf823f8549945,test
+data/dataset/Very_Mild_Demented/verymild_957.jpg,verymild_957.jpg,Very Mild Demented,VeryMildDemented,128,128,1,d7ada11d0285027113954af89411ae3be962696aaf75b0d59dfb35e098cac555,test
+data/dataset/Very_Mild_Demented/verymild_1967.jpg,verymild_1967.jpg,Very Mild Demented,VeryMildDemented,128,128,1,973c9d217dd36b26ac72f6544e85658d564d08d13742dd8f98c61588031f9bb2,test
+data/dataset/Very_Mild_Demented/verymild_1765.jpg,verymild_1765.jpg,Very Mild Demented,VeryMildDemented,128,128,1,28b04ddb88a9f7001960a297ce19de52e2e643eb35afa6d3e4e8837c3721b2ba,test
+data/dataset/Very_Mild_Demented/verymild_381.jpg,verymild_381.jpg,Very Mild Demented,VeryMildDemented,128,128,1,3ebb777e27b00f540e4e03b41160802b47c7a488fecc9d6891f9d6a08bfae854,test
+data/dataset/Very_Mild_Demented/verymild_1880.jpg,verymild_1880.jpg,Very Mild Demented,VeryMildDemented,128,128,1,02e954d3509f72f26cb8a7814e370e69ffde4b4c66d847f16697d06ce8edee67,test
+data/dataset/Very_Mild_Demented/verymild_220.jpg,verymild_220.jpg,Very Mild Demented,VeryMildDemented,128,128,1,55e53aee8ba90036b6d25b0c8c03bbf788f469bc800f462a9d6e1d6254cef998,test
+data/dataset/Very_Mild_Demented/verymild_2159.jpg,verymild_2159.jpg,Very Mild Demented,VeryMildDemented,128,128,1,7c1687361249cb42242f1d591d276c76d07f715c8726c80d1b92b248a5d2f777,test
+data/dataset/Very_Mild_Demented/verymild_2170.jpg,verymild_2170.jpg,Very Mild Demented,VeryMildDemented,128,128,1,576f6874259bf4fdd377397ecc5c82c737defd8848bf72f7f4788b6d73fec6dc,test
+data/dataset/Very_Mild_Demented/verymild_1221.jpg,verymild_1221.jpg,Very Mild Demented,VeryMildDemented,128,128,1,ab8f0f87e5fd3dc70b66f10d7ae06e4f4865218ebd0187a9bd5dddd1ae690de1,test
+data/dataset/Very_Mild_Demented/verymild_258.jpg,verymild_258.jpg,Very Mild Demented,VeryMildDemented,128,128,1,93416da5d7fb9660b908531f6dff7e39291996615db8140f39d8ab3d273b8c9c,test
+data/dataset/Very_Mild_Demented/verymild_1766.jpg,verymild_1766.jpg,Very Mild Demented,VeryMildDemented,128,128,1,1ea8703bcf3d2295d06dbb36d8d14395f6c6f86c4db68f684e0190e9805f7bb5,test
+data/dataset/Very_Mild_Demented/verymild_1092.jpg,verymild_1092.jpg,Very Mild Demented,VeryMildDemented,128,128,1,b135c9b1dfbd4243ca02ddd5c802926309c6accb942a3e897ab08c1f5605ddff,test
+data/dataset/Very_Mild_Demented/verymild_648.jpg,verymild_648.jpg,Very Mild Demented,VeryMildDemented,128,128,1,0bd617f03343941e74a333eccb3a35c6305e0a73d90b775e786d881d978d3ecf,test
+data/dataset/Very_Mild_Demented/verymild_808.jpg,verymild_808.jpg,Very Mild Demented,VeryMildDemented,128,128,1,e80e67b79b7c2d1baa2734f0a14cbba54a2ffd17ec8129e6c8fd0bed9b51c270,test
+data/dataset/Very_Mild_Demented/verymild_1772.jpg,verymild_1772.jpg,Very Mild Demented,VeryMildDemented,128,128,1,1119b631e94ff4711f24942c748f8832018d560ebb9d483616d5c1f9e50605bf,test
+data/dataset/Very_Mild_Demented/verymild_1237.jpg,verymild_1237.jpg,Very Mild Demented,VeryMildDemented,128,128,1,99161eeb7029ba277fd907d60c999e3d2913b604ca431ddc01c9a95c398b35b5,test
+data/dataset/Very_Mild_Demented/verymild_697.jpg,verymild_697.jpg,Very Mild Demented,VeryMildDemented,128,128,1,f84599e8184002278f1054a25482312a0fdbd83774a132fb78a317938d1cdd41,test
+data/dataset/Very_Mild_Demented/verymild_1262.jpg,verymild_1262.jpg,Very Mild Demented,VeryMildDemented,128,128,1,931eab0d0a6b45c555882c24414b05c78c52fe783f809c7c80f7c7ca6e3ff077,test
+data/dataset/Very_Mild_Demented/verymild_496.jpg,verymild_496.jpg,Very Mild Demented,VeryMildDemented,128,128,1,ee12cc959b0a1050a0aaf5d93bd96212c6ebeaa325465041f09153b4040eb841,test
+data/dataset/Very_Mild_Demented/verymild_777.jpg,verymild_777.jpg,Very Mild Demented,VeryMildDemented,128,128,1,150fc9b11a11962b8b77707ccbd3ccc6f07143c6e890aa4ebaf5dd26e9f08aaf,test
+data/dataset/Very_Mild_Demented/verymild_478.jpg,verymild_478.jpg,Very Mild Demented,VeryMildDemented,128,128,1,46402f1f3191cfa8f17967519b4fa0c04d688ec0f3924bc4e0b0308888be96ac,test
+data/dataset/Very_Mild_Demented/verymild_1747.jpg,verymild_1747.jpg,Very Mild Demented,VeryMildDemented,128,128,1,e03d75bf277c4ecc8eaff916732bbbca3ce56e939443c027cbce762a080bc677,test
+data/dataset/Very_Mild_Demented/verymild_234.jpg,verymild_234.jpg,Very Mild Demented,VeryMildDemented,128,128,1,3d32ebb31dac9e3c86d0b1d75d34634e74eb6d459ac130b62e6e7466a58c6c43,test
+data/dataset/Very_Mild_Demented/verymild_1521.jpg,verymild_1521.jpg,Very Mild Demented,VeryMildDemented,128,128,1,1a6ad3ed4ad785689d96b6b0166c8d5dbb68d8067a010474dccb4db2e9275328,test
+data/dataset/Very_Mild_Demented/verymild_1407.jpg,verymild_1407.jpg,Very Mild Demented,VeryMildDemented,128,128,1,e42fe4d0588327ea35e22a96b8752a51ec2cba76cf5b3c63c3fab5bf7a1123da,test
+data/dataset/Very_Mild_Demented/verymild_1801.jpg,verymild_1801.jpg,Very Mild Demented,VeryMildDemented,128,128,1,d6ccb8cd1e19ef716d51254636205fbe05d47e7220228ad77ba4dafc960a75e0,test
+data/dataset/Very_Mild_Demented/verymild_1534.jpg,verymild_1534.jpg,Very Mild Demented,VeryMildDemented,128,128,1,28d6e43ed2c1f23898f5385216b7425681fdaadf4afb88316cd1fd3fc3cd305f,test
+data/dataset/Very_Mild_Demented/verymild_1513.jpg,verymild_1513.jpg,Very Mild Demented,VeryMildDemented,128,128,1,77c5a3fa99ad681fe95355f78668a033925623980f1bb2a725a12d0a76414c91,test
+data/dataset/Very_Mild_Demented/verymild_1037.jpg,verymild_1037.jpg,Very Mild Demented,VeryMildDemented,128,128,1,c9c0af1a4d768d649d10494831073d5447e9a65d486b1fd65a0c0b57d8cf1785,test
+data/dataset/Very_Mild_Demented/verymild_1605.jpg,verymild_1605.jpg,Very Mild Demented,VeryMildDemented,128,128,1,3f08bab2c95fd38591491eb334c7c87d69b46d725a65479c9ef6248a2c9555d3,test
+data/dataset/Very_Mild_Demented/verymild_763.jpg,verymild_763.jpg,Very Mild Demented,VeryMildDemented,128,128,1,049a820a5598fe4c620ad01a73307794cac9176ac251c502cda8e801485a5d2b,test
+data/dataset/Very_Mild_Demented/verymild_1640.jpg,verymild_1640.jpg,Very Mild Demented,VeryMildDemented,128,128,1,cbc6d5e1fd918159a1a4e6a60cdee448be83d671035433c6b91abfb5c759427b,test
+data/dataset/Very_Mild_Demented/verymild_900.jpg,verymild_900.jpg,Very Mild Demented,VeryMildDemented,128,128,1,956ba7160cf0e3174e03faf0c7ac47ef8325d14903bae1ba4e351f38232fd9d3,test
+data/dataset/Very_Mild_Demented/verymild_302.jpg,verymild_302.jpg,Very Mild Demented,VeryMildDemented,128,128,1,cf779127bf1742bb61721db71bf8f8e71cbb9a6c9fc779e510e2506ea01e14cf,test
+data/dataset/Very_Mild_Demented/verymild_1321.jpg,verymild_1321.jpg,Very Mild Demented,VeryMildDemented,128,128,1,d3eca3ae26e6fcc94b6678b1255344bcc0a6559b14fb299b80dc9f46879f6046,test
+data/dataset/Very_Mild_Demented/verymild_1984.jpg,verymild_1984.jpg,Very Mild Demented,VeryMildDemented,128,128,1,3b65503ec064750a735fc6d1dc940d6288eba1ed6f9afde927a861aa7867d16b,test
+data/dataset/Very_Mild_Demented/verymild_1708.jpg,verymild_1708.jpg,Very Mild Demented,VeryMildDemented,128,128,1,0c22a6cf3ceec38ba33ada2ab03cb8649ad1e4b9007e1b01a53e92e3120c1f0f,test
+data/dataset/Very_Mild_Demented/verymild_271.jpg,verymild_271.jpg,Very Mild Demented,VeryMildDemented,128,128,1,16949d535c14a03a791049c0f1ed36d2f051427e5504ed20e9eaae99f081e2ed,test
+data/dataset/Very_Mild_Demented/verymild_592.jpg,verymild_592.jpg,Very Mild Demented,VeryMildDemented,128,128,1,379d108c3adea47a81753a30e5263a3c3e6249e78692af8013f19db712778225,test
+data/dataset/Very_Mild_Demented/verymild_1675.jpg,verymild_1675.jpg,Very Mild Demented,VeryMildDemented,128,128,1,9eadce5dcaa8563e8d045517de4cbb0c5d197f40812e7ed97324c836a47169cd,test
+data/dataset/Very_Mild_Demented/verymild_66.jpg,verymild_66.jpg,Very Mild Demented,VeryMildDemented,128,128,1,4f51fb1b245292719ca731ce67378bde5b4954d0a3e48325e396eaca2d1e6db0,test
+data/dataset/Very_Mild_Demented/verymild_893.jpg,verymild_893.jpg,Very Mild Demented,VeryMildDemented,128,128,1,f54680cea568dee4d823db3312d533655e3e799887653988bbccd9d3c7ba5b81,test
+data/dataset/Very_Mild_Demented/verymild_1528.jpg,verymild_1528.jpg,Very Mild Demented,VeryMildDemented,128,128,1,18a1e5cb4f27f208d03f5238cb0ce4b24f811a3dc3f86d653be9f8cf5b7fe9c7,test
+data/dataset/Very_Mild_Demented/verymild_882.jpg,verymild_882.jpg,Very Mild Demented,VeryMildDemented,128,128,1,a9e04db50f412d6060519f50223c1a1fc812e847f608cfd0f7f09418e3cb2635,test
+data/dataset/Very_Mild_Demented/verymild_170.jpg,verymild_170.jpg,Very Mild Demented,VeryMildDemented,128,128,1,d93b94500dcdb0137057d7f9f6e7cad1d8b1b9010fb1843e1ee90c6839bddeb7,test
+data/dataset/Very_Mild_Demented/verymild_1063.jpg,verymild_1063.jpg,Very Mild Demented,VeryMildDemented,128,128,1,3b3af6619605bbc2e440163789d33dbc784e2b77377990d65184e2c74395fa86,test
+data/dataset/Very_Mild_Demented/verymild_1754.jpg,verymild_1754.jpg,Very Mild Demented,VeryMildDemented,128,128,1,002ae596d7edafc96bbfe8018b677d33b27b068c6fd92bad5f19a041884e47c7,test
+data/dataset/Very_Mild_Demented/verymild_998.jpg,verymild_998.jpg,Very Mild Demented,VeryMildDemented,128,128,1,e3905aaaa57c42638c3199e81b67ff246dfd73746af60b69d15dec2b8c37296e,test
+data/dataset/Very_Mild_Demented/verymild_2150.jpg,verymild_2150.jpg,Very Mild Demented,VeryMildDemented,128,128,1,21ed93dba84656b5a1b54d6f795ed632755b769cb598e46515e883a95954f7dc,test
+data/dataset/Very_Mild_Demented/verymild_862.jpg,verymild_862.jpg,Very Mild Demented,VeryMildDemented,128,128,1,54242d91f5b114f63795c388511f75e687e3aa817f35dca603613187060bea4d,test
+data/dataset/Very_Mild_Demented/verymild_397.jpg,verymild_397.jpg,Very Mild Demented,VeryMildDemented,128,128,1,3079c6ac2cd393aeec188a138d7c1a3e80f635cd9cd9574c5005f5288097f67d,test
+data/dataset/Very_Mild_Demented/verymild_1899.jpg,verymild_1899.jpg,Very Mild Demented,VeryMildDemented,128,128,1,19730c81d8a4dd8f0e3c031067dcbb421b1e4f406c57cde89525403a4ea58b92,test
+data/dataset/Very_Mild_Demented/verymild_842.jpg,verymild_842.jpg,Very Mild Demented,VeryMildDemented,128,128,1,68a5670972728c484896ffad38c95c6cc6a209d939927250dc1455c0d2baa74b,test
+data/dataset/Very_Mild_Demented/verymild_1157.jpg,verymild_1157.jpg,Very Mild Demented,VeryMildDemented,128,128,1,916b1f15649e2874c6dbe6ea3c0f498c17af5419987a2e7a9ad42ce765fb48cc,test
+data/dataset/Very_Mild_Demented/verymild_523.jpg,verymild_523.jpg,Very Mild Demented,VeryMildDemented,128,128,1,5c06fc79cfbff5a5742324c4a9dd05b584be14d9cd0c696fb728fb843ceea365,test
+data/dataset/Very_Mild_Demented/verymild_2238.jpg,verymild_2238.jpg,Very Mild Demented,VeryMildDemented,128,128,1,bb71d41674ba5768ed083cb1ef76b29fbcb16b73108956bc17a7213ceb4eec63,test
+data/dataset/Very_Mild_Demented/verymild_880.jpg,verymild_880.jpg,Very Mild Demented,VeryMildDemented,128,128,1,c6598173904d3089c5bc83532b2ab8a6a2cdab3f950715adee06608e1e4d26ff,test
+data/dataset/Very_Mild_Demented/verymild_1465.jpg,verymild_1465.jpg,Very Mild Demented,VeryMildDemented,128,128,1,e0e16d5aeaba64cec2e1dc227c66ffbb42040b1f9f1d09e41edfe8a46c5a6202,test
+data/dataset/Very_Mild_Demented/verymild_612.jpg,verymild_612.jpg,Very Mild Demented,VeryMildDemented,128,128,1,8f0ed530ec44777ee9dccc8662790da8de4cdbff3e6f63afd36c1648e9553a22,test
+data/dataset/Very_Mild_Demented/verymild_2157.jpg,verymild_2157.jpg,Very Mild Demented,VeryMildDemented,128,128,1,6811fd1852abed9088ff2f6b131948bd6f7b6597fc3ba504df8573f2949b6dc5,test
+data/dataset/Very_Mild_Demented/verymild_1499.jpg,verymild_1499.jpg,Very Mild Demented,VeryMildDemented,128,128,1,4c7c12cb7511af32e70cfb8c2cf06037661710007165adff830713b704fece2e,test
+data/dataset/Very_Mild_Demented/verymild_2192.jpg,verymild_2192.jpg,Very Mild Demented,VeryMildDemented,128,128,1,83646eca384873e2cc21fcc022ff370b9df36de8360e4265a88240c93c97fe9b,test
+data/dataset/Very_Mild_Demented/verymild_98.jpg,verymild_98.jpg,Very Mild Demented,VeryMildDemented,128,128,1,27862d61dac834407ed51012b0ba6f9c770a5104e6971f575ce1e939c48b9f1a,test
+data/dataset/Very_Mild_Demented/verymild_2214.jpg,verymild_2214.jpg,Very Mild Demented,VeryMildDemented,128,128,1,9165755fda2b3b3545a571cc2e7ca6e7fcb675633c9a6921708a05ad9222a457,test
+data/dataset/Very_Mild_Demented/verymild_971.jpg,verymild_971.jpg,Very Mild Demented,VeryMildDemented,128,128,1,e7f6afbb1686271f5bbda4bd021665118bef2f9862ea4a7d8eb2e4864e45b176,test
+data/dataset/Very_Mild_Demented/verymild_554.jpg,verymild_554.jpg,Very Mild Demented,VeryMildDemented,128,128,1,57ef3adfe63b5f7f2267b54faccbf2ed0359a432404651a385ff92a41da60bde,test
+data/dataset/Very_Mild_Demented/verymild_658.jpg,verymild_658.jpg,Very Mild Demented,VeryMildDemented,128,128,1,fe4734579ad10b1dc6d0506bf2b525ae911ce004cd3206036279ff7a4f9b80b0,test
+data/dataset/Very_Mild_Demented/verymild_68.jpg,verymild_68.jpg,Very Mild Demented,VeryMildDemented,128,128,1,129d59b94318af28e3a7e4e4535680e91a4c34f6c166bbb256a5d8140bc27f58,test
+data/dataset/Very_Mild_Demented/verymild_629.jpg,verymild_629.jpg,Very Mild Demented,VeryMildDemented,128,128,1,f1842ad2f5b40c1cfbbad8d83f57c764fa7777dec26e86cbef5ad9dba0176eb5,test
+data/dataset/Very_Mild_Demented/verymild_118.jpg,verymild_118.jpg,Very Mild Demented,VeryMildDemented,128,128,1,147218e2a3fdf4e5aea331837f8d389644cd865d7030a970a08945ee1cb63104,test
+data/dataset/Very_Mild_Demented/verymild_929.jpg,verymild_929.jpg,Very Mild Demented,VeryMildDemented,128,128,1,9476f82d184357c22318fd95f62aad7f2ca2d906b27c4563ad9e975e6bb2bfe7,test
+data/dataset/Very_Mild_Demented/verymild_75.jpg,verymild_75.jpg,Very Mild Demented,VeryMildDemented,128,128,1,7585b1098dfe1ef19c3b7d7871006017fc103b21be257ebef2eb3fce52dac41d,test
+data/dataset/Very_Mild_Demented/verymild_2191.jpg,verymild_2191.jpg,Very Mild Demented,VeryMildDemented,128,128,1,d2de0a1cd59179d9cf7736ed1666392a902c9bb13e539384df0e90d16f0d4efc,test
+data/dataset/Very_Mild_Demented/verymild_2055.jpg,verymild_2055.jpg,Very Mild Demented,VeryMildDemented,128,128,1,e2659f89d128a3934b874d82d6e8683404a65341b727ffa66c2528490abf10fc,test
+data/dataset/Very_Mild_Demented/verymild_1230.jpg,verymild_1230.jpg,Very Mild Demented,VeryMildDemented,128,128,1,1eec416f863e5392e272625bcd7d51eaa98658a51c13f5341d7a02707fd4ee96,test
+data/dataset/Very_Mild_Demented/verymild_252.jpg,verymild_252.jpg,Very Mild Demented,VeryMildDemented,128,128,1,35eb438b31e13e13d80b5fc6beb3e66b72a42773d0414a36bf4b53555c32c513,test
+data/dataset/Very_Mild_Demented/verymild_1900.jpg,verymild_1900.jpg,Very Mild Demented,VeryMildDemented,128,128,1,472b96cf1edd019bff1f05611ccac9b1ec68d308e2d7aff2309b71ebb7a925b2,test
+data/dataset/Very_Mild_Demented/verymild_1003.jpg,verymild_1003.jpg,Very Mild Demented,VeryMildDemented,128,128,1,6375122b9512d30e73c6d2c776b8660b8743e4fcb22fc13579e720f2946dfe17,test
+data/dataset/Very_Mild_Demented/verymild_887.jpg,verymild_887.jpg,Very Mild Demented,VeryMildDemented,128,128,1,48cfb518ed6c22de161fb7063f02002b0b172f324ec93356a79526c5b8cc212b,test
+data/dataset/Very_Mild_Demented/verymild_656.jpg,verymild_656.jpg,Very Mild Demented,VeryMildDemented,128,128,1,23a19b8d18fff7234c528ea094f5617d0f14a29de337150d036f7252306a3436,test
+data/dataset/Very_Mild_Demented/verymild_378.jpg,verymild_378.jpg,Very Mild Demented,VeryMildDemented,128,128,1,4ef9687f1f3c78fab40e6176d73f9ea8eff060d6c18066d251c63b09b6350a28,test
+data/dataset/Very_Mild_Demented/verymild_659.jpg,verymild_659.jpg,Very Mild Demented,VeryMildDemented,128,128,1,4bb62c5c6ac313a9515cafaa346d071786cdbe92adf8fcd22e93dcf20cfd9e5e,test
+data/dataset/Very_Mild_Demented/verymild_491.jpg,verymild_491.jpg,Very Mild Demented,VeryMildDemented,128,128,1,70d6c0f13efbba70569c94b70a24fdc2238eb1eec68160b71028f0f03a278dd6,test
+data/dataset/Very_Mild_Demented/verymild_373.jpg,verymild_373.jpg,Very Mild Demented,VeryMildDemented,128,128,1,4359cfe75b3483b0e6c8c1943e81064665a16367a9e087c23cdaae752bb859c0,test
+data/dataset/Very_Mild_Demented/verymild_859.jpg,verymild_859.jpg,Very Mild Demented,VeryMildDemented,128,128,1,05915248e3dcb4b93bf5d72279a5ee8366544f8b18918f61483ea26f53af66e4,test
+data/dataset/Very_Mild_Demented/verymild_1064.jpg,verymild_1064.jpg,Very Mild Demented,VeryMildDemented,128,128,1,04cb30e1411c7bc06baa689cf391f19e3cee3fe4ef4067f9933fb32b2a2d07f9,test
+data/dataset/Very_Mild_Demented/verymild_1681.jpg,verymild_1681.jpg,Very Mild Demented,VeryMildDemented,128,128,1,572540f1d79c476f3652c2efcee2e629d20930eea8f01ec386832943d11c72aa,test
+data/dataset/Very_Mild_Demented/verymild_2227.jpg,verymild_2227.jpg,Very Mild Demented,VeryMildDemented,128,128,1,ae1b3233d8ebd0379f4356514a134341e7bd107cb979adc3fc20690ea9027fae,test
+data/dataset/Very_Mild_Demented/verymild_1527.jpg,verymild_1527.jpg,Very Mild Demented,VeryMildDemented,128,128,1,564a0d5164b2faf72a960f8bec3e62c31063dde40ac5cd7a58f8f10b4bd704cd,test
+data/dataset/Very_Mild_Demented/verymild_620.jpg,verymild_620.jpg,Very Mild Demented,VeryMildDemented,128,128,1,4c39ab036cb3abd1045aa53eff950cdc608580be1e3a00ca3bb3deaa2766f3ee,test
+data/dataset/Very_Mild_Demented/verymild_2006.jpg,verymild_2006.jpg,Very Mild Demented,VeryMildDemented,128,128,1,583a3c379c9957653ed74c1846c23c10bc212e8cc7ea6efcb77c7f3dfad081d8,test
+data/dataset/Very_Mild_Demented/verymild_22.jpg,verymild_22.jpg,Very Mild Demented,VeryMildDemented,128,128,1,c9cdf7c8a313336d6dbe0b21932f049adf79015ba5a4e4660e5252041deca7cf,test
+data/dataset/Very_Mild_Demented/verymild_1731.jpg,verymild_1731.jpg,Very Mild Demented,VeryMildDemented,128,128,1,b18de75615473484ba247f30729f65a3b36575e67847d8db75dc80a4c1bae7f6,test
+data/dataset/Very_Mild_Demented/verymild_861.jpg,verymild_861.jpg,Very Mild Demented,VeryMildDemented,128,128,1,e7674b54f4d91bc7d7fa51651e110311fc9bbd387e56a7139a238dffa930c270,test
+data/dataset/Very_Mild_Demented/verymild_308.jpg,verymild_308.jpg,Very Mild Demented,VeryMildDemented,128,128,1,14933e6142fde37af6ffe99211ab08f0ce0476c097c45521ab40c233e60f5c72,test
+data/dataset/Very_Mild_Demented/verymild_574.jpg,verymild_574.jpg,Very Mild Demented,VeryMildDemented,128,128,1,da2ea5e888ce58f29f9f4a6ab0ca01948cbe7824f3dfa0ead2168dd784c57b77,test
+data/dataset/Very_Mild_Demented/verymild_1741.jpg,verymild_1741.jpg,Very Mild Demented,VeryMildDemented,128,128,1,e0fb016295fbda0c3f72d6a1e94eb3c12d223604543bdd27fc1a9636b951565e,test
+data/dataset/Very_Mild_Demented/verymild_174.jpg,verymild_174.jpg,Very Mild Demented,VeryMildDemented,128,128,1,563769012114b3fe3c219bf3e0a735f0134c2b26b8b2de825c9cef3f603b2b95,test
+data/dataset/Very_Mild_Demented/verymild_273.jpg,verymild_273.jpg,Very Mild Demented,VeryMildDemented,128,128,1,a3f08d5c9c6168f974b428079f74c958414758507d08a7bd8aef5271a6519e23,test
+data/dataset/Very_Mild_Demented/verymild_203.jpg,verymild_203.jpg,Very Mild Demented,VeryMildDemented,128,128,1,0547a7344d37e7b817b63a72b40ae05623596025debcc833c51971f8ab952ddd,test
+data/dataset/Very_Mild_Demented/verymild_1486.jpg,verymild_1486.jpg,Very Mild Demented,VeryMildDemented,128,128,1,67139c117dd0ef33d3766982a4c3ac9c317c2bc2739d77e3f3d27f97e668ca65,test
+data/dataset/Very_Mild_Demented/verymild_2207.jpg,verymild_2207.jpg,Very Mild Demented,VeryMildDemented,128,128,1,916aadf95b6ec1d4706870186a697016010231cfd2944bb2aeb1d917373a6a39,test

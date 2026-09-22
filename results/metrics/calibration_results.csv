@@ -1,0 +1,4 @@
+model_name,architecture_slug,temperature,uncalibrated_ece,calibrated_ece,ece_reduction_pct,uncalibrated_mce,calibrated_mce,uncalibrated_brier,calibrated_brier,uncalibrated_nll,calibrated_nll,test_accuracy
+MobileNetV2,mobilenet_v2,1.3893,0.0166,0.0244,-46.60%,0.2231,0.6045,0.0960,0.0953,0.1672,0.1688,0.9313
+EfficientNet-B0,efficientnet_b0,1.2962,0.0067,0.0187,-179.83%,0.2241,0.3674,0.0332,0.0351,0.0662,0.0713,0.9823
+ResNet18,resnet18,1.1767,0.0082,0.0122,-47.96%,0.5927,0.4527,0.0236,0.0241,0.0500,0.0514,0.9844

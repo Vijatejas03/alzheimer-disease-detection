@@ -1,19 +1,99 @@
 ﻿{
-    "dataset_dir": "data/dataset",
-    "num_classes": 4,
-    "img_size": [224, 224],
-    "train_ratio": 0.70,
-    "val_ratio": 0.15,
-    "test_ratio": 0.15,
-    "random_seed": 42,
-    "batch_size": 32,
-    "num_epochs": 25,
-    "learning_rate": 0.0001,
-    "weight_decay": 0.0001,
-    "early_stopping_patience": 7,
-    "loss_type": "weighted_ce",
-    "model_name": null,
-    "device": "auto",
-    "num_workers": 0,
-    "results_dir": "results"
+    "dataset": {
+        "raw_archive": "data/raw/archive.zip",
+        "dataset_dir": "data/dataset",
+        "manifest_path": "reports/dataset_manifest.csv",
+        "splits_dir": "reports/splits",
+        "total_unique_images": 6400,
+        "input_raw_resolution": [128, 128],
+        "input_channels": 1
+    },
+    "classes": {
+        "num_classes": 4,
+        "canonical_classes": [
+            "Non-Demented",
+            "Very Mild Demented",
+            "Mild Demented",
+            "Moderate Demented"
+        ],
+        "folder_names": [
+            "Non_Demented",
+            "Very_Mild_Demented",
+            "Mild_Demented",
+            "Moderate_Demented"
+        ],
+        "class_indices": {
+            "Non-Demented": 0,
+            "Very Mild Demented": 1,
+            "Mild Demented": 2,
+            "Moderate Demented": 3
+        }
+    },
+    "split": {
+        "train_ratio": 0.70,
+        "val_ratio": 0.15,
+        "test_ratio": 0.15,
+        "train_samples": 4480,
+        "val_samples": 960,
+        "test_samples": 960,
+        "stratified": true,
+        "random_seed": 42
+    },
+    "preprocessing": {
+        "target_img_size": [224, 224],
+        "color_mode": "RGB",
+        "normalization": {
+            "mean": [0.485, 0.456, 0.406],
+            "std": [0.229, 0.224, 0.225]
+        },
+        "crop_brain_contour": false
+    },
+    "augmentation": {
+        "train_only": true,
+        "random_horizontal_flip_prob": 0.5,
+        "random_rotation_degrees": 10,
+        "random_affine_translate": [0.05, 0.05],
+        "random_affine_scale": [0.95, 1.05],
+        "color_jitter_brightness": 0.1,
+        "color_jitter_contrast": 0.1,
+        "val_test_augmented": false
+    },
+    "loss": {
+        "primary_loss": "weighted_ce",
+        "supported_losses": ["weighted_ce", "focal"],
+        "class_imbalance_handling": "balanced_inverse_frequency",
+        "focal_gamma": 2.0
+    },
+    "candidate_models": [
+        "mobilenet_v2",
+        "efficientnet_b0",
+        "resnet18"
+    ],
+    "training": {
+        "device": "cuda",
+        "batch_size": 16,
+        "num_epochs": 25,
+        "learning_rate": 0.0001,
+        "weight_decay": 0.0001,
+        "early_stopping_patience": 7,
+        "mixed_precision_amp": true,
+        "pin_memory": true,
+        "num_workers": 0
+    },
+    "hardware_target": {
+        "gpu_name": "NVIDIA GeForce RTX 3050 Laptop GPU",
+        "vram_gb": 4.0,
+        "compute_capability": "8.6",
+        "allowed_batch_size_fallbacks": [16, 8, 4]
+    },
+    "reproducibility": {
+        "random_seed": 42,
+        "deterministic_cudnn": true
+    },
+    "paths": {
+        "results_dir": "results",
+        "models_dir": "results/models",
+        "metrics_dir": "results/metrics",
+        "figures_dir": "results/figures"
+    }
 }

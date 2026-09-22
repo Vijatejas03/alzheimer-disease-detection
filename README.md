@@ -1,3 +1,14 @@
+---
+title: Alzheimer's Disease Detection & Explainability System
+emoji: 🧠
+colorFrom: blue
+colorTo: indigo
+sdk: streamlit
+sdk_version: "1.64.0"
+app_file: app/app.py
+pinned: false
+---
+
 # Explainable Deep Learning-Based Multi-Stage Alzheimer’s Disease Detection Using Brain MRI
 
 ## 🎓 Final-Year Major Project Overview

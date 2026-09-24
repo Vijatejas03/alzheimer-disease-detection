@@ -301,7 +301,7 @@ def render_home_page():
             '<div class="spectrum-card-3d spec-non">'
             '<div class="spec-stage-title">Non-Demented</div>'
             '<div class="spec-stage-badge">CONTROL COHORT (50.0%)</div>'
-            '<div class="spec-desc">Normal ventricle-to-brain ratio and preserved cortical volume; serves as baseline.</div>'
+            '<div class="spec-desc">Cognitively normal control cohort; serves as the baseline classification benchmark.</div>'
             '</div>'
         )
     with spec_c2:
@@ -309,7 +309,7 @@ def render_home_page():
             '<div class="spectrum-card-3d spec-verymild">'
             '<div class="spec-stage-title">Very Mild</div>'
             '<div class="spec-stage-badge">EARLY STAGE (35.0%)</div>'
-            '<div class="spec-desc">Subtle ventricular and sulcal enlargement; primary boundary for inter-model confusion.</div>'
+            '<div class="spec-desc">Earliest stage of detectable cognitive decline; primary boundary for inter-model confusion.</div>'
             '</div>'
         )
     with spec_c3:
@@ -317,7 +317,7 @@ def render_home_page():
             '<div class="spectrum-card-3d spec-mild">'
             '<div class="spec-stage-title">Mild Demented</div>'
             '<div class="spec-stage-badge">INTERMEDIATE (14.0%)</div>'
-            '<div class="spec-desc">Noticeable bilateral temporal atrophy and ventricular widening; high recognition precision.</div>'
+            '<div class="spec-desc">Intermediate impairment stage; exhibits consistent cross-model recognition precision.</div>'
             '</div>'
         )
     with spec_c4:
@@ -325,7 +325,7 @@ def render_home_page():
             '<div class="spectrum-card-3d spec-mod">'
             '<div class="spec-stage-title">Moderate</div>'
             '<div class="spec-stage-badge">ADVANCED (1.0%, n=9*)</div>'
-            '<div class="spec-desc">Marked ventricular dilation. <em>*Test support n=9; conclusions carry statistical caveats.</em></div>'
+            '<div class="spec-desc">Advanced impairment stage cohort. <em>*Test support n=9; conclusions carry statistical caveats.</em></div>'
             '</div>'
         )
 

@@ -79,7 +79,7 @@ def render_gradcam_user_guide():
         
         '<!-- Important Notice -->'
         '<div style="background-color: #FFFBEB; border: 1px solid #FDE68A; border-left: 4px solid #D97706; border-radius: 4px; padding: 0.75rem 0.95rem; font-size: 0.82rem; color: #92400E; line-height: 1.55;">'
-        '<strong>Important:</strong> Grad-CAM is an explainability visualization. It does not prove the presence, absence, cause, or severity of disease.'
+        '<strong>Important:</strong> Grad-CAM is an explainability visualization. It provides a visual representation of which image regions contributed to the model\'s prediction. These highlighted regions are model attribution and are not proof of specific anatomical biomarkers or clinical findings.'
         '</div>'
         '</div>'
     )

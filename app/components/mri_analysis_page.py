@@ -45,6 +45,22 @@ def render_mri_analysis_page():
         unsafe_allow_html=True
     )
     
+    # Step-by-Step Workflow Ribbon
+    ribbon_html = (
+        '<div class="step-flow-ribbon">'
+        '<div class="step-flow-item active"><span class="step-flow-num">01</span> Input Acquisition</div>'
+        '<span style="color: #CBD5E1;">➔</span>'
+        '<div class="step-flow-item"><span class="step-flow-num">02</span> Quality Gate</div>'
+        '<span style="color: #CBD5E1;">➔</span>'
+        '<div class="step-flow-item"><span class="step-flow-num">03</span> Preprocessing</div>'
+        '<span style="color: #CBD5E1;">➔</span>'
+        '<div class="step-flow-item"><span class="step-flow-num">04</span> Inference</div>'
+        '<span style="color: #CBD5E1;">➔</span>'
+        '<div class="step-flow-item"><span class="step-flow-num">05</span> Grad-CAM</div>'
+        '</div>'
+    )
+    render_html(ribbon_html)
+    
     # =========================================================================
     # 1. UPLOAD WORKSPACE
     # =========================================================================
@@ -61,6 +77,15 @@ def render_mri_analysis_page():
     source_pil_img = None
     
     if input_mode == "Upload Brain MRI Scan":
+        dropzone_html = (
+            '<div class="dropzone-3d-card">'
+            '<div class="dropzone-icon">🧠</div>'
+            '<div class="dropzone-title">DROP OR SELECT AXIAL BRAIN MRI</div>'
+            '<div class="dropzone-sub">T1-Weighted Structural Neuroimaging • Single-Channel Grayscale or RGB (JPG, PNG, WEBP)</div>'
+            '</div>'
+        )
+        render_html(dropzone_html)
+        
         uploaded_file = st.file_uploader(
             "Drag and drop or select an axial brain MRI scan:",
             type=["jpg", "jpeg", "png", "webp"],

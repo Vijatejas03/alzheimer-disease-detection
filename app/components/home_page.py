@@ -1,237 +1,331 @@
 """
-Page 1: Overview / Research Platform Dashboard.
-Provides high-level system summary, interactive research pipeline,
-verified KPI metrics, architecture snapshots, and dementia stage spectrum.
+Page 1: Overview / Action-First Research Platform Dashboard.
+Redesigned with futuristic 3D medical-AI visual, action-first CTAs,
+clickable quick actions, visual workflow, project snapshot, and candidate models.
 """
 
 import streamlit as st
 from app.utils.ui_helpers import render_html
+from app.utils.navigation import navigate_to
+from app.components.brain_3d_visual import get_3d_brain_svg
 from app.components.disclaimer import render_research_disclaimer
 
 
 def render_home_page():
     # =========================================================================
-    # 1. HERO SECTION
+    # 1. 3D HERO SECTION (ACTION-FIRST)
     # =========================================================================
-    hero_html = (
-        '<div class="hero-container">'
-        '<div class="hero-badge-row">'
-        '<span class="badge-chip badge-chip-info">ACADEMIC RESEARCH PROTOTYPE</span>'
-        '<span class="badge-chip" style="background: #F1F5F9; color: #475569; border: 1px solid #CBD5E1;">DATASET: 6,400 SCANS</span>'
-        '<span class="badge-chip" style="background: #F1F5F9; color: #475569; border: 1px solid #CBD5E1;">3 CANDIDATE MODELS</span>'
-        '</div>'
-        '<div class="hero-title">Explainable Alzheimer\'s MRI Analysis</div>'
-        '<div class="hero-subtitle">'
-        'An academic deep-learning research platform for four-stage dementia classification, '
-        'visual attribution and model evaluation using structural brain MRI scans.'
-        '</div>'
-        '</div>'
-    )
-    render_html(hero_html)
+    hero_col_left, hero_col_right = st.columns([1.25, 1.0], gap="large")
 
-    # Hero Action Buttons
-    col_btn1, col_btn2, _ = st.columns([1.1, 1.3, 2.6])
-    with col_btn1:
-        if st.button("⊕  Analyze MRI Scan", use_container_width=True, type="primary"):
-            st.session_state["nav_page"] = "MRI Analysis"
-            st.rerun()
-    with col_btn2:
-        if st.button("⊞  Explore Model Benchmarks", use_container_width=True):
-            st.session_state["nav_page"] = "Model Comparison"
-            st.rerun()
-
-    st.markdown("<div style='height: 12px;'></div>", unsafe_allow_html=True)
-
-    # =========================================================================
-    # 2. VERIFIED RESEARCH PLATFORM KPIs
-    # =========================================================================
-    st.markdown("### Research Platform Scope & Key Metrics")
-    kpi_c1, kpi_c2, kpi_c3, kpi_c4, kpi_c5 = st.columns(5)
-    
-    with kpi_c1:
-        render_html(
-            '<div class="med-metric-card">'
-            '<div class="med-metric-val">6,400</div>'
-            '<div class="med-metric-lbl">Dataset Images</div>'
+    with hero_col_left:
+        hero_left_html = (
+            '<div class="hero-3d-left">'
+            '<div class="hero-badge-pill">'
+            '<span class="hero-badge-dot"></span>'
+            'ACADEMIC AI RESEARCH PLATFORM'
+            '</div>'
+            '<h1 class="hero-3d-title">'
+            'Explainable Alzheimer’s<br>'
+            '<span class="hero-gradient-text">MRI Analysis</span>'
+            '</h1>'
+            '<p class="hero-3d-desc">'
+            'Analyze structural brain MRI scans using deep learning and explore '
+            'model predictions with visual explanations.'
+            '</p>'
+            '<div class="hero-metric-tag-row">'
+            '<span class="hero-tag">⚡ 3 Neural Networks</span>'
+            '<span class="hero-tag">🔬 Grad-CAM Saliency</span>'
+            '<span class="hero-tag">🛡️ Input Quality Gate</span>'
+            '</div>'
             '</div>'
         )
-    with kpi_c2:
-        render_html(
-            '<div class="med-metric-card">'
-            '<div class="med-metric-val">3</div>'
-            '<div class="med-metric-lbl">Models Evaluated</div>'
-            '</div>'
-        )
-    with kpi_c3:
-        render_html(
-            '<div class="med-metric-card">'
-            '<div class="med-metric-val">960</div>'
-            '<div class="med-metric-lbl">Held-Out Test Scans</div>'
-            '</div>'
-        )
-    with kpi_c4:
-        render_html(
-            '<div class="med-metric-card">'
-            '<div class="med-metric-val">4</div>'
-            '<div class="med-metric-lbl">Classification Stages</div>'
-            '</div>'
-        )
-    with kpi_c5:
-        render_html(
-            '<div class="med-metric-card">'
-            '<div class="med-metric-val">35 / 35</div>'
-            '<div class="med-metric-lbl">Automated Tests Passing</div>'
-            '</div>'
-        )
+        render_html(hero_left_html)
 
-    st.markdown("<div style='height: 14px;'></div>", unsafe_allow_html=True)
+        # Primary Action CTAs - Responsive functional Streamlit buttons
+        st.markdown("<div style='height: 4px;'></div>", unsafe_allow_html=True)
+        cta_col1, cta_col2 = st.columns([1.15, 1.0], gap="small")
+        with cta_col1:
+            st.button(
+                "🧠  ANALYZE MRI SCAN",
+                key="hero_btn_analyze",
+                use_container_width=True,
+                type="primary",
+                on_click=navigate_to,
+                args=("MRI Analysis",)
+            )
+        with cta_col2:
+            st.button(
+                "📊  EXPLORE RESULTS",
+                key="hero_btn_results",
+                use_container_width=True,
+                on_click=navigate_to,
+                args=("Evaluation",)
+            )
+
+    with hero_col_right:
+        render_html(get_3d_brain_svg())
+
+    st.markdown("<div style='height: 24px;'></div>", unsafe_allow_html=True)
 
     # =========================================================================
-    # 3. RESEARCH PIPELINE WORKFLOW (Step-by-Step Visualization)
+    # 2. QUICK ACTION CARDS (4 Interactive Modules)
     # =========================================================================
-    st.markdown("### End-to-End Research Pipeline")
-    st.caption("Computational sequence from raw image ingestion to interpretability and controlled robustness analysis.")
-    
-    steps = [
-        ("01", "MRI Input", "Grayscale axial slice"),
-        ("02", "Quality Gate", "5-stage safety checks"),
-        ("03", "Preprocessing", "Standardize to 224x224"),
-        ("04", "Inference", "FP16 CUDA Forward"),
-        ("05", "Prediction", "4-class probability"),
-        ("06", "Uncertainty", "Entropy & margin"),
-        ("07", "Grad-CAM", "Attribution heatmap"),
-        ("08", "Evaluation", "Benchmarking & audits")
+    st.markdown('<div class="section-title-3d">Quick Actions</div>', unsafe_allow_html=True)
+    st.markdown('<div class="section-sub-3d">Direct access to primary diagnostic, explainability, and evaluation workspaces.</div>', unsafe_allow_html=True)
+
+    qa1, qa2, qa3, qa4 = st.columns(4, gap="small")
+
+    with qa1:
+        render_html(
+            '<div class="quick-action-card qa-card-blue">'
+            '<div class="qa-icon-wrap">🧠</div>'
+            '<div class="qa-card-title">ANALYZE MRI</div>'
+            '<div class="qa-card-desc">Upload and analyze an axial brain MRI scan.</div>'
+            '</div>'
+        )
+        st.button(
+            "Launch Analyzer →",
+            key="qa_btn_analyze",
+            use_container_width=True,
+            on_click=navigate_to,
+            args=("MRI Analysis",)
+        )
+
+    with qa2:
+        render_html(
+            '<div class="quick-action-card qa-card-cyan">'
+            '<div class="qa-icon-wrap">🔍</div>'
+            '<div class="qa-card-title">EXPLAIN</div>'
+            '<div class="qa-card-desc">Explore Grad-CAM model attribution heatmaps.</div>'
+            '</div>'
+        )
+        st.button(
+            "View Attribution →",
+            key="qa_btn_explain",
+            use_container_width=True,
+            on_click=navigate_to,
+            args=("Explainability",)
+        )
+
+    with qa3:
+        render_html(
+            '<div class="quick-action-card qa-card-purple">'
+            '<div class="qa-icon-wrap">📊</div>'
+            '<div class="qa-card-title">COMPARE</div>'
+            '<div class="qa-card-desc">Compare the three candidate neural models.</div>'
+            '</div>'
+        )
+        st.button(
+            "Compare Models →",
+            key="qa_btn_compare",
+            use_container_width=True,
+            on_click=navigate_to,
+            args=("Model Comparison",)
+        )
+
+    with qa4:
+        render_html(
+            '<div class="quick-action-card qa-card-emerald">'
+            '<div class="qa-icon-wrap">📈</div>'
+            '<div class="qa-card-title">EVALUATE</div>'
+            '<div class="qa-card-desc">Explore held-out test set benchmark results.</div>'
+            '</div>'
+        )
+        st.button(
+            "Audit Metrics →",
+            key="qa_btn_evaluate",
+            use_container_width=True,
+            on_click=navigate_to,
+            args=("Evaluation",)
+        )
+
+    st.markdown("<div style='height: 28px;'></div>", unsafe_allow_html=True)
+
+    # =========================================================================
+    # 3. HOW IT WORKS: 5-STEP VISUAL WORKFLOW
+    # =========================================================================
+    st.markdown('<div class="section-title-3d">How It Works</div>', unsafe_allow_html=True)
+    st.markdown('<div class="section-sub-3d">End-to-end computational pipeline from raw neuroimaging to visual attribution.</div>', unsafe_allow_html=True)
+
+    workflow_steps = [
+        ("01", "MRI INPUT", "Upload axial T1 brain slice", "🧠"),
+        ("02", "PREPROCESSING", "Standardize to 224×224×3", "⚙️"),
+        ("03", "DEEP LEARNING", "Forward inference pass", "⚡"),
+        ("04", "PREDICTION", "4-stage probability score", "🎯"),
+        ("05", "GRAD-CAM", "Visual attribution heatmap", "🔍")
     ]
-    
-    step_cards_html = ['<div class="pipeline-flow-container">']
-    for num, title, desc in steps:
-        step_cards_html.append(
-            '<div class="pipeline-step-card">'
-            f'<div class="pipeline-step-num">{num}</div>'
-            f'<div class="pipeline-step-title">{title}</div>'
-            f'<div style="font-size: 0.72rem; color: #64748B; margin-top: 0.2rem;">{desc}</div>'
-            '</div>'
-        )
-    step_cards_html.append('</div>')
-    render_html("".join(step_cards_html))
 
-    # Full Research Workflow Ribbon Callout
-    workflow_ribbon_html = (
-        '<div class="med-card" style="padding: 0.90rem 1.15rem; background: #FFFFFF; border-left: 4px solid #2563EB; margin-bottom: 1.5rem;">'
-        '<div style="font-size: 0.76rem; font-weight: 800; color: #0F4C81; text-transform: uppercase; letter-spacing: 0.05em; margin-bottom: 0.35rem;">'
-        'Complete Research Workflow Architecture'
-        '</div>'
-        '<div style="font-size: 0.84rem; color: #334155; line-height: 1.6;">'
-        '<strong>MRI</strong> → <strong>Input Quality Validation</strong> → <strong>Preprocessing</strong> → '
-        '<strong>Deep Learning Inference</strong> → <strong>Four-Class Prediction</strong> → <strong>Confidence + Uncertainty</strong> → '
-        '<strong>Model Agreement</strong> → <strong>Grad-CAM Explainability</strong> → <strong>Calibration</strong> → '
-        '<strong>Error Analysis</strong> → <strong>Robustness Evaluation</strong>'
-        '</div>'
-        '</div>'
-    )
-    render_html(workflow_ribbon_html)
+    wf_cols = st.columns(5, gap="small")
+    for idx, col in enumerate(wf_cols):
+        num, title, desc, icon = workflow_steps[idx]
+        with col:
+            arrow = '<div class="wf-connector">➔</div>' if idx < 4 else ''
+            render_html(
+                f'<div class="workflow-card-3d">'
+                f'<div class="wf-step-badge">{num}</div>'
+                f'<div class="wf-step-icon">{icon}</div>'
+                f'<div class="wf-step-title">{title}</div>'
+                f'<div class="wf-step-desc">{desc}</div>'
+                f'{arrow}'
+                f'</div>'
+            )
+
+    st.markdown("<div style='height: 28px;'></div>", unsafe_allow_html=True)
 
     # =========================================================================
-    # 4. MODEL SNAPSHOT: Three Architectural Backbones
+    # 4. PROJECT SNAPSHOT: VERIFIED METRICS
     # =========================================================================
-    st.markdown("### Candidate Model Snapshots")
-    st.caption("Empirical measurements across 960 held-out test scans (zero data leakage). No overall ranking is asserted.")
-    
-    col_m1, col_m2, col_m3 = st.columns(3)
-    with col_m1:
-        m1_html = (
-            '<div class="model-snapshot-box" style="border-top-color: #0284C7;">'
-            '<div class="model-snapshot-title">MobileNetV2</div>'
-            '<div class="model-snapshot-tag">Inverted Residuals • Lightweight</div>'
-            '<div style="font-size: 0.86rem; color: #334155; line-height: 1.85;">'
-            '• <strong>Parameters:</strong> 2,228,996<br>'
-            '• <strong>Test Accuracy:</strong> 93.13%<br>'
-            '• <strong>Macro F1:</strong> 0.9434<br>'
-            '• <strong>ROC-AUC:</strong> 0.9936<br>'
-            '• <strong>Latency:</strong> 2.93 ms'
-            '</div>'
-            '</div>'
-        )
-        render_html(m1_html)
-        
-    with col_m2:
-        m2_html = (
-            '<div class="model-snapshot-box" style="border-top-color: #2563EB;">'
-            '<div class="model-snapshot-title">EfficientNet-B0</div>'
-            '<div class="model-snapshot-tag">Compound Scaling • MBConv + SE</div>'
-            '<div style="font-size: 0.86rem; color: #334155; line-height: 1.85;">'
-            '• <strong>Parameters:</strong> 4,012,672<br>'
-            '• <strong>Test Accuracy:</strong> 98.23%<br>'
-            '• <strong>Macro F1:</strong> 0.9876<br>'
-            '• <strong>ROC-AUC:</strong> 0.9989<br>'
-            '• <strong>Latency:</strong> 2.20 ms'
-            '</div>'
-            '</div>'
-        )
-        render_html(m2_html)
-        
-    with col_m3:
-        m3_html = (
-            '<div class="model-snapshot-box" style="border-top-color: #0F4C81;">'
-            '<div class="model-snapshot-title">ResNet-18</div>'
-            '<div class="model-snapshot-tag">Residual Connections • Dense Conv</div>'
-            '<div style="font-size: 0.86rem; color: #334155; line-height: 1.85;">'
-            '• <strong>Parameters:</strong> 11,178,564<br>'
-            '• <strong>Test Accuracy:</strong> 98.44%<br>'
-            '• <strong>Macro F1:</strong> 0.9860<br>'
-            '• <strong>ROC-AUC:</strong> 0.9991<br>'
-            '• <strong>Latency:</strong> 1.77 ms'
-            '</div>'
-            '</div>'
-        )
-        render_html(m3_html)
+    st.markdown('<div class="section-title-3d">Project Snapshot</div>', unsafe_allow_html=True)
+    st.markdown('<div class="section-sub-3d">Strictly verified empirical cohort and experimental specifications.</div>', unsafe_allow_html=True)
 
-    st.markdown("<div style='height: 14px;'></div>", unsafe_allow_html=True)
+    snap1, snap2, snap3, snap4 = st.columns(4, gap="small")
+    with snap1:
+        render_html(
+            '<div class="snapshot-card-3d">'
+            '<div class="snapshot-val">6,400</div>'
+            '<div class="snapshot-lbl">MRI SCANS</div>'
+            '<div class="snapshot-sub">128×128 Axial T1 Cohort</div>'
+            '</div>'
+        )
+    with snap2:
+        render_html(
+            '<div class="snapshot-card-3d">'
+            '<div class="snapshot-val">3</div>'
+            '<div class="snapshot-lbl">CANDIDATE MODELS</div>'
+            '<div class="snapshot-sub">MobileNetV2 • EfficientNet • ResNet</div>'
+            '</div>'
+        )
+    with snap3:
+        render_html(
+            '<div class="snapshot-card-3d">'
+            '<div class="snapshot-val">4</div>'
+            '<div class="snapshot-lbl">CLASSES</div>'
+            '<div class="snapshot-sub">Non • Very Mild • Mild • Moderate</div>'
+            '</div>'
+        )
+    with snap4:
+        render_html(
+            '<div class="snapshot-card-3d">'
+            '<div class="snapshot-val">960</div>'
+            '<div class="snapshot-lbl">HELD-OUT TEST SCANS</div>'
+            '<div class="snapshot-sub">0.00% Hash Overlap (Quarantined)</div>'
+            '</div>'
+        )
+
+    st.markdown("<div style='height: 28px;'></div>", unsafe_allow_html=True)
 
     # =========================================================================
-    # 5. FOUR-STAGE DEMENTIA SPECTRUM
+    # 5. CANDIDATE MODEL CARDS
     # =========================================================================
-    st.markdown("### Four-Stage Classification Spectrum")
-    
-    spec_c1, spec_c2, spec_c3, spec_c4 = st.columns(4)
+    st.markdown('<div class="section-title-3d">Candidate Models</div>', unsafe_allow_html=True)
+    st.markdown('<div class="section-sub-3d">Three distinct architectural paradigms benchmarked on the identical held-out test split.</div>', unsafe_allow_html=True)
+
+    mod_col1, mod_col2, mod_col3 = st.columns(3, gap="medium")
+
+    with mod_col1:
+        render_html(
+            '<div class="model-card-3d card-mobilenet">'
+            '<div class="model-badge-top">LIGHTWEIGHT EDGE ARCHITECTURE</div>'
+            '<div class="model-card-name">MobileNetV2</div>'
+            '<div class="model-card-arch">Inverted Residuals • Depthwise Separable</div>'
+            '<div class="model-stats-grid">'
+            '<div class="stat-box"><span class="stat-num">2.23M</span><span class="stat-lbl">Parameters</span></div>'
+            '<div class="stat-box"><span class="stat-num">93.13%</span><span class="stat-lbl">Test Accuracy</span></div>'
+            '<div class="stat-box"><span class="stat-num">0.9434</span><span class="stat-lbl">Macro F1</span></div>'
+            '<div class="stat-box"><span class="stat-num">2.93 ms</span><span class="stat-lbl">Latency</span></div>'
+            '</div>'
+            '</div>'
+        )
+        st.button(
+            "Inspect MobileNetV2 →",
+            key="btn_inspect_mb",
+            use_container_width=True,
+            on_click=navigate_to,
+            args=("Model Comparison",)
+        )
+
+    with mod_col2:
+        render_html(
+            '<div class="model-card-3d card-efficientnet">'
+            '<div class="model-badge-top">COMPOUND SCALED ARCHITECTURE</div>'
+            '<div class="model-card-name">EfficientNet-B0</div>'
+            '<div class="model-card-arch">Compound Scaling • MBConv + Squeeze-Excite</div>'
+            '<div class="model-stats-grid">'
+            '<div class="stat-box"><span class="stat-num">4.01M</span><span class="stat-lbl">Parameters</span></div>'
+            '<div class="stat-box"><span class="stat-num">98.23%</span><span class="stat-lbl">Test Accuracy</span></div>'
+            '<div class="stat-box"><span class="stat-num">0.9876</span><span class="stat-lbl">Macro F1</span></div>'
+            '<div class="stat-box"><span class="stat-num">2.20 ms</span><span class="stat-lbl">Latency</span></div>'
+            '</div>'
+            '</div>'
+        )
+        st.button(
+            "Inspect EfficientNet-B0 →",
+            key="btn_inspect_eff",
+            use_container_width=True,
+            on_click=navigate_to,
+            args=("Model Comparison",)
+        )
+
+    with mod_col3:
+        render_html(
+            '<div class="model-card-3d card-resnet">'
+            '<div class="model-badge-top">RESIDUAL CONNECTIONS</div>'
+            '<div class="model-card-name">ResNet-18</div>'
+            '<div class="model-card-arch">Identity Skip Connections • Dense Convolutions</div>'
+            '<div class="model-stats-grid">'
+            '<div class="stat-box"><span class="stat-num">11.18M</span><span class="stat-lbl">Parameters</span></div>'
+            '<div class="stat-box"><span class="stat-num">98.44%</span><span class="stat-lbl">Test Accuracy</span></div>'
+            '<div class="stat-box"><span class="stat-num">0.9860</span><span class="stat-lbl">Macro F1</span></div>'
+            '<div class="stat-box"><span class="stat-num">1.77 ms</span><span class="stat-lbl">Latency</span></div>'
+            '</div>'
+            '</div>'
+        )
+        st.button(
+            "Inspect ResNet-18 →",
+            key="btn_inspect_res",
+            use_container_width=True,
+            on_click=navigate_to,
+            args=("Model Comparison",)
+        )
+
+    st.markdown("<div style='height: 28px;'></div>", unsafe_allow_html=True)
+
+    # =========================================================================
+    # 6. FOUR-STAGE DEMENTIA SPECTRUM
+    # =========================================================================
+    st.markdown('<div class="section-title-3d">Four-Stage Clinical Spectrum</div>', unsafe_allow_html=True)
+
+    spec_c1, spec_c2, spec_c3, spec_c4 = st.columns(4, gap="small")
     with spec_c1:
         render_html(
-            '<div class="med-card" style="border-left: 4px solid #2563EB; height: 100%;">'
-            '<div style="font-weight: 750; color: #2563EB; font-size: 0.95rem; margin-bottom: 0.25rem;">Non-Demented</div>'
-            '<div style="font-size: 0.74rem; font-weight: 700; color: #64748B; margin-bottom: 0.5rem;">CONTROL COHORT (50.0%)</div>'
-            '<p style="font-size: 0.82rem; color: #334155; line-height: 1.5; margin: 0;">'
-            'Structurally normal ventricles and cortical volume; serves as healthy cognitive baseline.'
-            '</p>'
+            '<div class="spectrum-card-3d spec-non">'
+            '<div class="spec-stage-title">Non-Demented</div>'
+            '<div class="spec-stage-badge">CONTROL COHORT (50.0%)</div>'
+            '<div class="spec-desc">Normal ventricle-to-brain ratio and preserved cortical volume; serves as baseline.</div>'
             '</div>'
         )
     with spec_c2:
         render_html(
-            '<div class="med-card" style="border-left: 4px solid #6366F1; height: 100%;">'
-            '<div style="font-weight: 750; color: #6366F1; font-size: 0.95rem; margin-bottom: 0.25rem;">Very Mild</div>'
-            '<div style="font-size: 0.74rem; font-weight: 700; color: #64748B; margin-bottom: 0.5rem;">EARLY STAGE (35.0%)</div>'
-            '<p style="font-size: 0.82rem; color: #334155; line-height: 1.5; margin: 0;">'
-            'Subtle sulcal enlargement and border-case boundaries; most frequent site of inter-model confusion.'
-            '</p>'
+            '<div class="spectrum-card-3d spec-verymild">'
+            '<div class="spec-stage-title">Very Mild</div>'
+            '<div class="spec-stage-badge">EARLY STAGE (35.0%)</div>'
+            '<div class="spec-desc">Subtle ventricular and sulcal enlargement; primary boundary for inter-model confusion.</div>'
             '</div>'
         )
     with spec_c3:
         render_html(
-            '<div class="med-card" style="border-left: 4px solid #D97706; height: 100%;">'
-            '<div style="font-weight: 750; color: #D97706; font-size: 0.95rem; margin-bottom: 0.25rem;">Mild Demented</div>'
-            '<div style="font-size: 0.74rem; font-weight: 700; color: #64748B; margin-bottom: 0.5rem;">INTERMEDIATE (14.0%)</div>'
-            '<p style="font-size: 0.82rem; color: #334155; line-height: 1.5; margin: 0;">'
-            'Clearer ventricular expansion and cortical space widening; high recognition precision across models.'
-            '</p>'
+            '<div class="spectrum-card-3d spec-mild">'
+            '<div class="spec-stage-title">Mild Demented</div>'
+            '<div class="spec-stage-badge">INTERMEDIATE (14.0%)</div>'
+            '<div class="spec-desc">Noticeable bilateral temporal atrophy and ventricular widening; high recognition precision.</div>'
             '</div>'
         )
     with spec_c4:
         render_html(
-            '<div class="med-card" style="border-left: 4px solid #DC2626; height: 100%;">'
-            '<div style="font-weight: 750; color: #DC2626; font-size: 0.95rem; margin-bottom: 0.25rem;">Moderate Demented</div>'
-            '<div style="font-size: 0.74rem; font-weight: 700; color: #DC2626; margin-bottom: 0.5rem;">ADVANCED (1.0%, n=9*)</div>'
-            '<p style="font-size: 0.82rem; color: #334155; line-height: 1.5; margin: 0;">'
-            'Severe structural degeneration. <em>*Test support n=9; conclusions carry substantial statistical uncertainty.</em>'
-            '</p>'
+            '<div class="spectrum-card-3d spec-mod">'
+            '<div class="spec-stage-title">Moderate</div>'
+            '<div class="spec-stage-badge">ADVANCED (1.0%, n=9*)</div>'
+            '<div class="spec-desc">Marked ventricular dilation. <em>*Test support n=9; conclusions carry statistical caveats.</em></div>'
             '</div>'
         )
 

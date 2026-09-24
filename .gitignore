@@ -48,8 +48,11 @@ data/raw/
 data/cache/
 checkpoints/
 runs/
-outputs/
 reports/generated/
+reports/*.mp4
+reports/*.png
+reports/screenshots/
+reports/tutorial_frames/
 
 # Always keep the placeholder .gitkeep files so directory structure is tracked
 !data/dataset/Non_Demented/.gitkeep
